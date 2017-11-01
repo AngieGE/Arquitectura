@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
             public void run(){
                 i = new Intent(MainActivity.this, Password.class);
                 startActivity(i);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
             }
         }, 3000);
 
