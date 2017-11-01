@@ -9,6 +9,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/backgroud_first_screen"
     tools:context="mx.itesm.maldi.proyecto_arquitectura.MainActivity">
 
     <LinearLayout
@@ -20,20 +21,27 @@
             android:text="Bienvenido a la App"
             android:layout_width="match_parent"
             android:id="@+id/textView5"
+            android:textColor="@color/white_letters"
             android:gravity="bottom|center"
-            android:layout_height="170dp" />
+            android:layout_height="170dp"
+            android:textStyle="normal|bold"
+            android:textSize="16sp" />
 
         <TextView
             android:text="de RAdo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="@color/white_letters"
             android:id="@+id/textView4"
-            android:gravity="center_horizontal" />
+            android:gravity="center_horizontal"
+            android:textSize="16sp"
+            android:textStyle="normal|bold" />
 
         <TextView
             android:text="[Decora tu propio hogar]"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="@color/gray_letters"
             android:id="@+id/textView3"
             android:gravity="center_horizontal" />
 
