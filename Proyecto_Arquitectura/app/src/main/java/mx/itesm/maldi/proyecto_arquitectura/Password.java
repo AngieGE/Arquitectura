@@ -26,14 +26,15 @@ public class Password extends AppCompatActivity implements View.OnClickListener 
 
     @Override
     public void onClick(View v) {
-        Intent i;
         switch (v.getId()) {
             case R.id.enter: //Enter
                 EditText pass = (EditText) findViewById(R.id.password);
                 String pass_temporal_pass = "admin";
                 String pass_content = pass.getText().toString();
                 if (pass_content.equals(pass_temporal_pass)) {
-                    Toast.makeText(getApplication(),"Password valid", Toast.LENGTH_SHORT).show();
+                    Intent i;
+                    i = new Intent(Password.this, Seleccion_resinto.class);
+                    startActivity(i);
                 }
                 else
                 {

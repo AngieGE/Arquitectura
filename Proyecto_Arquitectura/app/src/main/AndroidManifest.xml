@@ -19,6 +19,7 @@
             android:name=".Password"
             android:label="Password"
             android:theme="@style/AppTheme" />
+        <activity android:name=".Seleccion_resinto"></activity>
     </application>
 
 </manifest>
