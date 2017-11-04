@@ -23,9 +23,9 @@ public class Seleccion_resinto extends AppCompatActivity implements View.OnClick
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
-            case R.id.enter: //Enter
+            case R.id.Avenda: //Enter
                 Intent i;
-                i = new Intent(Seleccion_resinto.this, Seleccion_resinto.class);
+                i = new Intent(Seleccion_resinto.this, Avenda_Screen_Load.class);
                 startActivity(i);
                break;
         }

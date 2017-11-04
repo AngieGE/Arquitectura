@@ -19,7 +19,9 @@
             android:name=".Password"
             android:label="Password"
             android:theme="@style/AppTheme" />
-        <activity android:name=".Seleccion_resinto"></activity>
+        <activity android:name=".Seleccion_resinto" />
+        <activity android:name=".Avenda_Screen_Load" />
+        <activity android:name=".Selecion_Torre"></activity>
     </application>
 
 </manifest>
