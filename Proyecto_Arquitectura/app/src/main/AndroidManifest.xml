@@ -21,7 +21,9 @@
             android:theme="@style/AppTheme" />
         <activity android:name=".Seleccion_resinto" />
         <activity android:name=".Avenda_Screen_Load" />
-        <activity android:name=".Selecion_Torre"></activity>
+        <activity android:name=".Selecion_Torre" />
+        <activity android:name=".Penthouse" />
+        <activity android:name=".Basic_department"></activity>
     </application>
 
 </manifest>

@@ -25,12 +25,12 @@ public class Selecion_Torre extends AppCompatActivity implements View.OnClickLis
         Intent i;
         switch (v.getId()) {
             case R.id.basic_apartment: //Enter
-                //i = new Intent(Selecion_Torre.this, Avenda_Screen_Load.class);
-                //startActivity(i);
+                i = new Intent(Selecion_Torre.this, Basic_department.class);
+                startActivity(i);
                 break;
             case R.id.penthouse_appartment: //Enter
-                //i = new Intent(Selecion_Torre.this, Avenda_Screen_Load.class);
-                //startActivity(i);
+                i = new Intent(Selecion_Torre.this, Penthouse.class);
+                startActivity(i);
                 break;
         }
     }
