@@ -9,7 +9,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="@color/gray_background"
+    android:background="@color/backgroud_first_screen"
     tools:context="mx.itesm.maldi.proyecto_arquitectura.Seleccion_resinto">
 
     <LinearLayout
@@ -24,8 +24,7 @@
             android:layout_width="match_parent"
             android:id="@+id/textView2"
             android:layout_height="30dp"
-            android:paddingLeft="134dp"
-            android:paddingTop="5dp" />
+            android:gravity="center_horizontal" />
 
         <LinearLayout
             android:orientation="horizontal"
@@ -33,23 +32,25 @@
             android:layout_height="wrap_content">
 
             <ImageButton
-                app:srcCompat="@mipmap/ic_launcher"
+                app:srcCompat="@drawable/logo_averanta"
+                android:background="@color/backgroud_first_screen"
                 android:id="@+id/Avenda"
                 android:layout_weight="0.44"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="60dp"
                 android:layout_height="100dp"
                 android:layout_width="0dp"
-                android:layout_marginLeft="30dp"
-                android:layout_marginTop="60dp" />
+                android:layout_marginBottom="20dp" />
 
             <ImageButton
-                app:srcCompat="@mipmap/ic_launcher"
+                app:srcCompat="@drawable/logo_city"
                 android:id="@+id/city_towers"
                 android:layout_weight="0.44"
                 android:layout_height="100dp"
                 android:layout_width="0dp"
                 android:layout_marginRight="30dp"
-                android:layout_marginLeft="30dp"
-                android:layout_marginTop="60dp" />
+                android:layout_marginTop="60dp"
+                android:layout_marginLeft="30dp" />
         </LinearLayout>
 
         <LinearLayout
@@ -58,15 +59,16 @@
             android:layout_height="wrap_content">
 
             <ImageButton
-                app:srcCompat="@mipmap/ic_launcher"
+                app:srcCompat="@drawable/logo_paraiso"
                 android:id="@+id/paraiso"
                 android:layout_weight="0.44"
             android:layout_height="100dp"
             android:layout_width="0dp"
-                android:layout_marginLeft="30dp" />
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="20dp" />
 
             <ImageButton
-                app:srcCompat="@mipmap/ic_launcher"
+                app:srcCompat="@drawable/logo_grand"
                 android:id="@+id/be_grand"
                 android:layout_weight="0.44"
                 android:layout_height="100dp"
@@ -81,7 +83,7 @@
             android:layout_height="match_parent">
 
             <ImageButton
-                app:srcCompat="@mipmap/ic_launcher"
+                app:srcCompat="@drawable/logo_montecito"
                 android:id="@+id/montecito"
                 android:layout_weight="0.44"
                 android:layout_height="100dp"
@@ -89,7 +91,7 @@
                 android:layout_marginLeft="30dp" />
 
             <ImageButton
-                app:srcCompat="@mipmap/ic_launcher"
+                app:srcCompat="@drawable/logo_lomas"
                 android:id="@+id/lomas_del_rio"
                 android:layout_weight="0.44"
                 android:layout_height="100dp"

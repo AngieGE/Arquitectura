@@ -10,34 +10,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="mx.itesm.maldi.proyecto_arquitectura.Selecion_Torre"
-    android:background="@color/backgroud_first_screen"
+    android:background="@drawable/prueba_back"
     android:orientation="vertical">
 
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="245dp"
-            app:srcCompat="@mipmap/ic_launcher"
-            android:id="@+id/basic_apartment"
-            android:layout_weight="1"
-            android:layout_gravity="top" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="245dp"
-            app:srcCompat="@mipmap/ic_launcher"
-            android:id="@+id/penthouse_appartment"
-            android:layout_weight="1"
-            android:layout_gravity="bottom" />
-    </LinearLayout>
 </LinearLayout>
