@@ -20,18 +20,12 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
             android:orientation="vertical">
 
-            <ImageView
-                android:id="@+id/imageView3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:srcCompat="@drawable/msg_desarrollos" />
-
             <TableLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginLeft="6dp">
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
 
                 <TableRow
                     android:layout_width="match_parent"
@@ -64,13 +58,6 @@
 
                     </LinearLayout>
 
-                </TableRow>
-
-                <TableRow
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
-
                     <LinearLayout
                         android:layout_width="168dp"
                         android:layout_height="168dp"
@@ -84,6 +71,13 @@
 
                     </LinearLayout>
 
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
                     <LinearLayout
                         android:layout_width="168dp"
                         android:layout_height="168dp"
@@ -96,13 +90,6 @@
                             app:srcCompat="@drawable/logo_grand" />
 
                     </LinearLayout>
-
-                </TableRow>
-
-                <TableRow
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
 
                     <LinearLayout
                         android:layout_width="168dp"
@@ -123,9 +110,9 @@
                         android:orientation="vertical">
 
                         <ImageButton
-                            android:id="@+id/img_cityTowers"
+                            android:id="@+id/img_averanda"
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
+                            android:layout_height="match_parent"
                             app:srcCompat="@drawable/logo_lomas" />
 
                     </LinearLayout>
