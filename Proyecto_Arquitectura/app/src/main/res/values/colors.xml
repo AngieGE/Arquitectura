@@ -7,7 +7,7 @@
     <color name="white_letters">#ffffff</color>
     <color name="green_letters">#a6e817</color>
     <color name="gray_letters">#E6E6E6</color>
-    <color name="gray_background">#BDBDBD</color>
+    <color name="gray_new_background">#DFDEDF</color>
     <color name="black">#151515</color>
 
 </resources>
