@@ -17,7 +17,7 @@
             android:id="@+id/img_departamentosTipo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/msg_departamentosTipo"
+            app:srcCompat="@drawable/msg_departamentos_tipo"
             tools:layout_editor_absoluteX="8dp"
             tools:layout_editor_absoluteY="0dp" />
 
@@ -44,7 +44,7 @@
                 android:id="@+id/img_msgDepaTipoA"
                 android:layout_width="132dp"
                 android:layout_height="46dp"
-                app:srcCompat="@drawable/msg_departamentosTipoBasico" />
+                app:srcCompat="@drawable/ms_departamento_tipo_a" />
 
         </LinearLayout>
 
@@ -57,7 +57,7 @@
                 android:id="@+id/img_msgDepaTipoB"
                 android:layout_width="134dp"
                 android:layout_height="43dp"
-                app:srcCompat="@drawable/msg_departamentosTipoPenthouse" />
+                app:srcCompat="@drawable/msg_departamentos_tipo_b" />
 
             <CheckBox
                 android:id="@+id/checkBox3"
@@ -70,7 +70,7 @@
                 android:id="@+id/img_depaTipoA"
                 android:layout_width="217dp"
                 android:layout_height="211dp"
-                app:srcCompat="@drawable/departamento_basico" />
+                app:srcCompat="@drawable/msg_departamentos_tipo_b" />
         </LinearLayout>
 
     </LinearLayout>
