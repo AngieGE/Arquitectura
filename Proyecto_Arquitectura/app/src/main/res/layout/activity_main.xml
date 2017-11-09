@@ -15,25 +15,27 @@
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
 
         <TextView
-            android:text="Bienvenido a la App"
-            android:layout_width="match_parent"
             android:id="@+id/textView5"
-            android:textColor="@color/white_letters"
-            android:gravity="bottom|center"
+            android:layout_width="match_parent"
             android:layout_height="170dp"
-            android:textStyle="normal|bold"
-            android:textSize="16sp" />
+            android:gravity="bottom|center"
+            android:text="Bienvenido a la App"
+            android:textColor="@color/white_letters"
+            android:textSize="16sp"
+            android:textStyle="normal|bold" />
 
         <TextView
-            android:text="de RAdo"
+            android:id="@+id/textView4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/white_letters"
-            android:id="@+id/textView4"
             android:gravity="center_horizontal"
+            android:text="de RAdo"
+            android:textColor="@color/white_letters"
             android:textSize="16sp"
             android:textStyle="normal|bold" />
 
