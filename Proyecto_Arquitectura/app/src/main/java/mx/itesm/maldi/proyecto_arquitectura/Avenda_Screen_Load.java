@@ -23,6 +23,6 @@ public class Avenda_Screen_Load extends AppCompatActivity {
                 startActivity(i);
                 overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
             }
-        }, 3000);
+        }, 1500);
     }
 }
