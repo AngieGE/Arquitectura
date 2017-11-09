@@ -25,25 +25,25 @@
         android:paddingLeft="72dp">
 
         <Button
-            android:text="A"
+            android:id="@+id/bn_a"
+            android:layout_width="40dp"
             android:layout_height="wrap_content"
-            android:id="@+id/button4"
             android:layout_weight="1"
-            android:layout_width="40dp" />
+            android:text="A" />
 
         <Button
-            android:text="B"
+            android:id="@+id/bn_b"
             android:layout_width="40dp"
             android:layout_height="wrap_content"
-            android:id="@+id/button3"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:text="B" />
 
         <Button
-            android:text="C"
+            android:id="@+id/bn_c"
             android:layout_width="40dp"
             android:layout_height="wrap_content"
-            android:id="@+id/button2"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:text="C" />
     </LinearLayout>
 
 
