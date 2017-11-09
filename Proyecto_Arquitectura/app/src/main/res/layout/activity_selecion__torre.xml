@@ -11,6 +11,40 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="mx.itesm.maldi.proyecto_arquitectura.Selecion_Torre"
     android:background="@drawable/prueba_back"
-    android:orientation="vertical">
+    android:orientation="horizontal"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="0.00"
+        android:gravity="center_vertical|center_horizontal"
+        android:weightSum="1"
+        android:paddingBottom="90dp"
+        android:paddingLeft="72dp">
+
+        <Button
+            android:text="A"
+            android:layout_height="wrap_content"
+            android:id="@+id/button4"
+            android:layout_weight="1"
+            android:layout_width="40dp" />
+
+        <Button
+            android:text="B"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button3"
+            android:layout_weight="1" />
+
+        <Button
+            android:text="C"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button2"
+            android:layout_weight="1" />
+    </LinearLayout>
+
 
 </LinearLayout>
