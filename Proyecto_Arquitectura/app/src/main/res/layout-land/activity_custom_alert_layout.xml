@@ -13,28 +13,6 @@
     android:orientation="vertical">
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="right|end"
-        android:orientation="horizontal">
-
-        <LinearLayout
-            android:layout_width="45dp"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
-
-            <Button
-                android:id="@+id/cerrar"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:layout_weight="0.04"
-                android:text="X" />
-
-        </LinearLayout>
-
-    </LinearLayout>
-
-    <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -48,6 +26,13 @@
             android:adjustViewBounds="true"
             android:foregroundGravity="top"
             app:srcCompat="@mipmap/ic_launcher" />
+
+        <Button
+            android:id="@+id/cerrar"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="0.01"
+            android:text="X" />
 
     </LinearLayout>
 

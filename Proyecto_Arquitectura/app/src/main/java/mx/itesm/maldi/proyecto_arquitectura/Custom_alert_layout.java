@@ -14,7 +14,7 @@ import android.widget.ImageView;
 
 public class Custom_alert_layout extends Dialog implements View.OnClickListener {
 
-    private Button close, enter;
+    private Button close;
     private ImageView zoom;
     public Activity c;
     public int ima;
@@ -31,11 +31,10 @@ public class Custom_alert_layout extends Dialog implements View.OnClickListener 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_custom_alert_layout);
         close = (Button) findViewById(R.id.cerrar);
-        enter = (Button) findViewById(R.id.siguiente);
+
         zoom = (ImageView) findViewById(R.id.zoom_image);
         zoom.setImageResource(ima);
         close.setOnClickListener(this);
-        enter.setOnClickListener(this);
     }
 
     @Override
@@ -44,9 +43,6 @@ public class Custom_alert_layout extends Dialog implements View.OnClickListener 
         switch (v.getId()) {
             case R.id.cerrar: //Enter
                 dismiss();
-                break;
-            case R.id.siguiente: //Enter
-                c.finish();
                 break;
         }
 
