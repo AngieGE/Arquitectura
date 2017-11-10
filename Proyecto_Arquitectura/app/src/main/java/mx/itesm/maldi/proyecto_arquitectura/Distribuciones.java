@@ -17,5 +17,7 @@ public class Distribuciones extends AppCompatActivity {
         dis1.setImageResource(R.drawable.distribucion1);
         dis2.setImageResource(R.drawable.distribucion2);
         dis3.setImageResource(R.drawable.distribucion3);
+
+
     }
 }
