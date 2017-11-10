@@ -7,11 +7,13 @@ import android.graphics.drawable.ColorDrawable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 
 public class Distribuciones extends AppCompatActivity implements View.OnClickListener  {
 
+    Button siguiente;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -19,13 +21,14 @@ public class Distribuciones extends AppCompatActivity implements View.OnClickLis
         ImageButton dis1= (ImageButton) findViewById(R.id.distribucion1);
         ImageButton dis2= (ImageButton) findViewById(R.id.distribucion2);
         ImageButton dis3= (ImageButton) findViewById(R.id.distribucion3);
+         siguiente=(Button) findViewById(R.id.bn_siguiente);
         dis1.setImageResource(R.drawable.distribucion1);
         dis2.setImageResource(R.drawable.distribucion2);
         dis3.setImageResource(R.drawable.distribucion3);
         dis1.setOnClickListener(this);
         dis2.setOnClickListener(this);
         dis3.setOnClickListener(this);
-
+        siguiente.setOnClickListener(this);
 
     }
 
@@ -46,6 +49,12 @@ public class Distribuciones extends AppCompatActivity implements View.OnClickLis
                 cdd3.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
                 cdd3.show();
                 break;
+            case R.id.bn_siguiente: //Enter
+                Intent i;
+                i = new Intent(Distribuciones.this, Seleccion_distribucion_screenload.class);
+                startActivity(i);
+                break;
+
         }
 
     }
