@@ -112,7 +112,7 @@
             android:layout_gravity="center"
             android:layout_marginLeft="25dp"
             android:layout_marginTop="25dp"
-            android:background="@color/black"
+            android:background="@color/blackFondoAveranda"
             android:text="Aceptar"
             android:textColor="@color/white_letters"
             android:textSize="12sp" />

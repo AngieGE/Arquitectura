@@ -33,32 +33,51 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="130dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="77dp"
-            android:layout_marginTop="95dp"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="81dp"
+            android:layout_marginTop="106dp"
             android:orientation="horizontal">
 
-            <Button
-                android:id="@+id/bn_a"
+            <TableRow
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="@color/transparente" />
+                android:layout_height="match_parent"
+                android:layout_weight="1">
 
-            <Button
-                android:id="@+id/bn_b"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="@color/transparente" />
+                <Button
+                    android:id="@+id/bn_a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent" />
+            </TableRow>
 
-            <Button
-                android:id="@+id/bn_c"
+            <TableRow
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="@color/black" />
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/bn_b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/bn_c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent" />
+            </TableRow>
 
         </LinearLayout>
 
