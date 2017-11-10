@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 package mx.itesm.maldi.proyecto_arquitectura;
 
 import android.content.Intent;
@@ -45,4 +44,4 @@ public class Distribuciones extends AppCompatActivity implements View.OnClickLis
 
     }
 }
->>>>>>> d7c7f3c98d9ea5bcdf09cfdea16fd90b14537e9c
+

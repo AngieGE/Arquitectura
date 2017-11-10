@@ -15,8 +15,6 @@ public class Custom_alert_layout extends Dialog implements View.OnClickListener 
 
     private Button close, enter;
     public Activity c;
-    public Dialog d;
-    public Button yes, no;
 
     public Custom_alert_layout(Activity a) {
         super(a);

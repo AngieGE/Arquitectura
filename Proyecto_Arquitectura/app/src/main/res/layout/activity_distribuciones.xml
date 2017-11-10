@@ -24,61 +24,6 @@
             android:orientation="vertical" >
 
             <LinearLayout
-<<<<<<< HEAD
-                android:orientation="vertical"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:paddingTop="50dp">
-
-                <ImageButton
-                    android:layout_width="match_parent"
-                    app:srcCompat="@mipmap/ic_launcher"
-                    android:background="@color/gray_new_background"
-                    android:id="@+id/distribucion1"
-                    android:layout_height="wrap_content" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:orientation="vertical"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center_vertical|center_horizontal">
-
-                <ImageButton
-                    android:layout_width="match_parent"
-                    app:srcCompat="@mipmap/ic_launcher"
-                    android:id="@+id/distribucion3"
-                    android:background="@color/gray_new_background"
-                    android:layout_height="wrap_content" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:orientation="vertical"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <ImageButton
-                    android:layout_width="match_parent"
-                    app:srcCompat="@mipmap/ic_launcher"
-                    android:id="@+id/distribucion2"
-                    android:background="@color/gray_new_background"
-                    android:layout_height="wrap_content" />
-            </LinearLayout>
-
-=======
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
-
-                <ImageButton
-                    android:id="@+id/distribucion1"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@color/gray_new_background"
-                    app:srcCompat="@mipmap/ic_launcher" />
-            </LinearLayout>
-
-            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical">
@@ -94,7 +39,19 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:gravity="center_vertical|center_horizontal"
+                android:orientation="vertical">
+
+                <ImageButton
+                            android:id="@+id/distribucion1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/gray_new_background"
+                            app:srcCompat="@mipmap/ic_launcher" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:orientation="vertical">
 
                 <ImageButton
@@ -104,12 +61,10 @@
                     android:background="@color/gray_new_background"
                     app:srcCompat="@mipmap/ic_launcher" />
             </LinearLayout>
-<<<<<<< HEAD
 
-=======
->>>>>>> 6780e7ec19069831dc1e3a9feff3444058acf19f
->>>>>>> e925fc29eb557115d0c4ea1d1fb5d149254bf9e9
+
         </LinearLayout>
+
     </ScrollView>
 
 </LinearLayout>
