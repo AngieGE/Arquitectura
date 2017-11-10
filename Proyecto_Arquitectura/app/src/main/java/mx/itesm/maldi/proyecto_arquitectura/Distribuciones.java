@@ -23,6 +23,8 @@ public class Distribuciones extends AppCompatActivity implements View.OnClickLis
         dis2.setImageResource(R.drawable.distribucion2);
         dis3.setImageResource(R.drawable.distribucion3);
         dis1.setOnClickListener(this);
+        dis2.setOnClickListener(this);
+        dis3.setOnClickListener(this);
 
 
     }
@@ -30,7 +32,7 @@ public class Distribuciones extends AppCompatActivity implements View.OnClickLis
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.distribucion1: //Enter
-                Custom_alert_layout cdd = new Custom_alert_layout(Distribuciones.this, R.drawable.distribucion1);
+                Custom_alert_layout cdd = new Custom_alert_layout(Distribuciones.this, R.drawable.zoom1);
                 cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
                 cdd.show();
                 break;
