@@ -5,45 +5,63 @@
     android:id="@+id/activity_selecion__torre"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/img_tipos_torres"
+    android:orientation="horizontal"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="mx.itesm.maldi.proyecto_arquitectura.Selecion_Torre"
-    android:background="@drawable/prueba_back"
-    android:orientation="horizontal"
-    android:weightSum="1">
+    android:weightSum="1"
+    tools:context="mx.itesm.maldi.proyecto_arquitectura.Selecion_Torre">
 
     <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="0.00"
-        android:gravity="center_vertical|center_horizontal"
-        android:weightSum="1"
-        android:paddingBottom="90dp"
-        android:paddingLeft="72dp">
+        android:orientation="vertical">
 
-        <Button
-            android:id="@+id/bn_a"
-            android:layout_width="40dp"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="A" />
+            android:orientation="horizontal">
 
-        <Button
-            android:id="@+id/bn_b"
-            android:layout_width="40dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="B" />
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/msg_torres_tipo" />
+        </LinearLayout>
 
-        <Button
-            android:id="@+id/bn_c"
-            android:layout_width="40dp"
+        <LinearLayout
+            android:layout_width="130dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="C" />
+            android:layout_marginLeft="77dp"
+            android:layout_marginTop="95dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/bn_a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/transparente" />
+
+            <Button
+                android:id="@+id/bn_b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/transparente" />
+
+            <Button
+                android:id="@+id/bn_c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/black" />
+
+        </LinearLayout>
+
     </LinearLayout>
 
 
