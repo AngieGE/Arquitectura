@@ -13,7 +13,7 @@
         android:orientation="vertical"
         android:paddingTop="13dp"
         android:weightSum="1"
-        tools:layout_editor_absoluteX="-9dp"
+        tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="16dp">
 
         <ImageView

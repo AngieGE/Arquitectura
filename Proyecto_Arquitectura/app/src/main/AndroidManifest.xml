@@ -9,7 +9,6 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
-
         </activity>
         <activity
             android:name=".Password"
@@ -19,16 +18,17 @@
         <activity android:name=".Avenda_Screen_Load" />
         <activity android:name=".Selecion_Torre" />
         <activity android:name=".Penthouse" />
-        <activity android:name=".Basic_department"></activity>
+        <activity android:name=".Basic_department" />
         <activity android:name=".seleccion_tipo_departamento" />
-        <activity android:name=".Distribuciones" >
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
+        <activity android:name=".Distribuciones">
         </activity>
+        <activity android:name=".Seleccion_distribucion_screenload">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
