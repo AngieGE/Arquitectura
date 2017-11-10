@@ -37,12 +37,12 @@ public class Distribuciones extends AppCompatActivity implements View.OnClickLis
                 cdd.show();
                 break;
             case R.id.distribucion2: //Enter
-                Custom_alert_layout cdd2 = new Custom_alert_layout(Distribuciones.this, R.drawable.distribucion1);
+                Custom_alert_layout cdd2 = new Custom_alert_layout(Distribuciones.this, R.drawable.zoom2);
                 cdd2.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
                 cdd2.show();
                 break;
             case R.id.distribucion3: //Enter
-                Custom_alert_layout cdd3 = new Custom_alert_layout(Distribuciones.this, R.drawable.distribucion1);
+                Custom_alert_layout cdd3 = new Custom_alert_layout(Distribuciones.this, R.drawable.zoom3);
                 cdd3.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
                 cdd3.show();
                 break;

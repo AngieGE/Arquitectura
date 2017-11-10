@@ -58,6 +58,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="top"
             android:layout_weight="1"
+            android:adjustViewBounds="true"
             android:foregroundGravity="top"
             app:srcCompat="@mipmap/ic_launcher" />
 
