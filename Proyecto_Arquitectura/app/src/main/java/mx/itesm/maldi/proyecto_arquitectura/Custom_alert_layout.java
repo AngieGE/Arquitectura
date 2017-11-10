@@ -10,15 +10,19 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 
 public class Custom_alert_layout extends Dialog implements View.OnClickListener {
 
     private Button close, enter;
+    private ImageView zoom;
     public Activity c;
+    public int ima;
 
-    public Custom_alert_layout(Activity a) {
+    public Custom_alert_layout(Activity a, int i) {
         super(a);
         this.c = a;
+        this.ima = i;
     }
 
 
@@ -28,7 +32,8 @@ public class Custom_alert_layout extends Dialog implements View.OnClickListener 
         setContentView(R.layout.activity_custom_alert_layout);
         close = (Button) findViewById(R.id.cerrar);
         enter = (Button) findViewById(R.id.siguiente);
-
+        zoom = (ImageView) findViewById(R.id.zoom_image);
+        zoom.setImageResource(ima);
         close.setOnClickListener(this);
         enter.setOnClickListener(this);
     }
