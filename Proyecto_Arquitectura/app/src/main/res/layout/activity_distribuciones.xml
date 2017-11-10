@@ -26,11 +26,10 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:gravity="center_vertical|center_horizontal"
                 android:orientation="vertical">
 
                 <ImageButton
-                    android:id="@+id/distribucion3"
+                    android:id="@+id/distribucion1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/gray_new_background"
@@ -53,15 +52,17 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
                 android:orientation="vertical">
 
                 <ImageButton
-                    android:id="@+id/distribucion1"
+                    android:id="@+id/distribucion3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/gray_new_background"
                     app:srcCompat="@mipmap/ic_launcher" />
             </LinearLayout>
+
         </LinearLayout>
     </ScrollView>
 
