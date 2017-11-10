@@ -2,6 +2,7 @@ package mx.itesm.maldi.proyecto_arquitectura;
 
 import android.content.Intent;
 import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -34,17 +35,17 @@ public class Selecion_Torre extends AppCompatActivity implements View.OnClickLis
         switch (v.getId()) {
             case R.id.bn_a: //Enter
                 i = new Intent(Selecion_Torre.this, seleccion_tipo_departamento.class);
-                v.setBackgroundColor(tmp ? Color.RED : Color.argb(5,5,5,5)); //cambiar color
+                v.setBackgroundColor(tmp ? Color.RED : Color.argb(0,223,255,10));  //cambiar color
                 startActivity(i);
                 break;
             case R.id.bn_b: //Enter
                 i = new Intent(Selecion_Torre.this, seleccion_tipo_departamento.class);
-                v.setBackgroundColor(tmp ? Color.RED : Color.argb(5,5,5,5)); //cambiar color
+                v.setBackgroundColor(tmp ? Color.RED : Color.argb(0,223,255,10));  //cambiar color
                 startActivity(i);
                 break;
             case R.id.bn_c: //Enter
                 i = new Intent(Selecion_Torre.this, seleccion_tipo_departamento.class);
-                v.setBackgroundColor(tmp ? Color.RED : Color.argb(5,5,5,5)); //cambiar color
+                v.setBackgroundColor(tmp ? Color.RED : Color.argb(0,223,255,10)); //cambiar color
                 startActivity(i);
                 break;
         }
