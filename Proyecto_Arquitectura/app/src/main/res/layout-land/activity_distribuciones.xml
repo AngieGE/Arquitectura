@@ -21,47 +21,75 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="horizontal" >
 
             <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
 
-                <ImageButton
-                    android:id="@+id/distribucion1"
+                <CheckBox
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@color/gray_new_background"
-                    app:srcCompat="@drawable/distribucion1" />
+                    android:id="@+id/cb_distribucion1" />
+
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cb_distribucion2" />
+
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cb_distribucion3" />
             </LinearLayout>
 
             <LinearLayout
+                android:orientation="vertical"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
+                android:layout_height="wrap_content">
 
-                <ImageButton
-                    android:id="@+id/distribucion2"
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@color/gray_new_background"
-                    app:srcCompat="@drawable/distribucion2" />
-            </LinearLayout>
+                    android:orientation="vertical">
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center_vertical|center_horizontal"
-                android:orientation="vertical">
+                    <ImageButton
+                        android:id="@+id/distribucion1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/gray_new_background"
+                        app:srcCompat="@drawable/distribucion1" />
+                </LinearLayout>
 
-                <ImageButton
-                    android:id="@+id/distribucion3"
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@color/gray_new_background"
-                    app:srcCompat="@drawable/distribucion3" />
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/distribucion2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/gray_new_background"
+                        app:srcCompat="@drawable/distribucion2" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/distribucion3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/gray_new_background"
+                        app:srcCompat="@drawable/distribucion3" />
+                </LinearLayout>
             </LinearLayout>
+
         </LinearLayout>
     </ScrollView>
 

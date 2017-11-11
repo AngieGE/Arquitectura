@@ -81,6 +81,22 @@ public class Distribuciones extends AppCompatActivity implements View.OnClickLis
                 if (cb_dis1.isChecked()==false && cb_dis2.isChecked()==false && cb_dis3.isChecked()==false){
                     Toast.makeText(this, "Seleccione un tipo de distribución", Toast.LENGTH_SHORT).show();
                 }else{
+                    int distribucion;
+                    if (cb_dis1.isChecked()==true)
+                    {
+                         distribucion = R.id.distribucion1;
+                    }
+                    else {
+
+                        if (cb_dis2.isChecked() == true) {
+                             distribucion = R.id.distribucion2;
+                        }
+                        else
+                        {
+                             distribucion = R.id.distribucion3;
+                        }
+                    }
+                    i.putExtra("int_value", distribucion);
                     startActivity(i);
                 }
                 break;
