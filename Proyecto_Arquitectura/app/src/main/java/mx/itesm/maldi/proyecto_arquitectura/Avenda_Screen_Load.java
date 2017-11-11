@@ -13,7 +13,6 @@ public class Avenda_Screen_Load extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_avenda__screen__load);
         ImageView img= (ImageView) findViewById(R.id.avenda_screen);
-        img.setImageResource(R.drawable.screen_loading);
         Handler handler = new Handler();
         handler.postDelayed(new Runnable(){
             @Override

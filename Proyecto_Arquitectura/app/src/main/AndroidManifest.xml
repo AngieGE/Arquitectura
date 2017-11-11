@@ -25,9 +25,9 @@
         <activity android:name=".Penthouse" />
         <activity android:name=".Basic_department" />
         <activity android:name=".seleccion_tipo_departamento" />
-        <activity android:name=".Distribuciones">
-        </activity>
-        <activity android:name=".Seleccion_distribucion_screenload">
+        <activity android:name=".Distribuciones"></activity>
+        <activity android:name=".Seleccion_distribucion_screenload"></activity>
+        <activity android:name=".Estilos">
         </activity>
     </application>
 

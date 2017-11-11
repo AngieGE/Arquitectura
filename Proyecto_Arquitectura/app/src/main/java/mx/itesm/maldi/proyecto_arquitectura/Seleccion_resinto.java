@@ -11,29 +11,30 @@ import android.widget.Toast;
 
 public class Seleccion_resinto extends AppCompatActivity implements View.OnClickListener {
 
+    ImageButton avenda;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_seleccion_resinto);
-        ImageButton avenda= (ImageButton) findViewById(R.id.img_averanda);
+         avenda= (ImageButton) findViewById(R.id.img_averanda);
+        avenda.setOnClickListener(this);
         ImageButton city= (ImageButton) findViewById(R.id.img_cityTowers);
         /*
         ImageButton grand= (ImageButton) findViewById(R.id.be_grand);
         ImageButton lomas= (ImageButton) findViewById(R.id.lomas_del_rio);
         ImageButton montecito= (ImageButton) findViewById(R.id.montecito);
         ImageButton paraiso= (ImageButton) findViewById(R.id.paraiso);*/
-        avenda.setImageResource(R.drawable.logo_averanta);
-        city.setImageResource(R.drawable.logo_city);
+        //avenda.setImageResource(R.drawable.logo_averanta);
+        //city.setImageResource(R.drawable.logo_city);
        /* grand.setImageResource(R.drawable.logo_grand);
         lomas.setImageResource(R.drawable.logo_lomas);
         montecito.setImageResource(R.drawable.logo_montecito);
         paraiso.setImageResource(R.drawable.logo_paraiso);*/
-        avenda.setOnClickListener(this);
         /*grand.setOnClickListener(this);
         lomas.setOnClickListener(this);
         montecito.setOnClickListener(this);
         paraiso.setOnClickListener(this);*/
-        city.setOnClickListener(this);
+        //city.setOnClickListener(this);
     }
 
     @Override

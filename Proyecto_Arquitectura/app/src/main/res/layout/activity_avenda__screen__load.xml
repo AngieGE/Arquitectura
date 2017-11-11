@@ -18,6 +18,8 @@
         android:layout_height="250dp"
         android:layout_gravity="center"
         android:layout_weight="1"
-        app:srcCompat="@drawable/prueba2" />
+        android:adjustViewBounds="true"
+        android:background="@color/blackFondoAveranda"
+        app:srcCompat="@drawable/averanda_fondo_negro" />
 
 </LinearLayout>
