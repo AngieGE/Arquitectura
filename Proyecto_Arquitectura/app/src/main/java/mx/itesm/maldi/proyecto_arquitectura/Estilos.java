@@ -13,7 +13,7 @@ import android.widget.Toast;
 
 public class Estilos extends AppCompatActivity implements View.OnClickListener{
 
-    private Button siguiente;
+    private Button siguiente, atras;
     private CheckBox cb_est1, cb_est2,cb_est3;
     private ImageButton est1, est2, est3;
     @Override
@@ -28,6 +28,7 @@ public class Estilos extends AppCompatActivity implements View.OnClickListener{
         cb_est2=(CheckBox) findViewById(R.id.cb_estilo2);
         cb_est3=(CheckBox) findViewById(R.id.cb_estilo3);
         siguiente=(Button) findViewById(R.id.bn_siguiente_estilos);
+        atras=(Button) findViewById(R.id.bn_atras_estilos);
         //Son clickable
         est1.setOnClickListener(this);
         est2.setOnClickListener(this);
@@ -36,10 +37,12 @@ public class Estilos extends AppCompatActivity implements View.OnClickListener{
         cb_est2.setOnClickListener(this);
         cb_est3.setOnClickListener(this);
         siguiente.setOnClickListener(this);
+        atras.setOnClickListener(this);
     }
 
     @Override
     public void onClick(View v) {
+        Intent i;
         switch (v.getId()) {
             case R.id.ib_estilo1: //zoom a estilo 1
                 Custom_alert_layout cdd = new Custom_alert_layout(Estilos.this, R.drawable.zoom1);
@@ -74,11 +77,14 @@ public class Estilos extends AppCompatActivity implements View.OnClickListener{
                     cb_est2.setChecked(false);
                 }
                 break;
+            case R.id.bn_atras_estilos: //Se des-selecciona el checkbox 1 y 2
+                i = new Intent(Estilos.this, Distribuciones.class);
+                startActivity(i);
+                break;
             case R.id.bn_siguiente_estilos: //Enter
                 if (cb_est1.isChecked()==false && cb_est2.isChecked()==false && cb_est3.isChecked()==false){
                     Toast.makeText(this, "Seleccione un tipo de estilo", Toast.LENGTH_SHORT).show();
                 }else{
-                    Intent i;
                     i = new Intent(Estilos.this, Seleccion_distribucion_screenload.class);
                     startActivity(i);
                 }
