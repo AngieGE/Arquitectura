@@ -14,18 +14,19 @@
             android:name=".Password"
             android:label="Password"
             android:theme="@style/AppTheme" />
-        <activity android:name=".Seleccion_resinto" />
+        <activity android:name=".Seleccion_resinto" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            </activity>
         <activity android:name=".Avenda_Screen_Load" />
         <activity android:name=".Selecion_Torre" />
         <activity android:name=".Penthouse" />
         <activity android:name=".Basic_department" />
         <activity android:name=".seleccion_tipo_departamento" />
         <activity android:name=".Distribuciones">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".Seleccion_distribucion_screenload">
         </activity>
