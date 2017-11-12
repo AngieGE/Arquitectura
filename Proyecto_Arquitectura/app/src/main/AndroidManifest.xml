@@ -11,6 +11,7 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -18,20 +19,17 @@
             android:name=".Password"
             android:label="Password"
             android:theme="@style/AppTheme" />
-        <activity android:name=".Seleccion_resinto"/>
+        <activity android:name=".Seleccion_resinto" />
         <activity android:name=".Avenda_Screen_Load" />
-        <activity android:name=".Selecion_Torre" >
-        </activity>
+        <activity android:name=".Selecion_Torre"></activity>
         <activity android:name=".Penthouse" />
         <activity android:name=".Basic_department" />
-        <activity android:name=".seleccion_tipo_departamento" >
-            </activity>
-        <activity android:name=".Distribuciones">
-        </activity>
-        <activity android:name=".Seleccion_distribucion_screenload"></activity>
-        <activity android:name=".Estilos"></activity>
-        <activity android:name=".Catalogo">
-        </activity>
+        <activity android:name=".seleccion_tipo_departamento"></activity>
+        <activity android:name=".Distribuciones"></activity>
+        <activity android:name=".Seleccion_distribucion_screenload" />
+        <activity android:name=".Estilos" />
+        <activity android:name=".Catalogo"></activity>
+        <activity android:name=".Estilo_contemporaneo_screenload"></activity>
     </application>
 
 </manifest>
