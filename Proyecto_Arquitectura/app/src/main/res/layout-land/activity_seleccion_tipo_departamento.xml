@@ -8,115 +8,212 @@
     tools:context="mx.itesm.maldi.proyecto_arquitectura.seleccion_tipo_departamento">
 
     <LinearLayout
-        android:layout_width="368dp"
-        android:layout_height="0dp"
+        android:layout_width="576dp"
+        android:layout_height="343dp"
         android:orientation="vertical"
-        android:paddingTop="13dp"
-        android:weightSum="1"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="16dp">
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
 
-        <ImageView
-            android:id="@+id/img_departamentosTipo"
-            android:layout_width="match_parent"
-            android:layout_height="30dp"
-            android:layout_marginLeft="25dp"
-            app:srcCompat="@drawable/msg_departamentos_tipo"
-            tools:layout_editor_absoluteX="8dp"
-            tools:layout_editor_absoluteY="0dp" />
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.46"
-            android:orientation="horizontal"
-            android:paddingTop="25dp"
-            android:weightSum="1">
-
-            <ImageView
-                android:id="@+id/img_depaTipoA"
-                android:layout_width="196dp"
-                android:layout_height="156dp"
-                app:srcCompat="@drawable/departamento_penthouse"
-                tools:layout_editor_absoluteX="8dp"
-                tools:layout_editor_absoluteY="0dp" />
-
-            <CheckBox
-                android:id="@+id/cb_selTipoA"
-                android:layout_width="23dp"
-                android:layout_height="20dp"
-                android:layout_gravity="center"
-                android:layout_weight="0.63"
-                android:elevation="18dp"
-                android:textColorLink="@color/white_letters" />
-
-            <ImageView
-                android:id="@+id/img_msgDepaTipoA"
-                android:layout_width="141dp"
-                android:layout_height="46dp"
-                android:layout_gravity="center"
-                app:srcCompat="@drawable/ms_departamento_tipo_a" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:paddingTop="25dp"
-            android:layout_weight="0.44">
-
-            <ImageView
-                android:id="@+id/img_msgDepaTipoB"
-                android:layout_width="134dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginLeft="5dp"
-                android:layout_marginTop="45dp"
-                app:srcCompat="@drawable/msg_departamentos_tipo_b" />
-
-            <CheckBox
-                android:id="@+id/checkBox"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="CheckBox" />
-
-            <CheckBox
-                android:id="@+id/cb_selTipoB"
-                android:layout_width="wrap_content"
-                android:layout_height="20dp"
-                android:layout_gravity="center"
-                android:layout_marginLeft="0dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginTop="45dp"
-                android:elevation="0dp"
-                android:textColorLink="@color/white_letters" />
-
-            <ImageView
-                android:id="@+id/img_depaTipoA"
-                android:layout_width="195dp"
-                android:layout_height="150dp"
-                app:srcCompat="@drawable/departamento_basico" />
-        </LinearLayout>
-
-        <LinearLayout
+        <TextView
+            android:id="@+id/textView8"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"></LinearLayout>
-
-        <Button
-            android:id="@+id/bn_aceptar"
-            android:layout_width="120dp"
-            android:layout_height="35dp"
-            android:layout_gravity="center"
-            android:layout_marginLeft="25dp"
-            android:layout_marginTop="25dp"
+            android:layout_marginBottom="10dp"
             android:background="@color/blackFondoAveranda"
-            android:text="Aceptar"
-            android:textColor="@color/white_letters"
-            android:textSize="12sp" />
+            android:fontFamily="serif"
+            android:text="departamentos tipo"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            android:textSize="24sp" />
 
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="241dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:adjustViewBounds="true"
+                        app:srcCompat="@drawable/departamento_penthouse" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:paddingLeft="180dp">
+
+                            <CheckBox
+                                android:id="@+id/cb_selTipoA"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView11"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:fontFamily="serif"
+                                android:gravity="bottom"
+                                android:paddingBottom="3dp"
+                                android:text="Departamento Tipo A"
+                                android:textAlignment="textStart"
+                                android:textAllCaps="true"
+                                android:textColor="@android:color/black"
+                                android:textSize="18sp" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="280dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:adjustViewBounds="true"
+                        app:srcCompat="@drawable/departamento_basico" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:paddingLeft="180dp">
+
+                            <CheckBox
+                                android:id="@+id/cb_selTipoB"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView11"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:fontFamily="serif"
+                                android:gravity="bottom"
+                                android:text="Departamento Tipo B"
+                                android:textAlignment="textStart"
+                                android:textAllCaps="true"
+                                android:textColor="@android:color/black"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:id="@+id/textView12"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:fontFamily="serif"
+                                android:text="Penthouse"
+                                android:textAlignment="textStart"
+                                android:textAllCaps="false"
+                                android:textColor="@android:color/black" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/bn_atras_depas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/black"
+                    android:backgroundTint="@android:color/black"
+                    android:fontFamily="serif"
+                    android:text="Atras"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/bn_aceptar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/black"
+                    android:fontFamily="serif"
+                    android:text="Siguiente"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+
+        </LinearLayout>
     </LinearLayout>
-
 </android.support.constraint.ConstraintLayout>

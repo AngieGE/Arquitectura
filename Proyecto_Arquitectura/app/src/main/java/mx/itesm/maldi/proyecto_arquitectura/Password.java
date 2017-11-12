@@ -38,7 +38,7 @@ public class Password extends AppCompatActivity implements View.OnClickListener 
                 }
                 else
                 {
-                    Toast.makeText(getApplication(),"Password not valid", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplication(),"Ingrese la contraseña", Toast.LENGTH_SHORT).show();
                 }
                 break;
         }

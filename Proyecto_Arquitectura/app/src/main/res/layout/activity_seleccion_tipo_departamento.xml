@@ -57,6 +57,19 @@
                         android:orientation="horizontal">
 
                         <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:paddingLeft="90dp">
+
+                            <CheckBox
+                                android:id="@+id/cb_selTipoA"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1" />
+                        </LinearLayout>
+
+                        <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
@@ -71,23 +84,10 @@
                                 android:gravity="bottom"
                                 android:paddingBottom="3dp"
                                 android:text="Departamento Tipo A"
-                                android:textAlignment="textEnd"
+                                android:textAlignment="textStart"
                                 android:textAllCaps="true"
                                 android:textColor="@android:color/black"
                                 android:textSize="18sp" />
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="match_parent"
-                            android:layout_marginRight="15dp"
-                            android:orientation="vertical">
-
-                            <CheckBox
-                                android:id="@+id/cb_selTipoA"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1" />
                         </LinearLayout>
 
                     </LinearLayout>
@@ -114,6 +114,19 @@
                         android:orientation="horizontal">
 
                         <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:paddingLeft="90dp">
+
+                            <CheckBox
+                                android:id="@+id/cb_selTipoB"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1" />
+                        </LinearLayout>
+
+                        <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
@@ -123,12 +136,10 @@
                                 android:id="@+id/textView11"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:layout_weight="1"
                                 android:fontFamily="serif"
                                 android:gravity="bottom"
-                                android:paddingBottom="3dp"
                                 android:text="Departamento Tipo B"
-                                android:textAlignment="textEnd"
+                                android:textAlignment="textStart"
                                 android:textAllCaps="true"
                                 android:textColor="@android:color/black"
                                 android:textSize="18sp" />
@@ -139,24 +150,12 @@
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
                                 android:fontFamily="serif"
+                                android:gravity="top"
                                 android:text="Penthouse"
-                                android:textAlignment="textEnd"
+                                android:textAlignment="textStart"
                                 android:textAllCaps="false"
                                 android:textColor="@android:color/black" />
 
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="match_parent"
-                            android:layout_marginRight="15dp"
-                            android:orientation="vertical">
-
-                            <CheckBox
-                                android:id="@+id/cb_selTipoB"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1" />
                         </LinearLayout>
 
                     </LinearLayout>
