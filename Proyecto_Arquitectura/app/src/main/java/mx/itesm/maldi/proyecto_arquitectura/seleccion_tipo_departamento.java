@@ -11,7 +11,7 @@ import android.widget.Toast;
 public class seleccion_tipo_departamento extends AppCompatActivity implements View.OnClickListener {
 
     private CheckBox depaA, depaB;
-    private Button siguiente;
+    private Button siguiente, atras;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,13 +21,12 @@ public class seleccion_tipo_departamento extends AppCompatActivity implements Vi
         depaA=(CheckBox)findViewById(R.id.cb_selTipoA);
         depaB=(CheckBox)findViewById(R.id.cb_selTipoB);
         siguiente=(Button)findViewById(R.id.bn_aceptar);
-
+        atras=(Button) findViewById(R.id.bn_atras_depas);
         //Les agrego su OnClickListener
         depaA.setOnClickListener(this);
         depaB.setOnClickListener(this);
         siguiente.setOnClickListener(this);
-
-
+        atras.setOnClickListener(this);
     }
 
     @Override
@@ -43,6 +42,10 @@ public class seleccion_tipo_departamento extends AppCompatActivity implements Vi
                 if(depaA.isChecked()==true){
                     depaA.setChecked(false);
                 }
+                break;
+            case R.id.bn_atras_depas: //Deseleccionar la A en caso de haberla seleccionado antes
+                i = new Intent(seleccion_tipo_departamento.this, Selecion_Torre.class);
+                startActivity(i);
                 break;
             case R.id.bn_aceptar:
                 if(depaA.isChecked()==false && depaB.isChecked()==false) //en caso de no haber seleccionado alguna
