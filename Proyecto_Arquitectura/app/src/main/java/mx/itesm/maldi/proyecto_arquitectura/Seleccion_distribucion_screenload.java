@@ -22,10 +22,7 @@ public class Seleccion_distribucion_screenload extends AppCompatActivity {
                 case 1: img.setImageResource(R.drawable.zoom1); break;
                 case 2: img.setImageResource(R.drawable.zoom2); break;
                 case 3: img.setImageResource(R.drawable.zoom3); break;
-
-
             }
-
         }
         Handler handler = new Handler();
         handler.postDelayed(new Runnable(){

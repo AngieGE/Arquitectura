@@ -84,16 +84,16 @@ public class Distribuciones extends AppCompatActivity implements View.OnClickLis
                     int distribucion;
                     if (cb_dis1.isChecked()==true)
                     {
-                         distribucion = R.id.distribucion1;
+                         distribucion = 1;
                     }
                     else {
 
                         if (cb_dis2.isChecked() == true) {
-                             distribucion = R.id.distribucion2;
+                             distribucion = 2;
                         }
                         else
                         {
-                             distribucion = R.id.distribucion3;
+                             distribucion = 3;
                         }
                     }
                     i.putExtra("int_value", distribucion);
