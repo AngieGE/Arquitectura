@@ -8,8 +8,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
-        </activity>
+        <activity android:name=".MainActivity"></activity>
         <activity
             android:name=".Password"
             android:label="Password"
@@ -21,15 +20,15 @@
         <activity android:name=".Basic_department" />
         <activity android:name=".seleccion_tipo_departamento" />
         <activity android:name=".Distribuciones">
+        </activity>
+        <activity android:name=".Seleccion_distribucion_screenload"></activity>
+        <activity android:name=".Estilos"></activity>
+        <activity android:name=".Catalogo">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity android:name=".Seleccion_distribucion_screenload">
-        </activity>
-        <activity android:name=".Estilos">
         </activity>
     </application>
 
