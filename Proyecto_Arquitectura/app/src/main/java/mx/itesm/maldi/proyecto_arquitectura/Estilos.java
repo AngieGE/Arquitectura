@@ -84,7 +84,7 @@ public class Estilos extends AppCompatActivity implements View.OnClickListener{
             case R.id.bn_siguiente_estilos: //Enter
                 if (cb_est1.isChecked()==false && cb_est2.isChecked()==false && cb_est3.isChecked()==false){
                     Toast.makeText(this, "Seleccione un tipo de estilo", Toast.LENGTH_SHORT).show();
-                }else{
+                }else if (cb_est2.isChecked()==true){
                     i = new Intent(Estilos.this, Seleccion_distribucion_screenload.class);
                     startActivity(i);
                 }
