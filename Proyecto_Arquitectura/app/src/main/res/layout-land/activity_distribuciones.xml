@@ -60,7 +60,7 @@
                     android:orientation="vertical">
 
                     <ImageButton
-                        android:id="@+id/distribucion1"
+                        android:id="@+id/ib_estilo1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="@color/transparente"
