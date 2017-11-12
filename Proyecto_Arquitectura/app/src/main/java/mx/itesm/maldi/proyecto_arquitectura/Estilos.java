@@ -45,17 +45,17 @@ public class Estilos extends AppCompatActivity implements View.OnClickListener{
         Intent i;
         switch (v.getId()) {
             case R.id.ib_estilo1: //zoom a estilo 1
-                Custom_alert_layout cdd = new Custom_alert_layout(Estilos.this, R.drawable.zoom1);
+                Custom_alert_layout cdd = new Custom_alert_layout(Estilos.this, R.drawable.zoom_tradicional);
                 cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
                 cdd.show();
                 break;
             case R.id.ib_estilo2: //zoom a estilo 2
-                Custom_alert_layout cdd2 = new Custom_alert_layout(Estilos.this, R.drawable.zoom2);
+                Custom_alert_layout cdd2 = new Custom_alert_layout(Estilos.this, R.drawable.zoom_contemporaneo);
                 cdd2.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
                 cdd2.show();
                 break;
             case R.id.ib_estilo3: //zoom a estilo 3
-                Custom_alert_layout cdd3 = new Custom_alert_layout(Estilos.this, R.drawable.zoom3);
+                Custom_alert_layout cdd3 = new Custom_alert_layout(Estilos.this, R.drawable.zoom_moderno);
                 cdd3.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
                 cdd3.show();
                 break;
