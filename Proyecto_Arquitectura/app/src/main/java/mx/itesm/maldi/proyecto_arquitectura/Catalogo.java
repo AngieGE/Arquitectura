@@ -139,28 +139,18 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                     precio.setVisibility(View.VISIBLE);
                 }
                 break;
+            case R.id.bn_atras_catalogo: //Deseleccionar la A en caso de haberla seleccionado antes
+                i = new Intent(Catalogo.this, Estilos.class);
+                startActivity(i);
+                break;
             case R.id.bn_siguiente_catalogo:
                 if(cbSillon1.isChecked()==false && cbSillon2.isChecked()==false && cbSillon3.isChecked()==false && cbSillon4.isChecked()==false && cbSillon5.isChecked()==false && cbSillon6.isChecked()==false) //en caso de no haber seleccionado alguna
                 {
                     Toast.makeText(this, "Seleccione un articulo a agregar", Toast.LENGTH_SHORT).show();
-                }else if(cbSillon1.isChecked())//En caso de haber seleccionado opcion Tipo A
-                {
-                    imagen.setImageResource(R.drawable.imagen1);
-                }else if(cbSillon2.isChecked())//En caso de haber seleccionado opcion Tipo B
-                {
-                    imagen.setImageResource(R.drawable.zoom2);
-                }else if(cbSillon3.isChecked())//En caso de haber seleccionado opcion Tipo A
-                {
-
-                }else if(cbSillon4.isChecked())//En caso de haber seleccionado opcion Tipo A
-                {
-                    imagen.setImageResource(R.drawable.imagen1);
-                }else if(cbSillon5.isChecked())//En caso de haber seleccionado opcion Tipo B
-                {
-                    imagen.setImageResource(R.drawable.zoom2);
-                }else if(cbSillon6.isChecked())//En caso de haber seleccionado opcion Tipo A
-                {
-
+                }else {
+                    //PASAR AL SIG ACTIVITY
+                    //i = new Intent(Catalogo.this, Estilos.class);
+                    //startActivity(i);
                 }
                 break;
         }
