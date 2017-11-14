@@ -48,7 +48,7 @@
                     android:orientation="vertical">
 
                     <TableRow
-                        android:layout_width="match_parent"
+                        android:layout_width="190dp"
                         android:layout_height="wrap_content">
 
                         <LinearLayout
@@ -59,7 +59,8 @@
                             <CheckBox
                                 android:id="@+id/cb_sillon1"
                                 android:layout_width="match_parent"
-                                android:layout_height="wrap_content" />
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="50dp" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -88,7 +89,8 @@
                             <CheckBox
                                 android:id="@+id/cb_sillon2"
                                 android:layout_width="match_parent"
-                                android:layout_height="wrap_content" />
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="50dp" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -117,7 +119,8 @@
                             <CheckBox
                                 android:id="@+id/cb_sillon3"
                                 android:layout_width="match_parent"
-                                android:layout_height="wrap_content" />
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="50dp" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -146,7 +149,8 @@
                             <CheckBox
                                 android:id="@+id/cb_sillon4"
                                 android:layout_width="match_parent"
-                                android:layout_height="wrap_content" />
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="50dp" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -158,7 +162,7 @@
                                 android:id="@+id/imageView2"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                app:srcCompat="@drawable/sofa1" />
+                                app:srcCompat="@drawable/img_sofa4" />
                         </LinearLayout>
 
                     </TableRow>
@@ -175,7 +179,8 @@
                             <CheckBox
                                 android:id="@+id/cb_sillon5"
                                 android:layout_width="match_parent"
-                                android:layout_height="wrap_content" />
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="50dp" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -187,7 +192,7 @@
                                 android:id="@+id/imageView2"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                app:srcCompat="@drawable/sofa1" />
+                                app:srcCompat="@drawable/sofa5" />
                         </LinearLayout>
 
                     </TableRow>
@@ -204,7 +209,8 @@
                             <CheckBox
                                 android:id="@+id/cb_sillon6"
                                 android:layout_width="match_parent"
-                                android:layout_height="wrap_content" />
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="50dp" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -216,7 +222,7 @@
                                 android:id="@+id/imageView2"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                app:srcCompat="@drawable/sofa1" />
+                                app:srcCompat="@drawable/sofa6" />
                         </LinearLayout>
 
                     </TableRow>
@@ -230,23 +236,20 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <EditText
-                android:id="@+id/editText"
+            <TextView
+                android:id="@+id/textView16"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:background="@color/green_letters"
-                android:ems="10"
-                android:gravity="center"
-                android:inputType="textPersonName"
                 android:text="Carrito"
+                android:textAlignment="center"
+                android:textColor="@color/blackFondoAveranda"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
             <LinearLayout
-                android:layout_width="match_parent"
+                android:layout_width="139dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
                 android:orientation="horizontal">
 
                 <LinearLayout
@@ -260,23 +263,23 @@
                         android:layout_height="wrap_content"
                         android:text="Artículo"
                         android:textAlignment="center"
+                        android:textColor="@color/blackFondoAveranda"
                         android:textSize="18sp" />
 
                     <ImageView
-                        android:id="@+id/imageView5"
+                        android:id="@+id/carrito_seleccion"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        app:srcCompat="@mipmap/ic_launcher" />
+                        app:srcCompat="@android:drawable/list_selector_background" />
 
                     <ImageView
                         android:id="@+id/imageView4"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        app:srcCompat="@mipmap/ic_launcher" />
+                        android:layout_height="wrap_content" />
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical">
 
@@ -286,14 +289,18 @@
                         android:layout_height="wrap_content"
                         android:text="$"
                         android:textAlignment="center"
+                        android:textColor="@color/blackFondoAveranda"
                         android:textSize="18sp" />
 
                     <TextView
-                        android:id="@+id/textView15"
+                        android:id="@+id/precio1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:paddingTop="26dp"
                         android:text="0"
-                        android:textSize="18sp" />
+                        android:textColor="@color/blackFondoAveranda"
+                        android:textSize="12sp"
+                        android:visibility="invisible" />
                 </LinearLayout>
             </LinearLayout>
 
