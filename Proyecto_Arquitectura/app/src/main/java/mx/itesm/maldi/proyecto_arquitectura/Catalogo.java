@@ -149,8 +149,8 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                     Toast.makeText(this, "Seleccione un articulo a agregar", Toast.LENGTH_SHORT).show();
                 }else {
                     //PASAR AL SIG ACTIVITY
-                    //i = new Intent(Catalogo.this, Estilos.class);
-                    //startActivity(i);
+                    i = new Intent(Catalogo.this, LastActivity.class);
+                    startActivity(i);
                 }
                 break;
         }
