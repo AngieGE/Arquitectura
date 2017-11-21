@@ -8,7 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="@drawable/depa_tipo1_intro_3segundos"
+    android:background="@drawable/depa_tipoa_intro_3segundos"
     tools:context="mx.itesm.maldi.proyecto_arquitectura.Basic_department">
 
 

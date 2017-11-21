@@ -20,12 +20,12 @@
         android:orientation="horizontal">
 
         <ImageView
-            android:id="@+id/imageView9"
+            android:id="@+id/top"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_weight="1"
-            app:srcCompat="@drawable/carrito_top" />
+            app:srcCompat="@drawable/top_sofas_sala" />
     </LinearLayout>
 
     <LinearLayout
@@ -57,7 +57,7 @@
                             android:orientation="vertical">
 
                             <CheckBox
-                                android:id="@+id/cb_sillon1"
+                                android:id="@+id/cb1"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="50dp" />
@@ -69,7 +69,7 @@
                             android:orientation="vertical">
 
                             <ImageView
-                                android:id="@+id/imageView2"
+                                android:id="@+id/item1"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 app:srcCompat="@drawable/sofa1" />
@@ -87,7 +87,7 @@
                             android:orientation="vertical">
 
                             <CheckBox
-                                android:id="@+id/cb_sillon2"
+                                android:id="@+id/cb2"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="50dp" />
@@ -99,7 +99,7 @@
                             android:orientation="vertical">
 
                             <ImageView
-                                android:id="@+id/imageView2"
+                                android:id="@+id/item2"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 app:srcCompat="@drawable/sofa2" />
@@ -117,7 +117,7 @@
                             android:orientation="vertical">
 
                             <CheckBox
-                                android:id="@+id/cb_sillon3"
+                                android:id="@+id/cb3"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="50dp" />
@@ -129,7 +129,7 @@
                             android:orientation="vertical">
 
                             <ImageView
-                                android:id="@+id/imageView2"
+                                android:id="@+id/item3"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 app:srcCompat="@drawable/sofa3" />
@@ -147,7 +147,7 @@
                             android:orientation="vertical">
 
                             <CheckBox
-                                android:id="@+id/cb_sillon4"
+                                android:id="@+id/cb4"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="50dp" />
@@ -159,7 +159,7 @@
                             android:orientation="vertical">
 
                             <ImageView
-                                android:id="@+id/imageView2"
+                                android:id="@+id/item4"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 app:srcCompat="@drawable/img_sofa4" />
@@ -177,7 +177,7 @@
                             android:orientation="vertical">
 
                             <CheckBox
-                                android:id="@+id/cb_sillon5"
+                                android:id="@+id/cb5"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="50dp" />
@@ -189,7 +189,7 @@
                             android:orientation="vertical">
 
                             <ImageView
-                                android:id="@+id/imageView2"
+                                android:id="@+id/item5"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 app:srcCompat="@drawable/sofa5" />
@@ -207,7 +207,7 @@
                             android:orientation="vertical">
 
                             <CheckBox
-                                android:id="@+id/cb_sillon6"
+                                android:id="@+id/cb6"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="50dp" />
@@ -219,7 +219,7 @@
                             android:orientation="vertical">
 
                             <ImageView
-                                android:id="@+id/imageView2"
+                                android:id="@+id/item6"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 app:srcCompat="@drawable/sofa6" />
@@ -245,64 +245,452 @@
                 android:textAlignment="center"
                 android:textColor="@color/blackFondoAveranda"
                 android:textSize="18sp"
-                android:textStyle="bold" />
-
+                android:textStyle="bold"
+                android:layout_marginTop="10dp" />
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
             <LinearLayout
                 android:layout_width="139dp"
                 android:layout_height="match_parent"
-                android:orientation="horizontal">
+                android:orientation="vertical"
+                android:id="@+id/asignado"><![CDATA[
 
-                <LinearLayout
-                    android:layout_width="100dp"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
 
-                    <TextView
-                        android:id="@+id/textView14"
-                        android:layout_width="match_parent"
+                ]]>
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Artículo"
+                    android:textAlignment="center"
+                    android:textColor="@color/blackFondoAveranda"
+                    android:textSize="18sp"
+                    android:layout_weight="1" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
                         android:layout_height="wrap_content"
-                        android:text="Artículo"
-                        android:textAlignment="center"
-                        android:textColor="@color/blackFondoAveranda"
-                        android:textSize="18sp" />
+                        android:layout_width="85dp">
 
-                    <ImageView
-                        android:id="@+id/carrito_seleccion"
-                        android:layout_width="match_parent"
+                        <ImageView
+                            android:id="@+id/carrito_seleccion"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@android:drawable/list_selector_background" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
                         android:layout_height="wrap_content"
-                        app:srcCompat="@android:drawable/list_selector_background" />
+                        android:layout_width="match_parent">
 
-                    <ImageView
-                        android:id="@+id/imageView4"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content" />
-                </LinearLayout>
+                        <TextView
+                            android:id="@+id/precio1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="26dp"
+                            android:text="0"
+                            android:textColor="@color/blackFondoAveranda"
+                            android:textSize="12sp"
+                            android:visibility="invisible" />
+                    </LinearLayout>
+                </TableRow>
 
-                <LinearLayout
+                <TableRow
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical">
+                    android:layout_weight="1" >
 
-                    <TextView
-                        android:id="@+id/textView14"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="$"
-                        android:textAlignment="center"
-                        android:textColor="@color/blackFondoAveranda"
-                        android:textSize="18sp" />
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="85dp"
+                        android:layout_height="wrap_content">
 
-                    <TextView
-                        android:id="@+id/precio1"
+                        <ImageView
+                            android:id="@+id/carrito_seleccion2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:paddingTop="26dp"
-                        android:text="0"
-                        android:textColor="@color/blackFondoAveranda"
-                        android:textSize="12sp"
-                        android:visibility="invisible" />
-                </LinearLayout>
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/precio2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="26dp"
+                            android:text="0"
+                            android:textColor="@color/blackFondoAveranda"
+                            android:textSize="12sp"
+                            android:visibility="invisible"
+                            android:layout_weight="1" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" >
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="85dp"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/carrito_seleccion3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/precio3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="26dp"
+                            android:text="0"
+                            android:textColor="@color/blackFondoAveranda"
+                            android:textSize="12sp"
+                            android:visibility="invisible"
+                            android:layout_weight="1" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" >
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="85dp"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/carrito_seleccion4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/precio4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="26dp"
+                            android:text="0"
+                            android:textColor="@color/blackFondoAveranda"
+                            android:textSize="12sp"
+                            android:visibility="invisible"
+                            android:layout_weight="1" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" >
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="85dp"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/carrito_seleccion5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/precio5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="26dp"
+                            android:text="0"
+                            android:textColor="@color/blackFondoAveranda"
+                            android:textSize="12sp"
+                            android:visibility="invisible"
+                            android:layout_weight="1" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" >
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="85dp"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/carrito_seleccion6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/precio6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="26dp"
+                            android:text="0"
+                            android:textColor="@color/blackFondoAveranda"
+                            android:textSize="12sp"
+                            android:visibility="invisible"
+                            android:layout_weight="1" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" >
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="85dp"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/carrito_seleccion7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/precio7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="26dp"
+                            android:text="0"
+                            android:textColor="@color/blackFondoAveranda"
+                            android:textSize="12sp"
+                            android:visibility="invisible"
+                            android:layout_weight="1" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" >
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="85dp"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/carrito_seleccion8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/precio8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="26dp"
+                            android:text="0"
+                            android:textColor="@color/blackFondoAveranda"
+                            android:textSize="12sp"
+                            android:visibility="invisible"
+                            android:layout_weight="1" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" >
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="85dp"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/carrito_seleccion9"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/precio9"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="26dp"
+                            android:text="0"
+                            android:textColor="@color/blackFondoAveranda"
+                            android:textSize="12sp"
+                            android:visibility="invisible"
+                            android:layout_weight="1" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" >
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="85dp"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/carrito_seleccion10"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/precio10"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="26dp"
+                            android:text="0"
+                            android:textColor="@color/blackFondoAveranda"
+                            android:textSize="12sp"
+                            android:visibility="invisible"
+                            android:layout_weight="1" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" >
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="85dp"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/carrito_seleccion11"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/precio11"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="26dp"
+                            android:text="0"
+                            android:textColor="@color/blackFondoAveranda"
+                            android:textSize="12sp"
+                            android:visibility="invisible"
+                            android:layout_weight="1" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" >
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="85dp"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/carrito_seleccion12"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/precio12"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="26dp"
+                            android:text="0"
+                            android:textColor="@color/blackFondoAveranda"
+                            android:textSize="12sp"
+                            android:visibility="invisible"
+                            android:layout_weight="1" />
+                    </LinearLayout>
+                </TableRow>
+
             </LinearLayout>
+            </ScrollView>
 
         </LinearLayout>
 

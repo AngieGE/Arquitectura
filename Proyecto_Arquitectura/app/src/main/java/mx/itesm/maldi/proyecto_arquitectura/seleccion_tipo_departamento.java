@@ -55,10 +55,11 @@ public class seleccion_tipo_departamento extends AppCompatActivity implements Vi
                 {
                     i = new Intent(seleccion_tipo_departamento.this, Basic_department.class);
                     startActivity(i);
+                    overridePendingTransition(R.anim.zoom_in, R.anim.zoom_out);
                 }else if(depaB.isChecked())//En caso de haber seleccionado opcion Tipo B
                 {
-                    i = new Intent(seleccion_tipo_departamento.this, Penthouse.class);
-                    startActivity(i);
+                    //i = new Intent(seleccion_tipo_departamento.this, Penthouse.class);
+                    //startActivity(i);
                 }
                 break;
         }

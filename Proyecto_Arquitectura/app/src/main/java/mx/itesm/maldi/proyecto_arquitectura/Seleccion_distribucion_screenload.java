@@ -14,16 +14,16 @@ public class Seleccion_distribucion_screenload extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_seleccion_distribucion_screenload);
         Intent intent = getIntent();
-        int temp = intent.getIntExtra("int_value", 0);
-        ImageView img= (ImageView) findViewById(R.id.imagen_dist);
+        //int temp = intent.getIntExtra("int_value", 0);
+        /*ImageView img= (ImageView) findViewById(R.id.image_distribucion);
         if (temp != 0) {
             switch (temp) {
 
-                case 1: img.setImageResource(R.drawable.zoom1); break;
+               case 1: img.setImageResource(R.drawable.zoom1); break;
                 case 2: img.setImageResource(R.drawable.zoom2); break;
                 case 3: img.setImageResource(R.drawable.zoom3); break;
             }
-        }
+        }*/
         Handler handler = new Handler();
         handler.postDelayed(new Runnable(){
             @Override

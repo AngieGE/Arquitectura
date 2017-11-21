@@ -67,8 +67,10 @@
                             <ImageButton
                                 android:id="@+id/img_averanda"
                                 android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                app:srcCompat="@drawable/logo_averanta" />
+                                android:layout_height="wrap_content"
+                                app:srcCompat="@drawable/logo_averanta"
+                                android:adjustViewBounds="true"
+                                android:cropToPadding="false" />
 
                         </LinearLayout>
 

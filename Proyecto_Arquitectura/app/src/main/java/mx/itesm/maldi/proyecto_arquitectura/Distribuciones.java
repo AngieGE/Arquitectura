@@ -100,6 +100,7 @@ public class Distribuciones extends AppCompatActivity implements View.OnClickLis
                     }
                     i.putExtra("int_value", distribucion);
                     startActivity(i);
+                    overridePendingTransition(R.anim.zoom_in, R.anim.zoom_out);
                 }
                 break;
             case R.id.bn_atras: //Enter

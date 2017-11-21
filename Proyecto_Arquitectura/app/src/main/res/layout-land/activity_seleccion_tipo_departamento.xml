@@ -47,7 +47,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:adjustViewBounds="true"
-                        app:srcCompat="@drawable/departamento_penthouse" />
+                        app:srcCompat="@drawable/depa_basico" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -104,7 +104,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:adjustViewBounds="true"
-                        app:srcCompat="@drawable/departamento_basico" />
+                        app:srcCompat="@drawable/depa_pent" />
 
                     <LinearLayout
                         android:layout_width="match_parent"

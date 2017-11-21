@@ -19,14 +19,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         ImageView img= (ImageView) findViewById(R.id.imageView);
-        img.setImageResource(R.drawable.imagen1);
+        img.setImageResource(R.drawable.logo_first);
         Handler handler = new Handler();
         handler.postDelayed(new Runnable(){
             @Override
             public void run(){
                 i = new Intent(MainActivity.this, Password.class);
                 startActivity(i);
-                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
+                overridePendingTransition(R.anim.zoom_in, R.anim.zoom_out);
             }
         }, 3000);
 

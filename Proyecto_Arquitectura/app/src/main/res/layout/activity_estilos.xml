@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fondo"
     tools:context="mx.itesm.maldi.proyecto_arquitectura.Estilos">
 
     <LinearLayout
@@ -53,6 +54,8 @@
                             android:id="@+id/cb_estilo1"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:buttonTint="@color/white_letters"
+                            android:theme="@style/WhiteCheck"
                             android:gravity="top" />
                     </LinearLayout>
 
@@ -86,6 +89,8 @@
                             android:id="@+id/cb_estilo2"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:buttonTint="@color/white_letters"
+                            android:theme="@style/WhiteCheck"
                             android:gravity="top" />
                     </LinearLayout>
 
@@ -120,6 +125,8 @@
                             android:id="@+id/cb_estilo3"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:buttonTint="@color/white_letters"
+                            android:theme="@style/WhiteCheck"
                             android:gravity="top" />
                     </LinearLayout>
 
