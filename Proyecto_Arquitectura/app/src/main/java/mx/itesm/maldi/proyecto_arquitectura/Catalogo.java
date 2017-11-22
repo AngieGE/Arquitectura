@@ -1094,12 +1094,11 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
 
                         top.setImageResource(R.drawable.top_sillasymesas_terraza);
                         item1.setImageResource(R.drawable.terraza_mesasysillas1);
-                        item2.setImageResource(R.drawable.terraza_mesasysillas4);
+                        item2.setImageResource(R.drawable.terraza_mesasysillas2);
                         item3.setImageResource(R.drawable.terraza_mesasysillas3);
-                        item4.setVisibility(View.INVISIBLE);
+                        item4.setImageResource(R.drawable.terraza_mesasysillas4);
                         item5.setVisibility(View.INVISIBLE);
                         item6.setVisibility(View.INVISIBLE);
-                        cbSillon4.setVisibility(View.INVISIBLE);
                         cbSillon5.setVisibility(View.INVISIBLE);
                         cbSillon6.setVisibility(View.INVISIBLE);
                         cbSillon1.setChecked(false);
@@ -1112,13 +1111,12 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                     case 9:
 
                         top.setImageResource(R.drawable.top_mubles_terraza);
-                        item1.setImageResource(R.drawable.terraza_muebles2);
-                        item2.setImageResource(R.drawable.terraza_muebles3);
-                        item3.setVisibility(View.INVISIBLE);
+                        item1.setImageResource(R.drawable.terraza_muebles1);
+                        item2.setImageResource(R.drawable.terraza_muebles2);
+                        item3.setImageResource(R.drawable.terraza_muebles3);
                         item4.setVisibility(View.INVISIBLE);
                         item5.setVisibility(View.INVISIBLE);
                         item6.setVisibility(View.INVISIBLE);
-                        cbSillon3.setVisibility(View.INVISIBLE);
                         cbSillon4.setVisibility(View.INVISIBLE);
                         cbSillon5.setVisibility(View.INVISIBLE);
                         cbSillon6.setVisibility(View.INVISIBLE);
@@ -1292,12 +1290,11 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                         case 8:
                             top.setImageResource(R.drawable.top_sillasymesas_terraza);
                             item1.setImageResource(R.drawable.terraza_mesasysillas1);
-                            item2.setImageResource(R.drawable.terraza_mesasysillas4);
+                            item2.setImageResource(R.drawable.terraza_mesasysillas2);
                             item3.setImageResource(R.drawable.terraza_mesasysillas3);
-                            item4.setVisibility(View.INVISIBLE);
+                            item4.setImageResource(R.drawable.terraza_mesasysillas4);
                             item5.setVisibility(View.INVISIBLE);
                             item6.setVisibility(View.INVISIBLE);
-                            cbSillon4.setVisibility(View.INVISIBLE);
                             cbSillon5.setVisibility(View.INVISIBLE);
                             cbSillon6.setVisibility(View.INVISIBLE);
                             cbSillon1.setChecked(false);
@@ -1309,13 +1306,12 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                             break;
                         case 9:
                             top.setImageResource(R.drawable.top_mubles_terraza);
-                            item1.setImageResource(R.drawable.terraza_muebles2);
-                            item2.setImageResource(R.drawable.terraza_muebles3);
-                            item3.setVisibility(View.INVISIBLE);
+                            item1.setImageResource(R.drawable.terraza_muebles1);
+                            item2.setImageResource(R.drawable.terraza_muebles2);
+                            item3.setImageResource(R.drawable.terraza_muebles3);
                             item4.setVisibility(View.INVISIBLE);
                             item5.setVisibility(View.INVISIBLE);
                             item6.setVisibility(View.INVISIBLE);
-                            cbSillon3.setVisibility(View.INVISIBLE);
                             cbSillon4.setVisibility(View.INVISIBLE);
                             cbSillon5.setVisibility(View.INVISIBLE);
                             cbSillon6.setVisibility(View.INVISIBLE);
