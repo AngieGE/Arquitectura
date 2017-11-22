@@ -993,7 +993,7 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                         top.setImageResource(R.drawable.top_pufs_sala);
                         item1.setImageResource(R.drawable.sala_puf1);
                         item2.setImageResource(R.drawable.sala_puf2);
-                        item3.setImageResource(R.drawable.sala_puf4);
+                        item3.setImageResource(R.drawable.sala_puf3);
                         item4.setVisibility(View.INVISIBLE);
                         item5.setVisibility(View.INVISIBLE);
                         item6.setVisibility(View.INVISIBLE);
@@ -1197,7 +1197,7 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                             top.setImageResource(R.drawable.top_pufs_sala);
                             item1.setImageResource(R.drawable.sala_puf1);
                             item2.setImageResource(R.drawable.sala_puf2);
-                            item3.setImageResource(R.drawable.sala_puf4);
+                            item3.setImageResource(R.drawable.sala_puf3);
                             item4.setVisibility(View.INVISIBLE);
                             item5.setVisibility(View.INVISIBLE);
                             item6.setVisibility(View.INVISIBLE);
