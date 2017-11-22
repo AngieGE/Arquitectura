@@ -87,6 +87,9 @@ public class Distribuciones extends AppCompatActivity implements View.OnClickLis
                     if (cb_dis1.isChecked()==true)
                     {
                          distribucion = 1;
+                        i.putExtra("int_value", distribucion);
+                        startActivity(i);
+                        overridePendingTransition(R.anim.zoom_in, R.anim.zoom_out);
                     }
                     else {
 
@@ -98,9 +101,7 @@ public class Distribuciones extends AppCompatActivity implements View.OnClickLis
                              distribucion = 3;
                         }
                     }
-                    i.putExtra("int_value", distribucion);
-                    startActivity(i);
-                    overridePendingTransition(R.anim.zoom_in, R.anim.zoom_out);
+
                 }
                 break;
             case R.id.bn_atras: //Enter

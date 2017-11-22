@@ -5,7 +5,7 @@
     android:id="@+id/activity_distribuciones"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fondo"
+    android:background="@drawable/fondo_nuevo"
     android:orientation="vertical"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
@@ -51,7 +51,7 @@
                         android:id="@+id/cb_distribucion1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:buttonTint="@color/white_letters"
+                        android:buttonTint="@color/blackFondoAveranda"
                         android:theme="@style/WhiteCheck"
                         android:layout_weight="1"
                         android:gravity="top" />
@@ -90,7 +90,7 @@
                         android:id="@+id/cb_distribucion2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:buttonTint="@color/white_letters"
+                        android:buttonTint="@color/blackFondoAveranda"
                         android:theme="@style/WhiteCheck"
                         android:layout_weight="1"
                         android:gravity="top" />
@@ -128,7 +128,7 @@
                         android:id="@+id/cb_distribucion3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:buttonTint="@color/white_letters"
+                        android:buttonTint="@color/blackFondoAveranda"
                         android:theme="@style/WhiteCheck"
                         android:layout_weight="1"
                         android:gravity="top" />
