@@ -8,9 +8,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
-
-        </activity>
+        <activity android:name=".MainActivity"></activity>
         <activity
             android:name=".Password"
             android:label="Password"
@@ -23,16 +21,17 @@
         <activity android:name=".seleccion_tipo_departamento" />
         <activity android:name=".Distribuciones" />
         <activity android:name=".Seleccion_distribucion_screenload" />
-        <activity android:name=".Estilos"></activity>
+        <activity android:name=".Estilos" />
         <activity android:name=".Catalogo">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-            </activity>
+        </activity>
         <activity android:name=".Estilo_contemporaneo_screenload" />
-        <activity android:name=".LastActivity"></activity>
+        <activity android:name=".LastActivity" />
+        <activity android:name=".Cotizacion"></activity>
     </application>
 
 </manifest>

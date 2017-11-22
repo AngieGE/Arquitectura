@@ -11,5 +11,6 @@
     <color name="black">#01000000</color>
     <color name="blackFondoAveranda">#1a1a1b</color>
     <color name="transparente">#01000000</color>
+    <color name="fondoGris">#1c1a1f</color>
 
 </resources>
