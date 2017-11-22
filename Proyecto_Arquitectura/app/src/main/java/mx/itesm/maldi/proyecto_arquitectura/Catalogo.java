@@ -989,7 +989,6 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
 
                         break;
                     case 2:
-
                         top.setImageResource(R.drawable.top_pufs_sala);
                         item1.setImageResource(R.drawable.sala_puf1);
                         item2.setImageResource(R.drawable.sala_puf2);
@@ -1043,7 +1042,6 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                         cbSillon6.setChecked(false);
                         break;
                     case 5:
-
                         top.setImageResource(R.drawable.top_trinchador_comedor);
                         item1.setImageResource(R.drawable.com_trinchador1);
                         item2.setImageResource(R.drawable.com_trinchador2);
