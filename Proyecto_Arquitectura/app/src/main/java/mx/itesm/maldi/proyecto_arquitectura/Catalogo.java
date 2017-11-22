@@ -391,7 +391,11 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                         item2.setImageResource(R.drawable.sala_puf2);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         item3.setImageResource(R.drawable.sala_puf3);
+=======
+                        item3.setImageResource(R.drawable.sala_puf4);
+>>>>>>> 41e1bbdd7e0c03a4aee0f57010dc80e69858f588
 =======
                         item3.setImageResource(R.drawable.sala_puf4);
 >>>>>>> 41e1bbdd7e0c03a4aee0f57010dc80e69858f588
@@ -582,7 +586,11 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                             item2.setImageResource(R.drawable.sala_puf2);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             item3.setImageResource(R.drawable.sala_puf3);
+=======
+                            item3.setImageResource(R.drawable.sala_puf4);
+>>>>>>> 41e1bbdd7e0c03a4aee0f57010dc80e69858f588
 =======
                             item3.setImageResource(R.drawable.sala_puf4);
 >>>>>>> 41e1bbdd7e0c03a4aee0f57010dc80e69858f588
