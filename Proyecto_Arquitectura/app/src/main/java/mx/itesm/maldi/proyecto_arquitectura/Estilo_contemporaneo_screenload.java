@@ -17,7 +17,7 @@ public class Estilo_contemporaneo_screenload extends AppCompatActivity {
             @Override
             public void run(){
                 Intent i;
-                i = new Intent(Estilo_contemporaneo_screenload.this, Catalogo.class);
+                i = new Intent(Estilo_contemporaneo_screenload.this, Cotizacion.class);
                 startActivity(i);
                 overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
             }
