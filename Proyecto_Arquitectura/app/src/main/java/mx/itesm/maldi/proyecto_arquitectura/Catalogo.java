@@ -389,19 +389,7 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                         top.setImageResource(R.drawable.top_pufs_sala);
                         item1.setImageResource(R.drawable.sala_puf1);
                         item2.setImageResource(R.drawable.sala_puf2);
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
                         item3.setImageResource(R.drawable.sala_puf3);
-=======
-                        item3.setImageResource(R.drawable.sala_puf4);
->>>>>>> 41e1bbdd7e0c03a4aee0f57010dc80e69858f588
-=======
-                        item3.setImageResource(R.drawable.sala_puf4);
->>>>>>> 41e1bbdd7e0c03a4aee0f57010dc80e69858f588
-=======
-                        item3.setImageResource(R.drawable.sala_puf4);
->>>>>>> 41e1bbdd7e0c03a4aee0f57010dc80e69858f588
                         item4.setVisibility(View.INVISIBLE);
                         item5.setVisibility(View.INVISIBLE);
                         item6.setVisibility(View.INVISIBLE);
@@ -584,19 +572,7 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                             top.setImageResource(R.drawable.top_pufs_sala);
                             item1.setImageResource(R.drawable.sala_puf1);
                             item2.setImageResource(R.drawable.sala_puf2);
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
                             item3.setImageResource(R.drawable.sala_puf3);
-=======
-                            item3.setImageResource(R.drawable.sala_puf4);
->>>>>>> 41e1bbdd7e0c03a4aee0f57010dc80e69858f588
-=======
-                            item3.setImageResource(R.drawable.sala_puf4);
->>>>>>> 41e1bbdd7e0c03a4aee0f57010dc80e69858f588
-=======
-                            item3.setImageResource(R.drawable.sala_puf4);
->>>>>>> 41e1bbdd7e0c03a4aee0f57010dc80e69858f588
                             item4.setVisibility(View.INVISIBLE);
                             item5.setVisibility(View.INVISIBLE);
                             item6.setVisibility(View.INVISIBLE);
