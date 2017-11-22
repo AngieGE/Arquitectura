@@ -946,7 +946,7 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                 }
                 if (contador == 0)
                 {
-                    i = new Intent(Catalogo.this, Estilos.class);
+                    i = new Intent(Catalogo.this, Cotizacion.class);
                     startActivity(i);
                 }
                 else
