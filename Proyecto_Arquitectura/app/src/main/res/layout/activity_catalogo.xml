@@ -533,7 +533,7 @@
                             android:orientation="horizontal">
 
                             <ImageView
-                                android:id="@+id/carrito_seleccion"
+                                android:id="@+id/carrito_seleccion7"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:adjustViewBounds="true"
@@ -570,7 +570,7 @@
                             android:orientation="horizontal">
 
                             <ImageView
-                                android:id="@+id/carrito_seleccion2"
+                                android:id="@+id/carrito_seleccion8"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
@@ -609,7 +609,7 @@
                             android:orientation="horizontal">
 
                             <ImageView
-                                android:id="@+id/carrito_seleccion3"
+                                android:id="@+id/carrito_seleccion9"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
@@ -648,7 +648,7 @@
                             android:orientation="horizontal">
 
                             <ImageView
-                                android:id="@+id/carrito_seleccion4"
+                                android:id="@+id/carrito_seleccion10"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
@@ -687,7 +687,7 @@
                             android:orientation="horizontal">
 
                             <ImageView
-                                android:id="@+id/carrito_seleccion5"
+                                android:id="@+id/carrito_seleccion11"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
@@ -726,7 +726,7 @@
                             android:orientation="horizontal">
 
                             <ImageView
-                                android:id="@+id/carrito_seleccion6"
+                                android:id="@+id/carrito_seleccion12"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
