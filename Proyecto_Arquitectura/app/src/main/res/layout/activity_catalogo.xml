@@ -546,7 +546,7 @@
                             android:orientation="horizontal">
 
                             <TextView
-                                android:id="@+id/precio1"
+                                android:id="@+id/precio7"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:paddingTop="30dp"
@@ -584,7 +584,7 @@
                             android:orientation="horizontal">
 
                             <TextView
-                                android:id="@+id/precio2"
+                                android:id="@+id/precio8"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
@@ -623,7 +623,7 @@
                             android:orientation="horizontal">
 
                             <TextView
-                                android:id="@+id/precio3"
+                                android:id="@+id/precio9"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
@@ -662,7 +662,7 @@
                             android:orientation="horizontal">
 
                             <TextView
-                                android:id="@+id/precio4"
+                                android:id="@+id/precio10"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
@@ -701,7 +701,7 @@
                             android:orientation="horizontal">
 
                             <TextView
-                                android:id="@+id/precio5"
+                                android:id="@+id/precio11"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
@@ -740,7 +740,7 @@
                             android:orientation="horizontal">
 
                             <TextView
-                                android:id="@+id/precio6"
+                                android:id="@+id/precio12"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"

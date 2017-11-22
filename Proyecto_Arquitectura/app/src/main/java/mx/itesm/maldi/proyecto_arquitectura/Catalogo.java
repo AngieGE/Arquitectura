@@ -222,13 +222,130 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                 cbSillon5.setChecked(false);
                 cbSillon6.setChecked(false);
                 if (  cbSillon2.isChecked()==false  ){
-                    imagen.setBackgroundResource(R.drawable.blanco);
-                    precio.setVisibility(View.INVISIBLE);
+                    switch (contador)
+                    {
+                        case 1:
+                            imagen.setBackgroundResource(R.drawable.blanco);
+                            precio.setVisibility(View.INVISIBLE);
+                            break;
+                        case 2:
+                            imagen2.setBackgroundResource(R.drawable.blanco);
+                            precio2.setVisibility(View.INVISIBLE);
+                            break;
+                        case 3:
+                            imagen3.setBackgroundResource(R.drawable.blanco);
+                            precio3.setVisibility(View.INVISIBLE);
+                            break;
+                        case 4:
+                            imagen4.setBackgroundResource(R.drawable.blanco);
+                            precio4.setVisibility(View.INVISIBLE);
+                            break;
+                        case 5:
+                            imagen5.setBackgroundResource(R.drawable.blanco);
+                            precio5.setVisibility(View.INVISIBLE);
+                            break;
+                        case 6:
+                            imagen6.setBackgroundResource(R.drawable.blanco);
+                            precio6.setVisibility(View.INVISIBLE);
+                            break;
+                        case 7:
+                            imagen7.setBackgroundResource(R.drawable.blanco);
+                            precio7.setVisibility(View.INVISIBLE);
+                            break;
+                        case 8:
+                            imagen8.setBackgroundResource(R.drawable.blanco);
+                            precio8.setVisibility(View.INVISIBLE);
+                            break;
+                        case 9:
+                            imagen9.setBackgroundResource(R.drawable.blanco);
+                            precio9.setVisibility(View.INVISIBLE);
+                            break;
+                        case 10:
+                            imagen10.setBackgroundResource(R.drawable.blanco);
+                            precio10.setVisibility(View.INVISIBLE);
+                            break;
+                        case 11:
+                            imagen11.setBackgroundResource(R.drawable.blanco);
+                            precio11.setVisibility(View.INVISIBLE);
+                            break;
+                    }
                 }else{
                     Drawable asistente = item2.getDrawable();
-                    imagen.setImageDrawable(asistente);
-                    precio.setText("18,500");
-                    precio.setVisibility(View.VISIBLE);
+                    switch (contador)
+                    {
+                        case 0:
+                            imagen.setVisibility(View.VISIBLE);
+                            imagen.setImageDrawable(asistente);
+                            precio.setText("30,500");
+                            precio.setVisibility(View.VISIBLE);
+                            break;
+                        case 1:
+                            imagen2.setVisibility(View.VISIBLE);
+                            imagen2.setImageDrawable(asistente);
+                            precio2.setText("30,500");
+                            precio2.setVisibility(View.VISIBLE);
+                            break;
+                        case 2:
+                            imagen3.setVisibility(View.VISIBLE);
+                            imagen3.setImageDrawable(asistente);
+                            precio3.setText("30,500");
+                            precio3.setVisibility(View.VISIBLE);
+                            break;
+                        case 3:
+                            imagen4.setVisibility(View.VISIBLE);
+                            imagen4.setImageDrawable(asistente);
+                            precio4.setText("30,500");
+                            precio4.setVisibility(View.VISIBLE);
+                            break;
+                        case 4:
+                            imagen5.setVisibility(View.VISIBLE);
+                            imagen5.setImageDrawable(asistente);
+                            precio5.setText("30,500");
+                            precio5.setVisibility(View.VISIBLE);
+                            break;
+                        case 5:
+                            imagen6.setVisibility(View.VISIBLE);
+                            imagen6.setImageDrawable(asistente);
+                            precio6.setText("30,500");
+                            precio6.setVisibility(View.VISIBLE);
+                            break;
+                        case 6:
+                            imagen7.setVisibility(View.VISIBLE);
+                            imagen7.setImageDrawable(asistente);
+                            precio7.setText("30,500");
+                            precio7.setVisibility(View.VISIBLE);
+                            break;
+                        case 7:
+                            imagen8.setVisibility(View.VISIBLE);
+                            imagen8.setImageDrawable(asistente);
+                            precio8.setText("30,500");
+                            precio8.setVisibility(View.VISIBLE);
+                            break;
+                        case 8:
+                            imagen9.setVisibility(View.VISIBLE);
+                            imagen9.setImageDrawable(asistente);
+                            precio9.setText("30,500");
+                            precio9.setVisibility(View.VISIBLE);
+                            break;
+                        case 9:
+                            imagen10.setVisibility(View.VISIBLE);
+                            imagen10.setImageDrawable(asistente);
+                            precio10.setText("30,500");
+                            precio10.setVisibility(View.VISIBLE);
+                            break;
+                        case 10:
+                            imagen11.setVisibility(View.VISIBLE);
+                            imagen11.setImageDrawable(asistente);
+                            precio11.setText("30,500");
+                            precio11.setVisibility(View.VISIBLE);
+                            break;
+                        case 11:
+                            imagen12.setVisibility(View.VISIBLE);
+                            imagen12.setImageDrawable(asistente);
+                            precio12.setText("30,500");
+                            precio12.setVisibility(View.VISIBLE);
+                            break;
+                    }
                 }
                 break;
             case R.id.cb3: //Deseleccionar la A en caso de haberla seleccionado antes
@@ -238,13 +355,130 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                 cbSillon5.setChecked(false);
                 cbSillon6.setChecked(false);
                 if (  cbSillon3.isChecked()==false  ){
-                    imagen.setBackgroundResource(R.drawable.blanco);
-                    precio.setVisibility(View.INVISIBLE);
+                    switch (contador)
+                    {
+                        case 1:
+                            imagen.setBackgroundResource(R.drawable.blanco);
+                            precio.setVisibility(View.INVISIBLE);
+                            break;
+                        case 2:
+                            imagen2.setBackgroundResource(R.drawable.blanco);
+                            precio2.setVisibility(View.INVISIBLE);
+                            break;
+                        case 3:
+                            imagen3.setBackgroundResource(R.drawable.blanco);
+                            precio3.setVisibility(View.INVISIBLE);
+                            break;
+                        case 4:
+                            imagen4.setBackgroundResource(R.drawable.blanco);
+                            precio4.setVisibility(View.INVISIBLE);
+                            break;
+                        case 5:
+                            imagen5.setBackgroundResource(R.drawable.blanco);
+                            precio5.setVisibility(View.INVISIBLE);
+                            break;
+                        case 6:
+                            imagen6.setBackgroundResource(R.drawable.blanco);
+                            precio6.setVisibility(View.INVISIBLE);
+                            break;
+                        case 7:
+                            imagen7.setBackgroundResource(R.drawable.blanco);
+                            precio7.setVisibility(View.INVISIBLE);
+                            break;
+                        case 8:
+                            imagen8.setBackgroundResource(R.drawable.blanco);
+                            precio8.setVisibility(View.INVISIBLE);
+                            break;
+                        case 9:
+                            imagen9.setBackgroundResource(R.drawable.blanco);
+                            precio9.setVisibility(View.INVISIBLE);
+                            break;
+                        case 10:
+                            imagen10.setBackgroundResource(R.drawable.blanco);
+                            precio10.setVisibility(View.INVISIBLE);
+                            break;
+                        case 11:
+                            imagen11.setBackgroundResource(R.drawable.blanco);
+                            precio11.setVisibility(View.INVISIBLE);
+                            break;
+                    }
                 }else{
                     Drawable asistente = item3.getDrawable();
-                    imagen.setImageDrawable(asistente);
-                    precio.setText("31,860");
-                    precio.setVisibility(View.VISIBLE);
+                    switch (contador)
+                    {
+                        case 0:
+                            imagen.setVisibility(View.VISIBLE);
+                            imagen.setImageDrawable(asistente);
+                            precio.setText("30,500");
+                            precio.setVisibility(View.VISIBLE);
+                            break;
+                        case 1:
+                            imagen2.setVisibility(View.VISIBLE);
+                            imagen2.setImageDrawable(asistente);
+                            precio2.setText("30,500");
+                            precio2.setVisibility(View.VISIBLE);
+                            break;
+                        case 2:
+                            imagen3.setVisibility(View.VISIBLE);
+                            imagen3.setImageDrawable(asistente);
+                            precio3.setText("30,500");
+                            precio3.setVisibility(View.VISIBLE);
+                            break;
+                        case 3:
+                            imagen4.setVisibility(View.VISIBLE);
+                            imagen4.setImageDrawable(asistente);
+                            precio4.setText("30,500");
+                            precio4.setVisibility(View.VISIBLE);
+                            break;
+                        case 4:
+                            imagen5.setVisibility(View.VISIBLE);
+                            imagen5.setImageDrawable(asistente);
+                            precio5.setText("30,500");
+                            precio5.setVisibility(View.VISIBLE);
+                            break;
+                        case 5:
+                            imagen6.setVisibility(View.VISIBLE);
+                            imagen6.setImageDrawable(asistente);
+                            precio6.setText("30,500");
+                            precio6.setVisibility(View.VISIBLE);
+                            break;
+                        case 6:
+                            imagen7.setVisibility(View.VISIBLE);
+                            imagen7.setImageDrawable(asistente);
+                            precio7.setText("30,500");
+                            precio7.setVisibility(View.VISIBLE);
+                            break;
+                        case 7:
+                            imagen8.setVisibility(View.VISIBLE);
+                            imagen8.setImageDrawable(asistente);
+                            precio8.setText("30,500");
+                            precio8.setVisibility(View.VISIBLE);
+                            break;
+                        case 8:
+                            imagen9.setVisibility(View.VISIBLE);
+                            imagen9.setImageDrawable(asistente);
+                            precio9.setText("30,500");
+                            precio9.setVisibility(View.VISIBLE);
+                            break;
+                        case 9:
+                            imagen10.setVisibility(View.VISIBLE);
+                            imagen10.setImageDrawable(asistente);
+                            precio10.setText("30,500");
+                            precio10.setVisibility(View.VISIBLE);
+                            break;
+                        case 10:
+                            imagen11.setVisibility(View.VISIBLE);
+                            imagen11.setImageDrawable(asistente);
+                            precio11.setText("30,500");
+                            precio11.setVisibility(View.VISIBLE);
+                            break;
+                        case 11:
+                            imagen12.setVisibility(View.VISIBLE);
+                            imagen12.setImageDrawable(asistente);
+                            precio12.setText("30,500");
+                            precio12.setVisibility(View.VISIBLE);
+                            break;
+                    }
                 }
                 break;
             case R.id.cb4: //Deseleccionar la A en caso de haberla seleccionado antes
@@ -254,13 +488,130 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                 cbSillon5.setChecked(false);
                 cbSillon6.setChecked(false);
                 if (  cbSillon4.isChecked()==false  ){
-                    imagen.setBackgroundResource(R.drawable.blanco);
-                    precio.setVisibility(View.INVISIBLE);
+                    switch (contador)
+                    {
+                        case 1:
+                            imagen.setBackgroundResource(R.drawable.blanco);
+                            precio.setVisibility(View.INVISIBLE);
+                            break;
+                        case 2:
+                            imagen2.setBackgroundResource(R.drawable.blanco);
+                            precio2.setVisibility(View.INVISIBLE);
+                            break;
+                        case 3:
+                            imagen3.setBackgroundResource(R.drawable.blanco);
+                            precio3.setVisibility(View.INVISIBLE);
+                            break;
+                        case 4:
+                            imagen4.setBackgroundResource(R.drawable.blanco);
+                            precio4.setVisibility(View.INVISIBLE);
+                            break;
+                        case 5:
+                            imagen5.setBackgroundResource(R.drawable.blanco);
+                            precio5.setVisibility(View.INVISIBLE);
+                            break;
+                        case 6:
+                            imagen6.setBackgroundResource(R.drawable.blanco);
+                            precio6.setVisibility(View.INVISIBLE);
+                            break;
+                        case 7:
+                            imagen7.setBackgroundResource(R.drawable.blanco);
+                            precio7.setVisibility(View.INVISIBLE);
+                            break;
+                        case 8:
+                            imagen8.setBackgroundResource(R.drawable.blanco);
+                            precio8.setVisibility(View.INVISIBLE);
+                            break;
+                        case 9:
+                            imagen9.setBackgroundResource(R.drawable.blanco);
+                            precio9.setVisibility(View.INVISIBLE);
+                            break;
+                        case 10:
+                            imagen10.setBackgroundResource(R.drawable.blanco);
+                            precio10.setVisibility(View.INVISIBLE);
+                            break;
+                        case 11:
+                            imagen11.setBackgroundResource(R.drawable.blanco);
+                            precio11.setVisibility(View.INVISIBLE);
+                            break;
+                    }
                 }else{
                     Drawable asistente = item4.getDrawable();
-                    imagen.setImageDrawable(asistente);
-                    precio.setText("22,000");
-                    precio.setVisibility(View.VISIBLE);
+                    switch (contador)
+                    {
+                        case 0:
+                            imagen.setVisibility(View.VISIBLE);
+                            imagen.setImageDrawable(asistente);
+                            precio.setText("30,500");
+                            precio.setVisibility(View.VISIBLE);
+                            break;
+                        case 1:
+                            imagen2.setVisibility(View.VISIBLE);
+                            imagen2.setImageDrawable(asistente);
+                            precio2.setText("30,500");
+                            precio2.setVisibility(View.VISIBLE);
+                            break;
+                        case 2:
+                            imagen3.setVisibility(View.VISIBLE);
+                            imagen3.setImageDrawable(asistente);
+                            precio3.setText("30,500");
+                            precio3.setVisibility(View.VISIBLE);
+                            break;
+                        case 3:
+                            imagen4.setVisibility(View.VISIBLE);
+                            imagen4.setImageDrawable(asistente);
+                            precio4.setText("30,500");
+                            precio4.setVisibility(View.VISIBLE);
+                            break;
+                        case 4:
+                            imagen5.setVisibility(View.VISIBLE);
+                            imagen5.setImageDrawable(asistente);
+                            precio5.setText("30,500");
+                            precio5.setVisibility(View.VISIBLE);
+                            break;
+                        case 5:
+                            imagen6.setVisibility(View.VISIBLE);
+                            imagen6.setImageDrawable(asistente);
+                            precio6.setText("30,500");
+                            precio6.setVisibility(View.VISIBLE);
+                            break;
+                        case 6:
+                            imagen7.setVisibility(View.VISIBLE);
+                            imagen7.setImageDrawable(asistente);
+                            precio7.setText("30,500");
+                            precio7.setVisibility(View.VISIBLE);
+                            break;
+                        case 7:
+                            imagen8.setVisibility(View.VISIBLE);
+                            imagen8.setImageDrawable(asistente);
+                            precio8.setText("30,500");
+                            precio8.setVisibility(View.VISIBLE);
+                            break;
+                        case 8:
+                            imagen9.setVisibility(View.VISIBLE);
+                            imagen9.setImageDrawable(asistente);
+                            precio9.setText("30,500");
+                            precio9.setVisibility(View.VISIBLE);
+                            break;
+                        case 9:
+                            imagen10.setVisibility(View.VISIBLE);
+                            imagen10.setImageDrawable(asistente);
+                            precio10.setText("30,500");
+                            precio10.setVisibility(View.VISIBLE);
+                            break;
+                        case 10:
+                            imagen11.setVisibility(View.VISIBLE);
+                            imagen11.setImageDrawable(asistente);
+                            precio11.setText("30,500");
+                            precio11.setVisibility(View.VISIBLE);
+                            break;
+                        case 11:
+                            imagen12.setVisibility(View.VISIBLE);
+                            imagen12.setImageDrawable(asistente);
+                            precio12.setText("30,500");
+                            precio12.setVisibility(View.VISIBLE);
+                            break;
+                    }
                 }
                 break;
             case R.id.cb5: //Deseleccionar la A en caso de haberla seleccionado antes
@@ -270,13 +621,130 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                 cbSillon3.setChecked(false);
                 cbSillon6.setChecked(false);
                 if (  cbSillon5.isChecked()==false  ){
-                    imagen.setBackgroundResource(R.drawable.blanco);
-                    precio.setVisibility(View.INVISIBLE);
+                    switch (contador)
+                    {
+                        case 1:
+                            imagen.setBackgroundResource(R.drawable.blanco);
+                            precio.setVisibility(View.INVISIBLE);
+                            break;
+                        case 2:
+                            imagen2.setBackgroundResource(R.drawable.blanco);
+                            precio2.setVisibility(View.INVISIBLE);
+                            break;
+                        case 3:
+                            imagen3.setBackgroundResource(R.drawable.blanco);
+                            precio3.setVisibility(View.INVISIBLE);
+                            break;
+                        case 4:
+                            imagen4.setBackgroundResource(R.drawable.blanco);
+                            precio4.setVisibility(View.INVISIBLE);
+                            break;
+                        case 5:
+                            imagen5.setBackgroundResource(R.drawable.blanco);
+                            precio5.setVisibility(View.INVISIBLE);
+                            break;
+                        case 6:
+                            imagen6.setBackgroundResource(R.drawable.blanco);
+                            precio6.setVisibility(View.INVISIBLE);
+                            break;
+                        case 7:
+                            imagen7.setBackgroundResource(R.drawable.blanco);
+                            precio7.setVisibility(View.INVISIBLE);
+                            break;
+                        case 8:
+                            imagen8.setBackgroundResource(R.drawable.blanco);
+                            precio8.setVisibility(View.INVISIBLE);
+                            break;
+                        case 9:
+                            imagen9.setBackgroundResource(R.drawable.blanco);
+                            precio9.setVisibility(View.INVISIBLE);
+                            break;
+                        case 10:
+                            imagen10.setBackgroundResource(R.drawable.blanco);
+                            precio10.setVisibility(View.INVISIBLE);
+                            break;
+                        case 11:
+                            imagen11.setBackgroundResource(R.drawable.blanco);
+                            precio11.setVisibility(View.INVISIBLE);
+                            break;
+                    }
                 }else{
                     Drawable asistente = item5.getDrawable();
-                    imagen.setImageDrawable(asistente);
-                    precio.setText("15,300");
-                    precio.setVisibility(View.VISIBLE);
+                    switch (contador)
+                    {
+                        case 0:
+                            imagen.setVisibility(View.VISIBLE);
+                            imagen.setImageDrawable(asistente);
+                            precio.setText("30,500");
+                            precio.setVisibility(View.VISIBLE);
+                            break;
+                        case 1:
+                            imagen2.setVisibility(View.VISIBLE);
+                            imagen2.setImageDrawable(asistente);
+                            precio2.setText("30,500");
+                            precio2.setVisibility(View.VISIBLE);
+                            break;
+                        case 2:
+                            imagen3.setVisibility(View.VISIBLE);
+                            imagen3.setImageDrawable(asistente);
+                            precio3.setText("30,500");
+                            precio3.setVisibility(View.VISIBLE);
+                            break;
+                        case 3:
+                            imagen4.setVisibility(View.VISIBLE);
+                            imagen4.setImageDrawable(asistente);
+                            precio4.setText("30,500");
+                            precio4.setVisibility(View.VISIBLE);
+                            break;
+                        case 4:
+                            imagen5.setVisibility(View.VISIBLE);
+                            imagen5.setImageDrawable(asistente);
+                            precio5.setText("30,500");
+                            precio5.setVisibility(View.VISIBLE);
+                            break;
+                        case 5:
+                            imagen6.setVisibility(View.VISIBLE);
+                            imagen6.setImageDrawable(asistente);
+                            precio6.setText("30,500");
+                            precio6.setVisibility(View.VISIBLE);
+                            break;
+                        case 6:
+                            imagen7.setVisibility(View.VISIBLE);
+                            imagen7.setImageDrawable(asistente);
+                            precio7.setText("30,500");
+                            precio7.setVisibility(View.VISIBLE);
+                            break;
+                        case 7:
+                            imagen8.setVisibility(View.VISIBLE);
+                            imagen8.setImageDrawable(asistente);
+                            precio8.setText("30,500");
+                            precio8.setVisibility(View.VISIBLE);
+                            break;
+                        case 8:
+                            imagen9.setVisibility(View.VISIBLE);
+                            imagen9.setImageDrawable(asistente);
+                            precio9.setText("30,500");
+                            precio9.setVisibility(View.VISIBLE);
+                            break;
+                        case 9:
+                            imagen10.setVisibility(View.VISIBLE);
+                            imagen10.setImageDrawable(asistente);
+                            precio10.setText("30,500");
+                            precio10.setVisibility(View.VISIBLE);
+                            break;
+                        case 10:
+                            imagen11.setVisibility(View.VISIBLE);
+                            imagen11.setImageDrawable(asistente);
+                            precio11.setText("30,500");
+                            precio11.setVisibility(View.VISIBLE);
+                            break;
+                        case 11:
+                            imagen12.setVisibility(View.VISIBLE);
+                            imagen12.setImageDrawable(asistente);
+                            precio12.setText("30,500");
+                            precio12.setVisibility(View.VISIBLE);
+                            break;
+                    }
                 }
                 break;
             case R.id.cb6: //Deseleccionar la A en caso de haberla seleccionado antes
@@ -286,61 +754,194 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                 cbSillon5.setChecked(false);
                 cbSillon3.setChecked(false);
                 if (  cbSillon6.isChecked()==false  ){
-                    imagen.setBackgroundResource(R.drawable.blanco);
-                    precio.setVisibility(View.INVISIBLE);
+                    switch (contador)
+                    {
+                        case 1:
+                            imagen.setBackgroundResource(R.drawable.blanco);
+                            precio.setVisibility(View.INVISIBLE);
+                            break;
+                        case 2:
+                            imagen2.setBackgroundResource(R.drawable.blanco);
+                            precio2.setVisibility(View.INVISIBLE);
+                            break;
+                        case 3:
+                            imagen3.setBackgroundResource(R.drawable.blanco);
+                            precio3.setVisibility(View.INVISIBLE);
+                            break;
+                        case 4:
+                            imagen4.setBackgroundResource(R.drawable.blanco);
+                            precio4.setVisibility(View.INVISIBLE);
+                            break;
+                        case 5:
+                            imagen5.setBackgroundResource(R.drawable.blanco);
+                            precio5.setVisibility(View.INVISIBLE);
+                            break;
+                        case 6:
+                            imagen6.setBackgroundResource(R.drawable.blanco);
+                            precio6.setVisibility(View.INVISIBLE);
+                            break;
+                        case 7:
+                            imagen7.setBackgroundResource(R.drawable.blanco);
+                            precio7.setVisibility(View.INVISIBLE);
+                            break;
+                        case 8:
+                            imagen8.setBackgroundResource(R.drawable.blanco);
+                            precio8.setVisibility(View.INVISIBLE);
+                            break;
+                        case 9:
+                            imagen9.setBackgroundResource(R.drawable.blanco);
+                            precio9.setVisibility(View.INVISIBLE);
+                            break;
+                        case 10:
+                            imagen10.setBackgroundResource(R.drawable.blanco);
+                            precio10.setVisibility(View.INVISIBLE);
+                            break;
+                        case 11:
+                            imagen11.setBackgroundResource(R.drawable.blanco);
+                            precio11.setVisibility(View.INVISIBLE);
+                            break;
+                    }
                 }else{
                     Drawable asistente = item6.getDrawable();
-                    imagen.setImageDrawable(asistente);
-                    precio.setText("11,000");
-                    precio.setVisibility(View.VISIBLE);
+                    switch (contador)
+                    {
+                        case 0:
+                            imagen.setVisibility(View.VISIBLE);
+                            imagen.setImageDrawable(asistente);
+                            precio.setText("30,500");
+                            precio.setVisibility(View.VISIBLE);
+                            break;
+                        case 1:
+                            imagen2.setVisibility(View.VISIBLE);
+                            imagen2.setImageDrawable(asistente);
+                            precio2.setText("30,500");
+                            precio2.setVisibility(View.VISIBLE);
+                            break;
+                        case 2:
+                            imagen3.setVisibility(View.VISIBLE);
+                            imagen3.setImageDrawable(asistente);
+                            precio3.setText("30,500");
+                            precio3.setVisibility(View.VISIBLE);
+                            break;
+                        case 3:
+                            imagen4.setVisibility(View.VISIBLE);
+                            imagen4.setImageDrawable(asistente);
+                            precio4.setText("30,500");
+                            precio4.setVisibility(View.VISIBLE);
+                            break;
+                        case 4:
+                            imagen5.setVisibility(View.VISIBLE);
+                            imagen5.setImageDrawable(asistente);
+                            precio5.setText("30,500");
+                            precio5.setVisibility(View.VISIBLE);
+                            break;
+                        case 5:
+                            imagen6.setVisibility(View.VISIBLE);
+                            imagen6.setImageDrawable(asistente);
+                            precio6.setText("30,500");
+                            precio6.setVisibility(View.VISIBLE);
+                            break;
+                        case 6:
+                            imagen7.setVisibility(View.VISIBLE);
+                            imagen7.setImageDrawable(asistente);
+                            precio7.setText("30,500");
+                            precio7.setVisibility(View.VISIBLE);
+                            break;
+                        case 7:
+                            imagen8.setVisibility(View.VISIBLE);
+                            imagen8.setImageDrawable(asistente);
+                            precio8.setText("30,500");
+                            precio8.setVisibility(View.VISIBLE);
+                            break;
+                        case 8:
+                            imagen9.setVisibility(View.VISIBLE);
+                            imagen9.setImageDrawable(asistente);
+                            precio9.setText("30,500");
+                            precio9.setVisibility(View.VISIBLE);
+                            break;
+                        case 9:
+                            imagen10.setVisibility(View.VISIBLE);
+                            imagen10.setImageDrawable(asistente);
+                            precio10.setText("30,500");
+                            precio10.setVisibility(View.VISIBLE);
+                            break;
+                        case 10:
+                            imagen11.setVisibility(View.VISIBLE);
+                            imagen11.setImageDrawable(asistente);
+                            precio11.setText("30,500");
+                            precio11.setVisibility(View.VISIBLE);
+                            break;
+                        case 11:
+                            imagen12.setVisibility(View.VISIBLE);
+                            imagen12.setImageDrawable(asistente);
+                            precio12.setText("30,500");
+                            precio12.setVisibility(View.VISIBLE);
+                            break;
+                    }
                 }
                 break;
             case R.id.bn_atras_catalogo: //Deseleccionar la A en caso de haberla seleccionado antes
+                item1.setVisibility(View.VISIBLE);
+                item2.setVisibility(View.VISIBLE);
+                item3.setVisibility(View.VISIBLE);
+                item4.setVisibility(View.VISIBLE);
+                item5.setVisibility(View.VISIBLE);
+                item6.setVisibility(View.VISIBLE);
+                cbSillon1.setVisibility(View.VISIBLE);
+                cbSillon2.setVisibility(View.VISIBLE);
+                cbSillon3.setVisibility(View.VISIBLE);
+                cbSillon4.setVisibility(View.VISIBLE);
+                cbSillon5.setVisibility(View.VISIBLE);
+                cbSillon6.setVisibility(View.VISIBLE);
                 switch (contador)
                 {
-                    case 1:
+                    case 0:
                         imagen.setVisibility(View.INVISIBLE);
                         precio.setVisibility(View.INVISIBLE);
                         break;
-                    case 2:
+                    case 1:
                         imagen2.setVisibility(View.INVISIBLE);
                         precio2.setVisibility(View.INVISIBLE);
                         break;
-                    case 3:
-                        imagen3.setBackgroundResource(R.drawable.blanco);
+                    case 2:
+                        imagen3.setVisibility(View.INVISIBLE);
                         precio3.setVisibility(View.INVISIBLE);
                         break;
-                    case 4:
-                        imagen4.setBackgroundResource(R.drawable.blanco);
+                    case 3:
+                        imagen4.setVisibility(View.INVISIBLE);
                         precio4.setVisibility(View.INVISIBLE);
                         break;
-                    case 5:
-                        imagen5.setBackgroundResource(R.drawable.blanco);
+                    case 4:
+                        imagen5.setVisibility(View.INVISIBLE);
                         precio5.setVisibility(View.INVISIBLE);
                         break;
-                    case 6:
-                        imagen6.setBackgroundResource(R.drawable.blanco);
+                    case 5:
+                        imagen6.setVisibility(View.INVISIBLE);
                         precio6.setVisibility(View.INVISIBLE);
                         break;
-                    case 7:
-                        imagen7.setBackgroundResource(R.drawable.blanco);
+                    case 6:
+                        imagen7.setVisibility(View.INVISIBLE);
                         precio7.setVisibility(View.INVISIBLE);
                         break;
-                    case 8:
-                        imagen8.setBackgroundResource(R.drawable.blanco);
+                    case 7:
+                        imagen8.setVisibility(View.INVISIBLE);
                         precio8.setVisibility(View.INVISIBLE);
                         break;
-                    case 9:
-                        imagen9.setBackgroundResource(R.drawable.blanco);
+                    case 8:
+                        imagen9.setVisibility(View.INVISIBLE);
                         precio9.setVisibility(View.INVISIBLE);
                         break;
-                    case 10:
-                        imagen10.setBackgroundResource(R.drawable.blanco);
+                    case 9:
+                        imagen10.setVisibility(View.INVISIBLE);
                         precio10.setVisibility(View.INVISIBLE);
                         break;
-                    case 11:
-                        imagen11.setBackgroundResource(R.drawable.blanco);
+                    case 10:
+                        imagen11.setVisibility(View.INVISIBLE);
                         precio11.setVisibility(View.INVISIBLE);
+                        break;
+                    case 11:
+                        imagen12.setVisibility(View.INVISIBLE);
+                        precio12.setVisibility(View.INVISIBLE);
                         break;
                 }
                 if (contador == 0)
@@ -354,6 +955,7 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                 }
                 switch(contador) {
                     case 0:
+
                         top.setImageResource(R.drawable.top_sofas_sala);
                         item1.setImageResource(R.drawable.sofa1);
                         item2.setImageResource(R.drawable.sofa2);
@@ -369,6 +971,7 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                         cbSillon6.setChecked(false);
                         break;
                     case 1:
+
                         top.setImageResource(R.drawable.top_sillones_sala);
                         item1.setImageResource(R.drawable.sillon1);
                         item2.setImageResource(R.drawable.sillon2);
@@ -386,6 +989,7 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
 
                         break;
                     case 2:
+
                         top.setImageResource(R.drawable.top_pufs_sala);
                         item1.setImageResource(R.drawable.sala_puf1);
                         item2.setImageResource(R.drawable.sala_puf2);
@@ -404,6 +1008,7 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                         cbSillon6.setChecked(false);
                         break;
                     case 3:
+
                         top.setImageResource(R.drawable.top_mesalateral_sala);
                         item1.setImageResource(R.drawable.sala_mesalateral1);
                         item2.setImageResource(R.drawable.sala_mesalateral2);
@@ -421,6 +1026,7 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                         cbSillon6.setChecked(false);
                         break;
                     case 4:
+
                         top.setImageResource(R.drawable.top_mesadecentro_sala);
                         item1.setImageResource(R.drawable.sala_mesacentro1);
                         item2.setImageResource(R.drawable.sala_mesacentro2);
@@ -437,6 +1043,7 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                         cbSillon6.setChecked(false);
                         break;
                     case 5:
+
                         top.setImageResource(R.drawable.top_trinchador_comedor);
                         item1.setImageResource(R.drawable.com_trinchador1);
                         item2.setImageResource(R.drawable.com_trinchador2);
@@ -454,6 +1061,7 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                         cbSillon6.setChecked(false);
                         break;
                     case 6:
+
                         top.setImageResource(R.drawable.top_sillas_comedor);
                         item1.setImageResource(R.drawable.com_silla1);
                         item2.setImageResource(R.drawable.com_silla2);
@@ -469,6 +1077,7 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                         cbSillon6.setChecked(false);
                         break;
                     case 7:
+
                         top.setImageResource(R.drawable.top_mesa_comedor);
                         item1.setImageResource(R.drawable.com_mesa1);
                         item2.setImageResource(R.drawable.com_mesa2);
@@ -484,6 +1093,7 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                         cbSillon6.setChecked(false);
                         break;
                     case 8:
+
                         top.setImageResource(R.drawable.top_sillasymesas_terraza);
                         item1.setImageResource(R.drawable.terraza_mesasysillas1);
                         item2.setImageResource(R.drawable.terraza_mesasysillas4);
@@ -502,6 +1112,7 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                         cbSillon6.setChecked(false);
                         break;
                     case 9:
+
                         top.setImageResource(R.drawable.top_mubles_terraza);
                         item1.setImageResource(R.drawable.terraza_muebles2);
                         item2.setImageResource(R.drawable.terraza_muebles3);
@@ -521,6 +1132,7 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                         cbSillon6.setChecked(false);
                         break;
                     case 10:
+
                         top.setImageResource(R.drawable.top_muebles_recamara);
                         item1.setImageResource(R.drawable.recamara_mueble1);
                         item2.setImageResource(R.drawable.recamara_mueble2);
@@ -543,15 +1155,28 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                 }
                 break;
             case R.id.bn_siguiente_catalogo:
-                if (contador <= 10) {
+                if (contador <= 11) {
                     contador++;
                 }
                 if(cbSillon1.isChecked()==false && cbSillon2.isChecked()==false && cbSillon3.isChecked()==false && cbSillon4.isChecked()==false && cbSillon5.isChecked()==false && cbSillon6.isChecked()==false) //en caso de no haber seleccionado alguna
                 {
                     Toast.makeText(this, "Seleccione un articulo a agregar", Toast.LENGTH_SHORT).show();
                 }else {
+                    item1.setVisibility(View.VISIBLE);
+                    item2.setVisibility(View.VISIBLE);
+                    item3.setVisibility(View.VISIBLE);
+                    item4.setVisibility(View.VISIBLE);
+                    item5.setVisibility(View.VISIBLE);
+                    item6.setVisibility(View.VISIBLE);
+                    cbSillon1.setVisibility(View.VISIBLE);
+                    cbSillon2.setVisibility(View.VISIBLE);
+                    cbSillon3.setVisibility(View.VISIBLE);
+                    cbSillon4.setVisibility(View.VISIBLE);
+                    cbSillon5.setVisibility(View.VISIBLE);
+                    cbSillon6.setVisibility(View.VISIBLE);
                     switch(contador) {
                         case 1:
+
                             top.setImageResource(R.drawable.top_sillones_sala);
                             item1.setImageResource(R.drawable.sillon1);
                             item2.setImageResource(R.drawable.sillon2);
