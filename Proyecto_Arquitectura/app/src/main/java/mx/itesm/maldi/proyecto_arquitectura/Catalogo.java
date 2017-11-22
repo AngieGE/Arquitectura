@@ -1410,10 +1410,14 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                 {
                     Toast.makeText(this, "Seleccione un articulo a agregar", Toast.LENGTH_SHORT).show();
                 }else {
-                    if (contador <= 11) {
+                    if (contador < 11) {
                         total_txt.setText(""+total);
                         contador++;
                         contador1++;
+                    }else{
+                        i = new Intent(Catalogo.this, Check_cuenta.class);
+                        i.putExtra("int_value", total);
+                        startActivity(i);
                     }
                     item1.setVisibility(View.VISIBLE);
                     item2.setVisibility(View.VISIBLE);

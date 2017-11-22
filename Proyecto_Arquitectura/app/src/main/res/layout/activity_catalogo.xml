@@ -47,18 +47,6 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical">
 
-                    <Button
-                        android:text="Omitir"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:background="@android:color/black"
-                        android:backgroundTint="@android:color/black"
-                        android:textColor="@android:color/white"
-                        android:fontFamily="serif"
-                        android:id="@+id/omitir"
-                        android:layout_weight="1"
-                        android:layout_marginTop="10dp" />
-
                     <TableRow
                         android:layout_width="190dp"
                         android:layout_height="wrap_content">
@@ -238,6 +226,18 @@
                         </LinearLayout>
 
                     </TableRow>
+
+                    <Button
+                        android:text="Omitir"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/black"
+                        android:backgroundTint="@android:color/black"
+                        android:textColor="@android:color/white"
+                        android:fontFamily="serif"
+                        android:id="@+id/omitir"
+                        android:layout_weight="1"
+                        android:layout_marginTop="10dp" />
 
                 </LinearLayout>
 
