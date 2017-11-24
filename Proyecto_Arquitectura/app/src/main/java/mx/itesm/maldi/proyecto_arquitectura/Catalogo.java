@@ -25,7 +25,7 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
     private ImageView imagen,imagen2,imagen3,imagen4,imagen5,imagen6,imagen7,imagen8,imagen9,imagen10,imagen11,imagen12, top, item1, item2, item3, item4, item5, item6;
     private Button atras, siguiente, omitir;
     private TextView precio ,precio2,precio3,precio4,precio5,precio6,precio7,precio8,precio9,precio10,precio11, precio12, total_txt;
-    int total = 0;
+    int total = 3000000;
     int temporal = 0;
     int temporal2 = 0;
     int temporal3 = 0;
@@ -40,18 +40,22 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
     int temporal12 = 0;
     int contador = 0;
     int contador1 = 0;
+
+    String x = Integer.toString(total);
+    StringBuilder str = new StringBuilder(x);
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_catalogo);
-        //Declatro las check box y el boton
+        //Declatro las check box
         cbSillon1=(CheckBox)findViewById(R.id.cb1);
         cbSillon2=(CheckBox)findViewById(R.id.cb2);
         cbSillon3=(CheckBox)findViewById(R.id.cb3);
         cbSillon4=(CheckBox)findViewById(R.id.cb4);
         cbSillon5=(CheckBox)findViewById(R.id.cb5);
         cbSillon6=(CheckBox)findViewById(R.id.cb6);
-
+        //IMagenes que aparecen en la columna derecha del intent
         imagen=(ImageView) findViewById(R.id.carrito_seleccion);
         imagen2=(ImageView) findViewById(R.id.carrito_seleccion2);
         imagen3=(ImageView) findViewById(R.id.carrito_seleccion3);
@@ -64,14 +68,16 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
         imagen10=(ImageView) findViewById(R.id.carrito_seleccion10);
         imagen11=(ImageView) findViewById(R.id.carrito_seleccion11);
         imagen12=(ImageView) findViewById(R.id.carrito_seleccion12);
-
-        top = (ImageView) findViewById(R.id.top);
+        //Botones y más
+        top = (ImageView) findViewById(R.id.top); //La imagen que muestra donde esta el mueble. Banner de arriba
         atras=(Button) findViewById(R.id.bn_atras_catalogo);
         siguiente=(Button) findViewById(R.id.bn_siguiente_catalogo);
         omitir=(Button) findViewById(R.id.omitir);
-
-        total_txt = (TextView) findViewById(R.id.tv_total);
-
+        total_txt = (TextView) findViewById(R.id.tv_total); //La suma de los precios TV.
+        str.insert(str.length()-4, ",");
+        System.out.println(str + "MIRAMEEEEEEEEEEEEEEEE");
+        total_txt.setText(str);
+        //Los precios individuales del lado derecho del carrito
         precio=(TextView) findViewById(R.id.precio1);
         precio2=(TextView) findViewById(R.id.precio2);
         precio3=(TextView) findViewById(R.id.precio3);
@@ -84,14 +90,13 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
         precio10=(TextView) findViewById(R.id.precio10);
         precio11=(TextView) findViewById(R.id.precio11);
         precio12=(TextView) findViewById(R.id.precio12);
-
+        //IMagenes que aparecen en la columna izquierda del intent
         item1 = (ImageView) findViewById(R.id.item1);
         item2 = (ImageView) findViewById(R.id.item2);
         item3 = (ImageView) findViewById(R.id.item3);
         item4 = (ImageView) findViewById(R.id.item4);
         item5 = (ImageView) findViewById(R.id.item5);
         item6 = (ImageView) findViewById(R.id.item6);
-
         //Les agrego su OnClickListener
         cbSillon1.setOnClickListener(this);
         cbSillon2.setOnClickListener(this);
@@ -99,7 +104,6 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
         cbSillon4.setOnClickListener(this);
         cbSillon5.setOnClickListener(this);
         cbSillon6.setOnClickListener(this);
-
         atras.setOnClickListener(this);
         siguiente.setOnClickListener(this);
         omitir.setOnClickListener(this);
@@ -109,7 +113,7 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
     public void onClick(View v) {
         Intent i;
         switch (v.getId()) {
-            case R.id.cb1: //Deseleccionar la B en caso de haberla seleccionado antes
+            case R.id.cb1: //Deseleccionar las otras en caso de seleccionar cb1
                 cbSillon2.setChecked(false);
                 cbSillon3.setChecked(false);
                 cbSillon4.setChecked(false);
@@ -1210,12 +1214,6 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                         }
                     }
                     */
-                    total=3000000;
-                    String x = Integer.toString(total);
-                    StringBuilder str = new StringBuilder(x);
-                    str.insert(str.length()-3, ",");
-                    System.out.println(str + "MIRAMEEEEEEEEEEEEEEEE");
-
 
                     total_txt.setText("$ "+str);
                     contador1 = contador;
@@ -1224,7 +1222,7 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                     if(contador == 0)
                     {
                         total = 0;
-                        total_txt.setText("$ "+total);
+                        total_txt.setText("$ "+str); //antes decia: total_txt.setText("$ "+total);
                     }
                 }
                 switch(contador) {
@@ -1431,7 +1429,12 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                     Toast.makeText(this, "Seleccione un articulo a agregar", Toast.LENGTH_SHORT).show();
                 }else {
                     if (contador < 11) {
-                        total_txt.setText("$ "+total);
+                        x = Integer.toString(total);
+                        // StringBuilder str = new StringBuilder(x);
+                        str.insert(str.length()-4, ",");
+                        System.out.println(str + "MIRAMEEEEEEEEEEEEEEEE");
+                        total_txt.setText("$ "+str);
+                        //total_txt.setText("$ "+total); //ESTO ES LO QUE ESTABA ANTES
                         contador++;
                         contador1++;
                     }else{
