@@ -1197,14 +1197,14 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                        case 12:total-=temporal12;break;
                    }
 
-                    total_txt.setText(""+total);
+                    total_txt.setText("$ "+total);
                     contador1 = contador;
                     contador--;
                     contador1--;
                     if(contador == 0)
                     {
                         total = 0;
-                        total_txt.setText(""+total);
+                        total_txt.setText("$ "+total);
                     }
                 }
                 switch(contador) {
@@ -1344,7 +1344,7 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                         cbSillon5.setChecked(false);
                         cbSillon6.setChecked(false);
                         break;
-                    case 8:
+                    case 11:
 
                         top.setImageResource(R.drawable.top_sillasymesas_terraza);
                         item1.setImageResource(R.drawable.terraza_mesasysillas1);
@@ -1381,7 +1381,7 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                         cbSillon5.setChecked(false);
                         cbSillon6.setChecked(false);
                         break;
-                    case 10:
+                    case 8:
 
                         top.setImageResource(R.drawable.top_muebles_recamara);
                         item1.setImageResource(R.drawable.recamara_mueble1);
@@ -1411,7 +1411,7 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                     Toast.makeText(this, "Seleccione un articulo a agregar", Toast.LENGTH_SHORT).show();
                 }else {
                     if (contador < 11) {
-                        total_txt.setText(""+total);
+                        total_txt.setText("$ "+total);
                         contador++;
                         contador1++;
                     }else{
@@ -1548,7 +1548,7 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                             cbSillon5.setChecked(false);
                             cbSillon6.setChecked(false);
                             break;
-                        case 8:
+                        case 11:
                             top.setImageResource(R.drawable.top_sillasymesas_terraza);
                             item1.setImageResource(R.drawable.terraza_mesasysillas1);
                             item2.setImageResource(R.drawable.terraza_mesasysillas2);
@@ -1583,7 +1583,7 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                             cbSillon5.setChecked(false);
                             cbSillon6.setChecked(false);
                             break;
-                        case 10:
+                        case 8:
                             top.setImageResource(R.drawable.top_muebles_recamara);
                             item1.setImageResource(R.drawable.recamara_mueble1);
                             item2.setImageResource(R.drawable.recamara_mueble2);
@@ -1602,7 +1602,7 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                             cbSillon5.setChecked(false);
                             cbSillon6.setChecked(false);
                             break;
-                        case 11:
+                        case 10:
                             top.setImageResource(R.drawable.top_bancos_cocina);
                             item1.setImageResource(R.drawable.cocina_banco1);
                             item2.setImageResource(R.drawable.cocina_banco2);
@@ -1753,7 +1753,7 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                         cbSillon5.setChecked(false);
                         cbSillon6.setChecked(false);
                         break;
-                    case 8:
+                    case 11:
                         top.setImageResource(R.drawable.top_sillasymesas_terraza);
                         item1.setImageResource(R.drawable.terraza_mesasysillas1);
                         item2.setImageResource(R.drawable.terraza_mesasysillas4);
@@ -1790,7 +1790,7 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                         cbSillon5.setChecked(false);
                         cbSillon6.setChecked(false);
                         break;
-                    case 10:
+                    case 8:
                         top.setImageResource(R.drawable.top_muebles_recamara);
                         item1.setImageResource(R.drawable.recamara_mueble1);
                         item2.setImageResource(R.drawable.recamara_mueble2);
@@ -1809,7 +1809,7 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                         cbSillon5.setChecked(false);
                         cbSillon6.setChecked(false);
                         break;
-                    case 11:
+                    case 10:
                         top.setImageResource(R.drawable.top_bancos_cocina);
                         item1.setImageResource(R.drawable.cocina_banco1);
                         item2.setImageResource(R.drawable.cocina_banco2);
