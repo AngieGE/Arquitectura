@@ -13,6 +13,12 @@ import android.widget.Toast;
 
 import org.w3c.dom.Text;
 
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.ListIterator;
+import java.util.Set;
+
 public class Catalogo extends AppCompatActivity implements View.OnClickListener  {
 
     private CheckBox cbSillon1, cbSillon2, cbSillon3, cbSillon4, cbSillon5, cbSillon6 ;
@@ -1196,8 +1202,22 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                        case 11:total-=temporal11;break;
                        case 12:total-=temporal12;break;
                    }
+                    /*
+                    String totalString =Integer.toString(total);
+                    for (int r=0;r<totalString.length();r++){
+                        if (r==2 ){
+                            //Agregar la coma
+                        }
+                    }
+                    */
+                    total=3000000;
+                    String x = Integer.toString(total);
+                    StringBuilder str = new StringBuilder(x);
+                    str.insert(str.length()-3, ",");
+                    System.out.println(str + "MIRAMEEEEEEEEEEEEEEEE");
 
-                    total_txt.setText("$ "+total);
+
+                    total_txt.setText("$ "+str);
                     contador1 = contador;
                     contador--;
                     contador1--;
