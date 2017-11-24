@@ -68,11 +68,13 @@
                             android:layout_height="match_parent"
                             android:orientation="vertical">
 
-                            <ImageView
+                            <ImageButton
                                 android:id="@+id/item1"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
                                 app:srcCompat="@drawable/sofa1" />
+
                         </LinearLayout>
 
                     </TableRow>
@@ -98,11 +100,13 @@
                             android:layout_height="match_parent"
                             android:orientation="vertical">
 
-                            <ImageView
+                            <ImageButton
                                 android:id="@+id/item2"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
                                 app:srcCompat="@drawable/sofa2" />
+
                         </LinearLayout>
 
                     </TableRow>
@@ -128,11 +132,13 @@
                             android:layout_height="match_parent"
                             android:orientation="vertical">
 
-                            <ImageView
+                            <ImageButton
                                 android:id="@+id/item3"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
                                 app:srcCompat="@drawable/sofa3" />
+
                         </LinearLayout>
 
                     </TableRow>
@@ -158,11 +164,13 @@
                             android:layout_height="match_parent"
                             android:orientation="vertical">
 
-                            <ImageView
+                            <ImageButton
                                 android:id="@+id/item4"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
                                 app:srcCompat="@drawable/img_sofa4" />
+
                         </LinearLayout>
 
                     </TableRow>
@@ -188,11 +196,13 @@
                             android:layout_height="match_parent"
                             android:orientation="vertical">
 
-                            <ImageView
+                            <ImageButton
                                 android:id="@+id/item5"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
                                 app:srcCompat="@drawable/sofa5" />
+
                         </LinearLayout>
 
                     </TableRow>
@@ -218,11 +228,13 @@
                             android:layout_height="match_parent"
                             android:orientation="vertical">
 
-                            <ImageView
+                            <ImageButton
                                 android:id="@+id/item6"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
                                 app:srcCompat="@drawable/sofa6" />
+
                         </LinearLayout>
 
                     </TableRow>

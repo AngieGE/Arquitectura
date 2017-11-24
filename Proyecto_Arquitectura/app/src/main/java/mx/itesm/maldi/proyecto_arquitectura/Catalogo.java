@@ -1,12 +1,15 @@
 package mx.itesm.maldi.proyecto_arquitectura;
 
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -22,7 +25,8 @@ import java.util.Set;
 public class Catalogo extends AppCompatActivity implements View.OnClickListener  {
 
     private CheckBox cbSillon1, cbSillon2, cbSillon3, cbSillon4, cbSillon5, cbSillon6 ;
-    private ImageView imagen,imagen2,imagen3,imagen4,imagen5,imagen6,imagen7,imagen8,imagen9,imagen10,imagen11,imagen12, top, item1, item2, item3, item4, item5, item6;
+    private ImageView imagen,imagen2,imagen3,imagen4,imagen5,imagen6,imagen7,imagen8,imagen9,imagen10,imagen11,imagen12, top;
+    private ImageButton item1, item2, item3, item4, item5, item6;
     private Button atras, siguiente, omitir;
     private TextView precio ,precio2,precio3,precio4,precio5,precio6,precio7,precio8,precio9,precio10,precio11, precio12, total_txt;
     int total = 3000000;
@@ -38,8 +42,8 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
     int temporal10 = 0;
     int temporal11 = 0;
     int temporal12 = 0;
-    int contador = 0;
-    int contador1 = 0;
+    int contador = 0; //¿Que hace esto?
+    int contador1 = 0; //¿Que hace esto?
 
     String x = Integer.toString(total);
     StringBuilder str = new StringBuilder(x);
@@ -91,12 +95,12 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
         precio11=(TextView) findViewById(R.id.precio11);
         precio12=(TextView) findViewById(R.id.precio12);
         //IMagenes que aparecen en la columna izquierda del intent
-        item1 = (ImageView) findViewById(R.id.item1);
-        item2 = (ImageView) findViewById(R.id.item2);
-        item3 = (ImageView) findViewById(R.id.item3);
-        item4 = (ImageView) findViewById(R.id.item4);
-        item5 = (ImageView) findViewById(R.id.item5);
-        item6 = (ImageView) findViewById(R.id.item6);
+        item1 = (ImageButton) findViewById(R.id.item1);
+        item2 = (ImageButton) findViewById(R.id.item2);
+        item3 = (ImageButton) findViewById(R.id.item3);
+        item4 = (ImageButton) findViewById(R.id.item4);
+        item5 = (ImageButton) findViewById(R.id.item5);
+        item6 = (ImageButton) findViewById(R.id.item6);
         //Les agrego su OnClickListener
         cbSillon1.setOnClickListener(this);
         cbSillon2.setOnClickListener(this);
@@ -113,6 +117,74 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
     public void onClick(View v) {
         Intent i;
         switch (v.getId()) {
+            case R.id.item1: //zoom a estilo 1
+                if(contador==1){
+                    Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.sofa1);
+                    cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+                    cdd.show();
+                }else if(contador==2){
+                    Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.sofa1);
+                    cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+                    cdd.show();
+                }else if(contador==3){
+                    Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.sofa1);
+                    cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+                    cdd.show();
+
+                }else if(contador==4){
+                    Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.sofa1);
+                    cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+                    cdd.show();
+                }else if(contador==5){
+                    Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.sofa1);
+                    cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+                    cdd.show();
+                }else if(contador==6){
+                    Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.sofa1);
+                    cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+                    cdd.show();
+                }else if(contador==7){
+                    Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.sofa1);
+                    cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+                    cdd.show();
+                }else if(contador==8){
+                    Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.sofa1);
+                    cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+                    cdd.show();
+                }else if(contador==9){
+                    Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.sofa1);
+                    cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+                    cdd.show();
+                }else if(contador==10){
+                    Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.sofa1);
+                    cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+                    cdd.show();
+                }else if(contador==11){
+                    Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.sofa1);
+                    cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+                    cdd.show();
+                }else if(contador==0){
+                    Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.sofa1);
+                    cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+                    cdd.show();
+                }
+                break;
+            case R.id.item2: //zoom a estilo 1
+;
+                break;
+            case R.id.item3: //zoom a estilo 1
+
+                break;
+            case R.id.item4: //zoom a estilo 1
+
+                break;
+            case R.id.item5: //zoom a estilo 1
+
+                break;
+            case R.id.item6: //zoom a estilo 1
+
+                break;
+
             case R.id.cb1: //Deseleccionar las otras en caso de seleccionar cb1
                 cbSillon2.setChecked(false);
                 cbSillon3.setChecked(false);
