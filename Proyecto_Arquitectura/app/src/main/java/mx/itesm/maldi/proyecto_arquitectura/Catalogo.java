@@ -236,63 +236,136 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
             case R.id.item3: //zoom a estilo 1
                 if(contador==0){ //Sofas
                     System.out.println("entre al zoom 0 ------------------------------");
-                    Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item3_cont0);
+                    Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item3_count0);
                     cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
                     cdd.show();
                 }
                 else if(contador==1){
                     System.out.println("entre al zoom 1 ------------------------------");
-                    Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item3_cont1);
+                    Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item3_count1);
                     cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
                     cdd.show();
                 }else if(contador==2){ //Pufs
-                    Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item3_cont2);
+                    Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item3_count2);
                     cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
                     cdd.show();
                 }else if(contador==3){ //Mesa lateral
-                    Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item3_cont3);
+                    Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item3_count3);
                     cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
                     cdd.show();
 
                 }else if(contador==4){ //Mesa de centro
-                    Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item3_cont4);
+                    Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item3_count4);
                     cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
                     cdd.show();
                 }else if(contador==5){ //Trinchador
-                    Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item3_cont5);
+                    Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item3_count5);
                     cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
                     cdd.show();
                 }else if(contador==6){ //sillas
-                    Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item3_cont6);
+                    Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item3_count6);
                     cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
                     cdd.show();
                 }else if(contador==7){ //Mesa
-                    Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item3_cont7);
+                    Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item3_count7);
                     cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
                     cdd.show();
                 }
-                else if(contador==9){ //Muebles
-                    Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item3_cont9);
+                else if(contador==9){ //Muebles ULTIMO
+                    Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item3_count9);
                     cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
                     cdd.show();
-                }else if(contador==10){
-                    Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item3_cont10);
+                }else if(contador==10){ //Bancos
+                    Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item3_count10);
                     cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
                     cdd.show();
                 }else if(contador==11){
-                    Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item3_cont11);
+                    Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item3_count11);
                     cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
                     cdd.show();
                 }
                 break;
             case R.id.item4: //zoom a estilo 1
+                if(contador==0){ //Sofas
+                    System.out.println("entre al zoom 0 ------------------------------");
+                    Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item4_cont0);
+                    cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+                    cdd.show();
+                }
+                else if(contador==1){ //sillones
+                    System.out.println("entre al zoom 1 ------------------------------");
+                    Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item4_cont1);
+                    cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+                    cdd.show();
+                }else if(contador==3){ //Mesa lateral
+                    Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item4_cont3);
+                    cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+                    cdd.show();
 
+                }else if(contador==4){ //Mesa de centro
+                    Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item4_cont4);
+                    cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+                    cdd.show();
+                }else if(contador==5){ //Trinchador
+                    Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item4_cont5);
+                    cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+                    cdd.show();
+                }else if(contador==6){ //sillas
+                    Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item4_cont6);
+                    cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+                    cdd.show();
+                }else if(contador==7){ //Mesa
+                    Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item4_cont7);
+                    cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+                    cdd.show();
+                }else if(contador==10){ //1
+                    Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item4_cont10);
+                    cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+                    cdd.show();
+                }else if(contador==11){
+                    Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item4_cont11);
+                    cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+                    cdd.show();
+                }
                 break;
             case R.id.item5: //zoom a estilo 1
-
+                if(contador==0){ //Sofas
+                    Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item5_cont0);
+                    cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+                    cdd.show();
+                }
+                else if(contador==1){ //sillones ULTIMA
+                    Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item5_cont1);
+                    cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+                    cdd.show();
+                }else if(contador==4){ //Mesa de centro
+                    Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item5_cont4);
+                    cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+                    cdd.show();
+                }else if(contador==6){ //sillas
+                    Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item5_cont6);
+                    cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+                    cdd.show();
+                }else if(contador==7){ //Mesa
+                    Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item5_cont7);
+                    cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+                    cdd.show();
+                }
                 break;
             case R.id.item6: //zoom a estilo 1
-
+                if(contador==0) { //Sofas
+                    Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item6_cont0);
+                    cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+                    cdd.show();
+                }else if(contador==6){ //sillas
+                    Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item6_cont6);
+                    cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+                    cdd.show();
+                }else if(contador==7){ //Mesa
+                    Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item6_cont7);
+                    cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+                    cdd.show();
+                }
                 break;
 
             case R.id.cb1: //Deseleccionar las otras en caso de seleccionar cb1
