@@ -24,11 +24,20 @@ public class Check_cuenta extends AppCompatActivity implements View.OnClickListe
         confirmar = (Button) findViewById(R.id.confirmar);
         Intent intent = getIntent();
         int temp = intent.getIntExtra("int_value", 0);
-        total.setText("$ " + temp);
+        String x = Integer.toString(temp);
+        StringBuilder str = new StringBuilder(x);
+        str.insert(str.length() - 3, ",");
+        total.setText("$ " + str);
         int asist_iva = (temp * 16) / 100;
-        iva.setText("$ " + asist_iva);
+        String y = Integer.toString(asist_iva);
+        StringBuilder stry = new StringBuilder(y);
+        stry.insert(stry.length() - 3, ",");
+        iva.setText("$ " + stry);
         int asist_sumatoria = temp + asist_iva;
-        sumatoria.setText("$ " + asist_sumatoria);
+        String z = Integer.toString(asist_sumatoria);
+        StringBuilder strz = new StringBuilder(z);
+        strz.insert(strz.length() - 3, ",");
+        sumatoria.setText("$ " + strz);
 
         atras.setOnClickListener(this);
         confirmar.setOnClickListener(this);
