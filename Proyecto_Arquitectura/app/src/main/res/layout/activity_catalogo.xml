@@ -73,6 +73,8 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:adjustViewBounds="true"
+                                android:background="@android:color/white"
+                                android:backgroundTint="@android:color/white"
                                 app:srcCompat="@drawable/sofa1" />
 
                         </LinearLayout>
@@ -105,6 +107,8 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:adjustViewBounds="true"
+                                android:background="@android:color/white"
+                                android:backgroundTint="@android:color/white"
                                 app:srcCompat="@drawable/sofa2" />
 
                         </LinearLayout>
@@ -137,6 +141,8 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:adjustViewBounds="true"
+                                android:background="@android:color/white"
+                                android:backgroundTint="@android:color/white"
                                 app:srcCompat="@drawable/sofa3" />
 
                         </LinearLayout>
@@ -169,6 +175,8 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:adjustViewBounds="true"
+                                android:background="@android:color/white"
+                                android:backgroundTint="@android:color/white"
                                 app:srcCompat="@drawable/img_sofa4" />
 
                         </LinearLayout>
@@ -201,6 +209,8 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:adjustViewBounds="true"
+                                android:background="@android:color/white"
+                                android:backgroundTint="@android:color/white"
                                 app:srcCompat="@drawable/sofa5" />
 
                         </LinearLayout>
@@ -233,6 +243,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:adjustViewBounds="true"
+                                android:background="@android:color/white"
                                 app:srcCompat="@drawable/sofa6" />
 
                         </LinearLayout>
