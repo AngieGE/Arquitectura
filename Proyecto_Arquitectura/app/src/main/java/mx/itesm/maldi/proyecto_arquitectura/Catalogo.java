@@ -860,36 +860,45 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
             case 0:
                 if (cbSillon1.isChecked()){
                     precio.setText("24,800");
+                    arreglo[contador1] = 24800;
                 }else if (cbSillon2.isChecked()){
                     precio.setText("28,500");
+                    arreglo[contador1] = 28500;
                 }else if(cbSillon3.isChecked()){
                     precio.setText("32,400");
+                    arreglo[contador1] = 32400;
                 }else if (cbSillon4.isChecked()){
                     precio.setText("35,900");
+                    arreglo[contador1] = 35900;
                 }else if(cbSillon5.isChecked()){
                     precio.setText("23,200");
+                    arreglo[contador1] = 23200;
                 }else if(cbSillon6.isChecked()){
                     precio.setText("38,700");
+                    arreglo[contador1] = 38700;
                 }
                 imagen.setVisibility(View.VISIBLE);
                 imagen.setImageDrawable(asistente);
-                arreglo[contador1] = 10000;
                 total = arreglo[contador];
                 precio.setVisibility(View.VISIBLE);
                 break;
             case 1:
                 if (cbSillon1.isChecked()){
                     precio2.setText("6,500");
+                    arreglo[contador1] = 6500;
                 }else if (cbSillon2.isChecked()){
                     precio2.setText("6,900");
+                    arreglo[contador1] = 6900;
                 }else if(cbSillon3.isChecked()){
                     precio2.setText("5,900");
+                    arreglo[contador1] = 5900;
                 }else if (cbSillon4.isChecked()){
                     precio2.setText("5,500");
+                    arreglo[contador1] = 5500;
                 }else if(cbSillon5.isChecked()){ //ESTA SILLA SE TENDRA QUE ELIMINAR
                     precio2.setText("0");
+                    arreglo[contador1] = 0;
                 }
-                arreglo[contador1] = 12500;
                 total = arreglo[contador1]+arreglo[contador1-1];
                 arreglo[contador1] = total;
                 imagen2.setVisibility(View.VISIBLE);
@@ -899,12 +908,14 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
             case 2:
                 if (cbSillon1.isChecked()){
                     precio3.setText("3,600");
+                    arreglo[contador1] = 3600;
                 }else if (cbSillon2.isChecked()){
                     precio3.setText("3,800");
+                    arreglo[contador1] = 3800;
                 }else if(cbSillon3.isChecked()){
                     precio3.setText("3,200");
+                    arreglo[contador1] = 3200;
                 }
-                arreglo[contador1] = 30500;
                 total = arreglo[contador1]+arreglo[contador1-1] ;
                 arreglo[contador1] = total;
                 imagen3.setVisibility(View.VISIBLE);
@@ -914,14 +925,17 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
             case 3:
                 if (cbSillon1.isChecked()){
                     precio4.setText("4,500");
+                    arreglo[contador1] = 4500;
                 }else if (cbSillon2.isChecked()){
                     precio4.setText("4,200");
+                    arreglo[contador1] = 4200;
                 }else if(cbSillon3.isChecked()){
                     precio4.setText("4,900");
+                    arreglo[contador1] = 4900;
                 }else if (cbSillon4.isChecked()){
                     precio4.setText("3,900");
+                    arreglo[contador1] = 3900;
                 }
-                arreglo[contador1] = 25000;
                 total = arreglo[contador1]+arreglo[contador1-1] ;
                 arreglo[contador1] = total;
                 imagen4.setVisibility(View.VISIBLE);
@@ -931,16 +945,20 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
             case 4:
                 if (cbSillon1.isChecked()){
                     precio.setText("14,800");
+                    arreglo[contador1] = 14800;
                 }else if (cbSillon2.isChecked()){
                     precio5.setText("11,700");
+                    arreglo[contador1] = 11700;
                 }else if(cbSillon3.isChecked()){
                     precio5.setText("12,600");
+                    arreglo[contador1] = 12600;
                 }else if (cbSillon4.isChecked()){
                     precio5.setText("13,700");
+                    arreglo[contador1] = 13700;
                 }else if(cbSillon5.isChecked()){ //ESTA MESA SE TENDRA QUE ELIMINAR
                     precio5.setText("0");
+                    arreglo[contador1] = 0;
                 }
-                arreglo[contador1] = 10000;
                 total = arreglo[contador1]+arreglo[contador1-1] ;
                 arreglo[contador1] = total;
                 imagen5.setVisibility(View.VISIBLE);
@@ -950,14 +968,17 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
             case 5:
                 if (cbSillon1.isChecked()){
                     precio6.setText("19,500");
+                    arreglo[contador1] = 19500;
                 }else if (cbSillon2.isChecked()){
                     precio6.setText("15,700");
+                    arreglo[contador1] = 15700;
                 }else if(cbSillon3.isChecked()){
                     precio6.setText("18,900");
+                    arreglo[contador1] = 18900;
                 }else if (cbSillon4.isChecked()){
                     precio6.setText("17,800");
+                    arreglo[contador1] = 17800;
                 }
-                arreglo[contador1] = 18000;
                 total = arreglo[contador1]+arreglo[contador1-1] ;
                 arreglo[contador1] = total;
                 imagen6.setVisibility(View.VISIBLE);
@@ -967,18 +988,23 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
             case 6: //Sillas
                 if (cbSillon1.isChecked()){
                     precio7.setText("6,200");
+                    arreglo[contador1] = 6200;
                 }else if (cbSillon2.isChecked()){
                     precio7.setText("6,900");
+                    arreglo[contador1] = 6900;
                 }else if(cbSillon3.isChecked()){
                     precio7.setText("5,800");
+                    arreglo[contador1] = 5800;
                 }else if (cbSillon4.isChecked()){
                     precio7.setText("0"); //SE TENDRA QUE ELIMINAR
+                    arreglo[contador1] = 0;
                 }else if(cbSillon5.isChecked()){ //SE TENDRA QUE ELIMINAR
                     precio7.setText("0");
+                    arreglo[contador1] = 0;
                 }else if(cbSillon5.isChecked()){
                     precio7.setText("6,500");
+                    arreglo[contador1] = 6500;
                 }
-                arreglo[contador1] = 50000;
                 total = arreglo[contador1]+arreglo[contador1-1] ;
                 arreglo[contador1] = total;
                 imagen7.setVisibility(View.VISIBLE);
@@ -988,18 +1014,23 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
             case 7: //Mesa
                 if (cbSillon1.isChecked()){
                     precio.setText("26,800");
+                    arreglo[contador1] = 26800;
                 }else if (cbSillon2.isChecked()){
                     precio8.setText("29,600");
+                    arreglo[contador1] = 29600;
                 }else if(cbSillon3.isChecked()){
                     precio8.setText("35,800");
+                    arreglo[contador1] = 35800;
                 }else if (cbSillon4.isChecked()){
                     precio8.setText("32,800");
+                    arreglo[contador1] = 32800;
                 }else if(cbSillon5.isChecked()){ //SE TENDRA QUE ELIMINAR
                     precio8.setText("0");
+                    arreglo[contador1] = 0;
                 }else if(cbSillon5.isChecked()){ //SE TENDRA QUE ELIMINAR
                     precio8.setText("0");
+                    arreglo[contador1] = 0;
                 }
-                arreglo[contador1] = 13000;
                 total = arreglo[contador1]+arreglo[contador1-1] ;
                 arreglo[contador1] = total;
                 imagen8.setVisibility(View.VISIBLE);
@@ -1009,11 +1040,12 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
             case 8: //Recamara muebles
                 if (cbSillon1.isChecked()){
                     precio9.setText("32,700");
+                    arreglo[contador1] = 32700;
                 }else if (cbSillon2.isChecked()){
                     precio9.setText("35,800");
+                    arreglo[contador1] = 35800;
                 }
                 //FALTA UNA CAMA
-                arreglo[contador1] = 30500;
                 total = arreglo[contador1]+arreglo[contador1-1] ;
                 arreglo[contador1] = total;
                 imagen9.setVisibility(View.VISIBLE);
@@ -1023,11 +1055,12 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
             case 9: //Terraza muebles
                 if (cbSillon1.isChecked()){
                     precio10.setText("33,800");
+                    arreglo[contador1] = 33800;
                 }else if (cbSillon2.isChecked()){ //Se tendra que eliminar
                     precio10.setText("0");
+                    arreglo[contador1] = 0;
                 }
                 //FALTA UN MUEBLE
-                arreglo[contador1] = 20500;
                 total = arreglo[contador1]+arreglo[contador1-1] ;
                 arreglo[contador1] = total;
                 imagen10.setVisibility(View.VISIBLE);
@@ -1037,14 +1070,17 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
             case 10://bancos
                 if (cbSillon1.isChecked()){
                     precio11.setText("7,200");
+                    arreglo[contador1] = 7200;
                 }else if (cbSillon2.isChecked()){
                     precio11.setText("7,800");
+                    arreglo[contador1] = 7800;
                 }else if (cbSillon1.isChecked()){ //Se tendra que eliminar
                     precio11.setText("0");
+                    arreglo[contador1] = 0;
                 }else if (cbSillon2.isChecked()){ //Se tendra que eliminar
                     precio11.setText("0");
+                    arreglo[contador1] = 0;
                 }
-                arreglo[contador1] = 12550;
                 total = arreglo[contador1]+arreglo[contador1-1] ;
                 arreglo[contador1] = total;
                 imagen11.setVisibility(View.VISIBLE);
@@ -1054,12 +1090,14 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
             case 11: //Sillas y mesas
                 if (cbSillon1.isChecked()){ //Se tendra que modificar
                     precio12.setText("0");
+                    arreglo[contador1] = 0;
                 }else if (cbSillon2.isChecked()){ //Se tendra que modificar
                     precio12.setText("0");
+                    arreglo[contador1] = 0;
                 }else if (cbSillon1.isChecked()){ //Se tendra que modificar
                     precio12.setText("0");
+                    arreglo[contador1] = 0;
                 }
-                arreglo[contador1] = 17000;
                 total = arreglo[contador1]+arreglo[contador1-1] ;
                 arreglo[contador1] = total;
                 imagen12.setVisibility(View.VISIBLE);
@@ -1069,11 +1107,12 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
             case 12: //Recamara muebles Otra vez??
                 if (cbSillon1.isChecked()){
                     precio13.setText("32,700");
+                    arreglo[contador1] = 32700;
                 }else if (cbSillon2.isChecked()){
                     precio13.setText("35,800");
+                    arreglo[contador1] = 35800;
                 }
                 //FALTA UNA CAMA
-                arreglo[contador1] = 7000;
                 total = arreglo[contador1]+arreglo[contador1-1] ;
                 arreglo[contador1] = total;
                 imagen13.setVisibility(View.VISIBLE);
@@ -1083,10 +1122,11 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
             case 13: //Recamara 2 muebles
                 if (cbSillon1.isChecked()){
                     precio14.setText("18,400");
+                    arreglo[contador1] = 18400;
                 }else if (cbSillon2.isChecked()){
                     precio14.setText("16,300");
+                    arreglo[contador1] = 16300;
                 }
-                arreglo[contador1] = 8000;
                 total = arreglo[contador1]+arreglo[contador1-1] ;
                 arreglo[contador1] = total;
                 imagen14.setVisibility(View.VISIBLE);
@@ -1096,10 +1136,11 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
             case 14: //Recamara 3 muebles
                 if (cbSillon1.isChecked()){
                     precio15.setText("26,800");
-                }else if (cbSillon2.isChecked()){
+                    arreglo[contador1] = 26800;
+                }else if (cbSillon2.isChecked()) {
                     precio15.setText("24,700");
+                    arreglo[contador1] = 24700;
                 }
-                arreglo[contador1] = 11000;
                 total = arreglo[contador1]+arreglo[contador1-1] ;
                 arreglo[contador1] = total;
                 imagen15.setVisibility(View.VISIBLE);
