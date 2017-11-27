@@ -26,12 +26,12 @@ import java.util.Set;
 public class Catalogo extends AppCompatActivity implements View.OnClickListener {
 
     private CheckBox cbSillon1, cbSillon2, cbSillon3, cbSillon4, cbSillon5, cbSillon6;
-    int[] arreglo = new int[12];
-    private ImageView imagen, imagen2, imagen3, imagen4, imagen5, imagen6, imagen7, imagen8, imagen9, imagen10, imagen11, imagen12, top;
+    int[] arreglo = new int[15];
+    private ImageView imagen, imagen2, imagen3, imagen4, imagen5, imagen6, imagen7, imagen8, imagen9, imagen10, imagen11, imagen12, imagen13, imagen14, imagen15, top;
     private ImageButton item1, item2, item3, item4, item5, item6;
     private Button atras, siguiente, omitir;
     int bandera = 0;
-    private TextView precio, precio2, precio3, precio4, precio5, precio6, precio7, precio8, precio9, precio10, precio11, precio12, total_txt;
+    private TextView precio, precio2, precio3, precio4, precio5, precio6, precio7, precio8, precio9, precio10, precio11, precio12, precio13, precio14, precio15, total_txt;
     int total = 3000000;
     int check = 0;
     int temporal = 0;
@@ -46,6 +46,8 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
     int temporal10 = 0;
     int temporal11 = 0;
     int temporal12 = 0;
+    int temporal13 = 0;
+    int temporal14 = 0;
     int contador = 0; //¿Que hace esto?
     int contador1 = 0; //¿Que hace esto?
 
@@ -74,6 +76,9 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
         imagen10 = (ImageView) findViewById(R.id.carrito_seleccion10);
         imagen11 = (ImageView) findViewById(R.id.carrito_seleccion11);
         imagen12 = (ImageView) findViewById(R.id.carrito_seleccion12);
+        imagen13 = (ImageView) findViewById(R.id.carrito_seleccion13);
+        imagen14 = (ImageView) findViewById(R.id.carrito_seleccion14);
+        imagen15 = (ImageView) findViewById(R.id.carrito_seleccion15);
         //Botones y más
         top = (ImageView) findViewById(R.id.top); //La imagen que muestra donde esta el mueble. Banner de arriba
         atras = (Button) findViewById(R.id.bn_atras_catalogo);
@@ -96,6 +101,9 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
         precio10 = (TextView) findViewById(R.id.precio10);
         precio11 = (TextView) findViewById(R.id.precio11);
         precio12 = (TextView) findViewById(R.id.precio12);
+        precio13 = (TextView) findViewById(R.id.precio13);
+        precio14 = (TextView) findViewById(R.id.precio14);
+        precio15 = (TextView) findViewById(R.id.precio15);
         //IMagenes que aparecen en la columna izquierda del intent
         item1 = (ImageButton) findViewById(R.id.item1);
         item2 = (ImageButton) findViewById(R.id.item2);
@@ -464,7 +472,7 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                 {
                     Toast.makeText(this, "Seleccione un articulo a agregar", Toast.LENGTH_SHORT).show();
                 } else {
-                    if (contador < 11) {
+                    if (contador < 14) {
                         String x = Integer.toString(total);
                         StringBuilder str = new StringBuilder(x);
                         str.insert(str.length() - 3, ",");
@@ -494,9 +502,12 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
         switch (contador) {
             case 0:
 
-                top.setImageResource(R.drawable.top_sofas_sala);
+                top.setImageResource(R.drawable.recamara2_top);
                 item1.setImageResource(R.drawable.sofa1);
                 item2.setImageResource(R.drawable.sofa2);
+                item3.setImageResource(R.drawable.sofa3);
+                //item1.setImageResource(R.drawable.recamara2_mueble1);
+                //item2.setImageResource(R.drawable.recamara2_mueble2);
                 item3.setImageResource(R.drawable.sofa3);
                 item4.setImageResource(R.drawable.img_sofa4);
                 item5.setImageResource(R.drawable.sofa5);
@@ -697,6 +708,64 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                 cbSillon5.setChecked(false);
                 cbSillon6.setChecked(false);
                 break;
+            case 12:
+                top.setImageResource(R.drawable.recamaraprincipal_top);
+                item1.setImageResource(R.drawable.recamaraprincipal_mueble1);
+                //item2.setImageResource(R.drawable.recamaraprincipal_mueble2);
+                item2.setImageResource(R.drawable.recamaraprincipal_mueble3);
+                item3.setVisibility(View.INVISIBLE);
+                item4.setVisibility(View.INVISIBLE);
+                item5.setVisibility(View.INVISIBLE);
+                item6.setVisibility(View.INVISIBLE);
+                cbSillon3.setVisibility(View.INVISIBLE);
+                cbSillon4.setVisibility(View.INVISIBLE);
+                cbSillon5.setVisibility(View.INVISIBLE);
+                cbSillon6.setVisibility(View.INVISIBLE);
+                cbSillon1.setChecked(false);
+                cbSillon2.setChecked(false);
+                cbSillon3.setChecked(false);
+                cbSillon4.setChecked(false);
+                cbSillon5.setChecked(false);
+                cbSillon6.setChecked(false);
+                break;
+            case 13:
+                top.setImageResource(R.drawable.recamara2_top);
+                item1.setImageResource(R.drawable.recamara2_mueble1);
+                item2.setImageResource(R.drawable.recamara2_mueble2);
+                item3.setVisibility(View.INVISIBLE);
+                item4.setVisibility(View.INVISIBLE);
+                item5.setVisibility(View.INVISIBLE);
+                item6.setVisibility(View.INVISIBLE);
+                cbSillon3.setVisibility(View.INVISIBLE);
+                cbSillon4.setVisibility(View.INVISIBLE);
+                cbSillon5.setVisibility(View.INVISIBLE);
+                cbSillon6.setVisibility(View.INVISIBLE);
+                cbSillon1.setChecked(false);
+                cbSillon2.setChecked(false);
+                cbSillon3.setChecked(false);
+                cbSillon4.setChecked(false);
+                cbSillon5.setChecked(false);
+                cbSillon6.setChecked(false);
+                break;
+            case 14:
+                top.setImageResource(R.drawable.recamara3_top);
+                item1.setImageResource(R.drawable.recamara3_mueble1);
+                item2.setImageResource(R.drawable.recamara3_mueble2);
+                item3.setVisibility(View.INVISIBLE);
+                item4.setVisibility(View.INVISIBLE);
+                item5.setVisibility(View.INVISIBLE);
+                item6.setVisibility(View.INVISIBLE);
+                cbSillon3.setVisibility(View.INVISIBLE);
+                cbSillon4.setVisibility(View.INVISIBLE);
+                cbSillon5.setVisibility(View.INVISIBLE);
+                cbSillon6.setVisibility(View.INVISIBLE);
+                cbSillon1.setChecked(false);
+                cbSillon2.setChecked(false);
+                cbSillon3.setChecked(false);
+                cbSillon4.setChecked(false);
+                cbSillon5.setChecked(false);
+                cbSillon6.setChecked(false);
+                break;
         }
     }
     //Coloca todas las imagenes en visibles
@@ -769,6 +838,19 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                 imagen11.setVisibility(View.INVISIBLE);
                 precio11.setVisibility(View.INVISIBLE);
                 break;
+            case 12:
+                imagen12.setVisibility(View.INVISIBLE);
+                precio12.setVisibility(View.INVISIBLE);
+                break;
+            case 13:
+                imagen13.setVisibility(View.INVISIBLE);
+                precio13.setVisibility(View.INVISIBLE);
+                break;
+            case 14:
+                imagen14.setVisibility(View.INVISIBLE);
+                precio14.setVisibility(View.INVISIBLE);
+                break;
+
         }
     }
     //Rellana la imgaen en el catalogo cuando el usuario selecione una imagen
@@ -881,6 +963,33 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                 precio12.setText("17,000");
                 precio12.setVisibility(View.VISIBLE);
                 break;
+            case 12:
+                arreglo[contador1] = 7000;
+                total = arreglo[contador1]+arreglo[contador1-1] ;
+                arreglo[contador1] = total;
+                imagen13.setVisibility(View.VISIBLE);
+                imagen13.setImageDrawable(asistente);
+                precio13.setText("7,000");
+                precio13.setVisibility(View.VISIBLE);
+                break;
+            case 13:
+                arreglo[contador1] = 8000;
+                total = arreglo[contador1]+arreglo[contador1-1] ;
+                arreglo[contador1] = total;
+                imagen14.setVisibility(View.VISIBLE);
+                imagen14.setImageDrawable(asistente);
+                precio14.setText("8,000");
+                precio14.setVisibility(View.VISIBLE);
+                break;
+            case 14:
+                arreglo[contador1] = 11000;
+                total = arreglo[contador1]+arreglo[contador1-1] ;
+                arreglo[contador1] = total;
+                imagen15.setVisibility(View.VISIBLE);
+                imagen15.setImageDrawable(asistente);
+                precio15.setText("11,000");
+                precio15.setVisibility(View.VISIBLE);
+                break;
         }
     }
     //Dependiendo de que cacilla se selecciono en caso de seleccio continua cabia la imagen por la que selecciono
@@ -888,56 +997,71 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
         switch (contador1) {
             case 1:
                 imagen.setBackgroundResource(R.drawable.blanco);
-                total -= temporal;
+                //total -= temporal;
                 precio.setVisibility(View.INVISIBLE);
                 break;
             case 2:
-                total -= temporal2;
+                //total -= temporal2;
                 imagen2.setBackgroundResource(R.drawable.blanco);
                 precio2.setVisibility(View.INVISIBLE);
                 break;
             case 3:
-                total -= temporal3;
+                //total -= temporal3;
                 imagen3.setBackgroundResource(R.drawable.blanco);
                 precio3.setVisibility(View.INVISIBLE);
                 break;
             case 4:
-                total -= temporal4;
+                //total -= temporal4;
                 imagen4.setBackgroundResource(R.drawable.blanco);
                 precio4.setVisibility(View.INVISIBLE);
                 break;
             case 5:
-                total -= temporal5;
+                //total -= temporal5;
                 imagen5.setBackgroundResource(R.drawable.blanco);
                 precio5.setVisibility(View.INVISIBLE);
                 break;
             case 6:
-                total -= temporal6;
+                //total -= temporal6;
                 imagen6.setBackgroundResource(R.drawable.blanco);
                 precio6.setVisibility(View.INVISIBLE);
                 break;
             case 7:
-                total -= temporal7;
+                //total -= temporal7;
                 imagen7.setBackgroundResource(R.drawable.blanco);
                 precio7.setVisibility(View.INVISIBLE);
                 break;
             case 8:
-                total -= temporal8;
+                //total -= temporal8;
                 imagen8.setBackgroundResource(R.drawable.blanco);
                 precio8.setVisibility(View.INVISIBLE);
                 break;
             case 9:
-                total += temporal9;
+                //total += temporal9;
                 imagen9.setBackgroundResource(R.drawable.blanco);
                 precio9.setVisibility(View.INVISIBLE);
                 break;
             case 10:
-                total -= temporal10;
+                //total -= temporal10;
                 imagen10.setBackgroundResource(R.drawable.blanco);
                 precio10.setVisibility(View.INVISIBLE);
                 break;
             case 11:
-                total -= temporal11;
+                //total -= temporal11;
+                imagen11.setBackgroundResource(R.drawable.blanco);
+                precio11.setVisibility(View.INVISIBLE);
+                break;
+            case 12:
+                //total -= temporal12;
+                imagen11.setBackgroundResource(R.drawable.blanco);
+                precio11.setVisibility(View.INVISIBLE);
+                break;
+            case 13:
+                //total -= temporal13;
+                imagen11.setBackgroundResource(R.drawable.blanco);
+                precio11.setVisibility(View.INVISIBLE);
+                break;
+            case 14:
+                //total -= temporal14;
                 imagen11.setBackgroundResource(R.drawable.blanco);
                 precio11.setVisibility(View.INVISIBLE);
                 break;
