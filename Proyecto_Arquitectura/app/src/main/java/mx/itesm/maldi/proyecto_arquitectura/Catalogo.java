@@ -31,7 +31,8 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
     private ImageButton item1, item2, item3, item4, item5, item6;
     private Button atras, siguiente, omitir;
     int bandera = 0;
-    private TextView precio, precio2, precio3, precio4, precio5, precio6, precio7, precio8, precio9, precio10, precio11, precio12, precio13, precio14, precio15, total_txt;
+    private TextView  precio, precio2, precio3, precio4, precio5, precio6, precio7, precio8, precio9, precio10, precio11, precio12, precio13, precio14, precio15, total_txt;
+    String costo;
     int total = 3000000;
     int check = 0;
     int temporal = 0;
@@ -56,6 +57,7 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_catalogo);
+        costo=" ";
         //Declatro las check box
         cbSillon1 = (CheckBox) findViewById(R.id.cb1);
         cbSillon2 = (CheckBox) findViewById(R.id.cb2);
@@ -359,7 +361,7 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                     cdd.show();
                 }
                 break;
-            case R.id.item6: //zoom a estilo 1
+            case R.id.item6: //zoom a estilo 6
                 if (contador == 0) { //Sofas
                     Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item6_cont0);
                     cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
@@ -383,7 +385,6 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                 } else {
                     Drawable asistente = item1.getDrawable();
                     carrito_image_fill(contador1, asistente);
-
                 }
                 break;
             case R.id.cb2: //Deseleccionar la A en caso de haberla seleccionado antes
@@ -857,137 +858,252 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
     public void carrito_image_fill(int contador, Drawable asistente){
         switch (contador1) {
             case 0:
+                if (cbSillon1.isChecked()){
+                    precio.setText("24,800");
+                }else if (cbSillon2.isChecked()){
+                    precio.setText("28,500");
+                }else if(cbSillon3.isChecked()){
+                    precio.setText("32,400");
+                }else if (cbSillon4.isChecked()){
+                    precio.setText("35,900");
+                }else if(cbSillon5.isChecked()){
+                    precio.setText("23,200");
+                }else if(cbSillon6.isChecked()){
+                    precio.setText("38,700");
+                }
                 imagen.setVisibility(View.VISIBLE);
                 imagen.setImageDrawable(asistente);
                 arreglo[contador1] = 10000;
                 total = arreglo[contador];
-                precio.setText("10,000");
                 precio.setVisibility(View.VISIBLE);
                 break;
             case 1:
+                if (cbSillon1.isChecked()){
+                    precio2.setText("6,500");
+                }else if (cbSillon2.isChecked()){
+                    precio2.setText("6,900");
+                }else if(cbSillon3.isChecked()){
+                    precio2.setText("5,900");
+                }else if (cbSillon4.isChecked()){
+                    precio2.setText("5,500");
+                }else if(cbSillon5.isChecked()){ //ESTA SILLA SE TENDRA QUE ELIMINAR
+                    precio2.setText("0");
+                }
                 arreglo[contador1] = 12500;
                 total = arreglo[contador1]+arreglo[contador1-1];
                 arreglo[contador1] = total;
                 imagen2.setVisibility(View.VISIBLE);
                 imagen2.setImageDrawable(asistente);
-                precio2.setText("12,500");
                 precio2.setVisibility(View.VISIBLE);
                 break;
             case 2:
+                if (cbSillon1.isChecked()){
+                    precio3.setText("3,600");
+                }else if (cbSillon2.isChecked()){
+                    precio3.setText("3,800");
+                }else if(cbSillon3.isChecked()){
+                    precio3.setText("3,200");
+                }
                 arreglo[contador1] = 30500;
                 total = arreglo[contador1]+arreglo[contador1-1] ;
                 arreglo[contador1] = total;
                 imagen3.setVisibility(View.VISIBLE);
                 imagen3.setImageDrawable(asistente);
-                precio3.setText("30,500");
                 precio3.setVisibility(View.VISIBLE);
                 break;
             case 3:
+                if (cbSillon1.isChecked()){
+                    precio4.setText("4,500");
+                }else if (cbSillon2.isChecked()){
+                    precio4.setText("4,200");
+                }else if(cbSillon3.isChecked()){
+                    precio4.setText("4,900");
+                }else if (cbSillon4.isChecked()){
+                    precio4.setText("3,900");
+                }
                 arreglo[contador1] = 25000;
                 total = arreglo[contador1]+arreglo[contador1-1] ;
                 arreglo[contador1] = total;
                 imagen4.setVisibility(View.VISIBLE);
                 imagen4.setImageDrawable(asistente);
-                precio4.setText("25,000");
                 precio4.setVisibility(View.VISIBLE);
                 break;
             case 4:
+                if (cbSillon1.isChecked()){
+                    precio.setText("14,800");
+                }else if (cbSillon2.isChecked()){
+                    precio5.setText("11,700");
+                }else if(cbSillon3.isChecked()){
+                    precio5.setText("12,600");
+                }else if (cbSillon4.isChecked()){
+                    precio5.setText("13,700");
+                }else if(cbSillon5.isChecked()){ //ESTA MESA SE TENDRA QUE ELIMINAR
+                    precio5.setText("0");
+                }
                 arreglo[contador1] = 10000;
                 total = arreglo[contador1]+arreglo[contador1-1] ;
                 arreglo[contador1] = total;
                 imagen5.setVisibility(View.VISIBLE);
                 imagen5.setImageDrawable(asistente);
-                precio5.setText("10,000");
                 precio5.setVisibility(View.VISIBLE);
                 break;
             case 5:
+                if (cbSillon1.isChecked()){
+                    precio6.setText("19,500");
+                }else if (cbSillon2.isChecked()){
+                    precio6.setText("15,700");
+                }else if(cbSillon3.isChecked()){
+                    precio6.setText("18,900");
+                }else if (cbSillon4.isChecked()){
+                    precio6.setText("17,800");
+                }
                 arreglo[contador1] = 18000;
                 total = arreglo[contador1]+arreglo[contador1-1] ;
                 arreglo[contador1] = total;
                 imagen6.setVisibility(View.VISIBLE);
                 imagen6.setImageDrawable(asistente);
-                precio6.setText("18,000");
                 precio6.setVisibility(View.VISIBLE);
                 break;
-            case 6:
+            case 6: //Sillas
+                if (cbSillon1.isChecked()){
+                    precio7.setText("6,200");
+                }else if (cbSillon2.isChecked()){
+                    precio7.setText("6,900");
+                }else if(cbSillon3.isChecked()){
+                    precio7.setText("5,800");
+                }else if (cbSillon4.isChecked()){
+                    precio7.setText("0"); //SE TENDRA QUE ELIMINAR
+                }else if(cbSillon5.isChecked()){ //SE TENDRA QUE ELIMINAR
+                    precio7.setText("0");
+                }else if(cbSillon5.isChecked()){
+                    precio7.setText("6,500");
+                }
                 arreglo[contador1] = 50000;
                 total = arreglo[contador1]+arreglo[contador1-1] ;
                 arreglo[contador1] = total;
                 imagen7.setVisibility(View.VISIBLE);
                 imagen7.setImageDrawable(asistente);
-                precio7.setText("50,000");
                 precio7.setVisibility(View.VISIBLE);
                 break;
-            case 7:
+            case 7: //Mesa
+                if (cbSillon1.isChecked()){
+                    precio.setText("26,800");
+                }else if (cbSillon2.isChecked()){
+                    precio8.setText("29,600");
+                }else if(cbSillon3.isChecked()){
+                    precio8.setText("35,800");
+                }else if (cbSillon4.isChecked()){
+                    precio8.setText("32,800");
+                }else if(cbSillon5.isChecked()){ //SE TENDRA QUE ELIMINAR
+                    precio8.setText("0");
+                }else if(cbSillon5.isChecked()){ //SE TENDRA QUE ELIMINAR
+                    precio8.setText("0");
+                }
                 arreglo[contador1] = 13000;
                 total = arreglo[contador1]+arreglo[contador1-1] ;
                 arreglo[contador1] = total;
                 imagen8.setVisibility(View.VISIBLE);
                 imagen8.setImageDrawable(asistente);
-                precio8.setText("13,000");
                 precio8.setVisibility(View.VISIBLE);
                 break;
-            case 8:
+            case 8: //Recamara muebles
+                if (cbSillon1.isChecked()){
+                    precio9.setText("32,700");
+                }else if (cbSillon2.isChecked()){
+                    precio9.setText("35,800");
+                }
+                //FALTA UNA CAMA
                 arreglo[contador1] = 30500;
                 total = arreglo[contador1]+arreglo[contador1-1] ;
                 arreglo[contador1] = total;
                 imagen9.setVisibility(View.VISIBLE);
                 imagen9.setImageDrawable(asistente);
-                precio9.setText("30,500");
                 precio9.setVisibility(View.VISIBLE);
                 break;
-            case 9:
+            case 9: //Terraza muebles
+                if (cbSillon1.isChecked()){
+                    precio10.setText("33,800");
+                }else if (cbSillon2.isChecked()){ //Se tendra que eliminar
+                    precio10.setText("0");
+                }
+                //FALTA UN MUEBLE
                 arreglo[contador1] = 20500;
                 total = arreglo[contador1]+arreglo[contador1-1] ;
                 arreglo[contador1] = total;
                 imagen10.setVisibility(View.VISIBLE);
                 imagen10.setImageDrawable(asistente);
-                precio10.setText("20,500");
                 precio10.setVisibility(View.VISIBLE);
                 break;
-            case 10:
+            case 10://bancos
+                if (cbSillon1.isChecked()){
+                    precio11.setText("7,200");
+                }else if (cbSillon2.isChecked()){
+                    precio11.setText("7,800");
+                }else if (cbSillon1.isChecked()){ //Se tendra que eliminar
+                    precio11.setText("0");
+                }else if (cbSillon2.isChecked()){ //Se tendra que eliminar
+                    precio11.setText("0");
+                }
                 arreglo[contador1] = 12550;
                 total = arreglo[contador1]+arreglo[contador1-1] ;
                 arreglo[contador1] = total;
                 imagen11.setVisibility(View.VISIBLE);
                 imagen11.setImageDrawable(asistente);
-                precio11.setText("12,550");
                 precio11.setVisibility(View.VISIBLE);
                 break;
-            case 11:
+            case 11: //Sillas y mesas
+                if (cbSillon1.isChecked()){ //Se tendra que modificar
+                    precio12.setText("0");
+                }else if (cbSillon2.isChecked()){ //Se tendra que modificar
+                    precio12.setText("0");
+                }else if (cbSillon1.isChecked()){ //Se tendra que modificar
+                    precio12.setText("0");
+                }
                 arreglo[contador1] = 17000;
                 total = arreglo[contador1]+arreglo[contador1-1] ;
                 arreglo[contador1] = total;
                 imagen12.setVisibility(View.VISIBLE);
                 imagen12.setImageDrawable(asistente);
-                precio12.setText("17,000");
                 precio12.setVisibility(View.VISIBLE);
                 break;
-            case 12:
+            case 12: //Recamara muebles Otra vez??
+                if (cbSillon1.isChecked()){
+                    precio13.setText("32,700");
+                }else if (cbSillon2.isChecked()){
+                    precio13.setText("35,800");
+                }
+                //FALTA UNA CAMA
                 arreglo[contador1] = 7000;
                 total = arreglo[contador1]+arreglo[contador1-1] ;
                 arreglo[contador1] = total;
                 imagen13.setVisibility(View.VISIBLE);
                 imagen13.setImageDrawable(asistente);
-                precio13.setText("7,000");
                 precio13.setVisibility(View.VISIBLE);
                 break;
-            case 13:
+            case 13: //Recamara 2 muebles
+                if (cbSillon1.isChecked()){
+                    precio14.setText("18,400");
+                }else if (cbSillon2.isChecked()){
+                    precio14.setText("16,300");
+                }
                 arreglo[contador1] = 8000;
                 total = arreglo[contador1]+arreglo[contador1-1] ;
                 arreglo[contador1] = total;
                 imagen14.setVisibility(View.VISIBLE);
                 imagen14.setImageDrawable(asistente);
-                precio14.setText("8,000");
                 precio14.setVisibility(View.VISIBLE);
                 break;
-            case 14:
+            case 14: //Recamara 3 muebles
+                if (cbSillon1.isChecked()){
+                    precio15.setText("26,800");
+                }else if (cbSillon2.isChecked()){
+                    precio15.setText("24,700");
+                }
                 arreglo[contador1] = 11000;
                 total = arreglo[contador1]+arreglo[contador1-1] ;
                 arreglo[contador1] = total;
                 imagen15.setVisibility(View.VISIBLE);
                 imagen15.setImageDrawable(asistente);
-                precio15.setText("11,000");
                 precio15.setVisibility(View.VISIBLE);
                 break;
         }
