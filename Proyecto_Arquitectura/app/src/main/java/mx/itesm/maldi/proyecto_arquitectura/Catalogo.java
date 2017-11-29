@@ -135,7 +135,7 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                     Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item1_cont1);
                     cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
                     cdd.show();
-                } else if (contador == 2) {
+                } else if (contador == 2) {//Puffs
                     Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item1_cont2);
                     cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
                     cdd.show();
@@ -177,11 +177,17 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                     cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
                     cdd.show();
                 } else if (contador == 9){
-
-                }else if (contador == 10){
-
+                    Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item2_cont8);
+                    cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+                    cdd.show();
+                }else if (contador == 10){//Recamara Principal muebles. camas
+                    Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item1_cont10_cama);
+                    cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+                    cdd.show();
                 }else if (contador == 11){
-
+                    Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item2_cont11_cama);
+                    cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+                    cdd.show();
                 }
                 break;
             case R.id.item2: //zoom a estilo 1
@@ -220,7 +226,7 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                     Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item2_cont7);
                     cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
                     cdd.show();
-                } else if (contador == 8) {//camas
+                } else if (contador == 8) {//Recamara muebles. camas
                     Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item2_cont8);
                     cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
                     cdd.show();
@@ -228,20 +234,26 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                     Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item2_cont9);
                     cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
                     cdd.show();
-                } else if (contador == 12) {
+                } else if (contador == 12) {//Bancos
                     Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item2_cont10);
                     cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
                     cdd.show();
-                } else if (contador == 13) {
+                } else if (contador == 13) {//Sillas y mesas
                     Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item3_count9);
                     cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
                     cdd.show();
-                }else if (contador == 9){
-
-                }else if (contador == 10){
-
-                }else if (contador == 11){
-
+                }else if (contador == 9){//Recamara Principal muebles. camas
+                    Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item1_cont8);
+                    cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+                    cdd.show();
+                }else if (contador == 10){//Recamara 2 Muebles
+                    Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item2_cont10_cama);
+                    cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+                    cdd.show();
+                }else if (contador == 11){//Recamara 3 Muebles
+                    Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item1_cont11_cama);
+                    cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+                    cdd.show();
                 }
                 break;
             case R.id.item3: //zoom a estilo 1
@@ -1148,6 +1160,8 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
         }
     }
     //Dependiendo de que cacilla se selecciono en caso de seleccio continua cabia la imagen por la que selecciono
+
+
     public void checkbox_catalogo(int contador) {
         switch (contador1) {
             case 1:
