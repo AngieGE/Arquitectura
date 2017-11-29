@@ -35,20 +35,6 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
     String costo;
     int total = 3000000;
     int check = 0;
-    int temporal = 0;
-    int temporal2 = 0;
-    int temporal3 = 0;
-    int temporal4 = 0;
-    int temporal5 = 0;
-    int temporal6 = 0;
-    int temporal7 = 0;
-    int temporal8 = 0;
-    int temporal9 = 0;
-    int temporal10 = 0;
-    int temporal11 = 0;
-    int temporal12 = 0;
-    int temporal13 = 0;
-    int temporal14 = 0;
     int contador = 0; //¿Que hace esto?
     int contador1 = 0; //¿Que hace esto?
 
@@ -178,18 +164,24 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                     Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item1_cont8);
                     cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
                     cdd.show();
-                } else if (contador == 9) {
-                    Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item1_cont9);
+                } else if (contador == 14) {
+                    Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item2_cont9);
                     cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
                     cdd.show();
-                } else if (contador == 10) {
+                } else if (contador == 12) {
                     Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item1_cont10);
                     cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
                     cdd.show();
-                } else if (contador == 11) {
+                } else if (contador == 13) {
                     Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item1_cont11);
                     cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
                     cdd.show();
+                } else if (contador == 9){
+
+                }else if (contador == 10){
+
+                }else if (contador == 11){
+
                 }
                 break;
             case R.id.item2: //zoom a estilo 1
@@ -232,18 +224,24 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                     Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item2_cont8);
                     cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
                     cdd.show();
-                } else if (contador == 9) { //Muebles
+                } else if (contador == 14) { //Muebles
                     Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item2_cont9);
                     cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
                     cdd.show();
-                } else if (contador == 10) {
+                } else if (contador == 12) {
                     Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item2_cont10);
                     cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
                     cdd.show();
-                } else if (contador == 11) {
-                    Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item2_cont11);
+                } else if (contador == 13) {
+                    Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item3_count9);
                     cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
                     cdd.show();
+                }else if (contador == 9){
+
+                }else if (contador == 10){
+
+                }else if (contador == 11){
+
                 }
                 break;
             case R.id.item3: //zoom a estilo 1
@@ -282,15 +280,15 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                     Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item3_count7);
                     cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
                     cdd.show();
-                } else if (contador == 9) { //Muebles ULTIMO
+                } else if (contador == 14) { //Muebles ULTIMO
                     Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item3_count9);
                     cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
                     cdd.show();
-                } else if (contador == 10) { //Bancos
+                } else if (contador == 12) { //Bancos
                     Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item3_count10);
                     cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
                     cdd.show();
-                } else if (contador == 11) {
+                } else if (contador == 13) {
                     Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item3_count11);
                     cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
                     cdd.show();
@@ -328,11 +326,11 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                     Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item4_cont7);
                     cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
                     cdd.show();
-                } else if (contador == 10) { //1
+                } else if (contador == 12) { //1
                     Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item4_cont10);
                     cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
                     cdd.show();
-                } else if (contador == 11) {
+                } else if (contador == 13) {
                     Custom_alert_layout cdd = new Custom_alert_layout(Catalogo.this, R.drawable.item4_cont11);
                     cdd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
                     cdd.show();
@@ -636,7 +634,7 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                 cbSillon5.setChecked(false);
                 cbSillon6.setChecked(false);
                 break;
-            case 11:
+            case 13:
                 top.setImageResource(R.drawable.top_sillasymesas_terraza);
                 item1.setImageResource(R.drawable.terraza_mesasysillas1);
                 item2.setImageResource(R.drawable.terraza_mesasysillas4);
@@ -654,7 +652,7 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                 cbSillon5.setChecked(false);
                 cbSillon6.setChecked(false);
                 break;
-            case 9:
+            case 14:
                 top.setImageResource(R.drawable.top_mubles_terraza);
                 item1.setImageResource(R.drawable.terraza_muebles2);
                 item2.setImageResource(R.drawable.terraza_muebles3);
@@ -692,7 +690,7 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                 cbSillon5.setChecked(false);
                 cbSillon6.setChecked(false);
                 break;
-            case 10:
+            case 12:
                 top.setImageResource(R.drawable.top_bancos_cocina);
                 item1.setImageResource(R.drawable.cocina_banco1);
                 item2.setImageResource(R.drawable.cocina_banco2);
@@ -709,7 +707,7 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                 cbSillon5.setChecked(false);
                 cbSillon6.setChecked(false);
                 break;
-            case 12:
+            case 9:
                 top.setImageResource(R.drawable.recamaraprincipal_top);
                 item1.setImageResource(R.drawable.recamaraprincipal_mueble1);
                 //item2.setImageResource(R.drawable.recamaraprincipal_mueble2);
@@ -729,7 +727,7 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                 cbSillon5.setChecked(false);
                 cbSillon6.setChecked(false);
                 break;
-            case 13:
+            case 10:
                 top.setImageResource(R.drawable.recamara2_top);
                 item1.setImageResource(R.drawable.recamara2_mueble1);
                 item2.setImageResource(R.drawable.recamara2_mueble2);
@@ -748,7 +746,7 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                 cbSillon5.setChecked(false);
                 cbSillon6.setChecked(false);
                 break;
-            case 14:
+            case 11:
                 top.setImageResource(R.drawable.recamara3_top);
                 item1.setImageResource(R.drawable.recamara3_mueble1);
                 item2.setImageResource(R.drawable.recamara3_mueble2);
@@ -896,8 +894,8 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                     precio2.setText("5,500");
                     arreglo[contador1] = 5500;
                 }else if(cbSillon5.isChecked()){ //ESTA SILLA SE TENDRA QUE ELIMINAR
-                    precio2.setText("0");
-                    arreglo[contador1] = 0;
+                    precio2.setText("5,500");
+                    arreglo[contador1] = 5500;
                 }
                 total = arreglo[contador1]+arreglo[contador1-1];
                 arreglo[contador1] = total;
@@ -944,7 +942,7 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                 break;
             case 4:
                 if (cbSillon1.isChecked()){
-                    precio.setText("14,800");
+                    precio5.setText("14,800");
                     arreglo[contador1] = 14800;
                 }else if (cbSillon2.isChecked()){
                     precio5.setText("11,700");
@@ -956,8 +954,8 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                     precio5.setText("13,700");
                     arreglo[contador1] = 13700;
                 }else if(cbSillon5.isChecked()){ //ESTA MESA SE TENDRA QUE ELIMINAR
-                    precio5.setText("0");
-                    arreglo[contador1] = 0;
+                    precio5.setText("13,700");
+                    arreglo[contador1] = 13700;
                 }
                 total = arreglo[contador1]+arreglo[contador1-1] ;
                 arreglo[contador1] = total;
@@ -996,11 +994,11 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                     precio7.setText("5,800");
                     arreglo[contador1] = 5800;
                 }else if (cbSillon4.isChecked()){
-                    precio7.setText("0"); //SE TENDRA QUE ELIMINAR
-                    arreglo[contador1] = 0;
+                    precio7.setText("5,800"); //SE TENDRA QUE ELIMINAR
+                    arreglo[contador1] = 5800;
                 }else if(cbSillon5.isChecked()){ //SE TENDRA QUE ELIMINAR
-                    precio7.setText("0");
-                    arreglo[contador1] = 0;
+                    precio7.setText("5,800");
+                    arreglo[contador1] = 5800;
                 }else if(cbSillon5.isChecked()){
                     precio7.setText("6,500");
                     arreglo[contador1] = 6500;
@@ -1013,7 +1011,7 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                 break;
             case 7: //Mesa
                 if (cbSillon1.isChecked()){
-                    precio.setText("26,800");
+                    precio8.setText("26,800");
                     arreglo[contador1] = 26800;
                 }else if (cbSillon2.isChecked()){
                     precio8.setText("29,600");
@@ -1025,11 +1023,11 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                     precio8.setText("32,800");
                     arreglo[contador1] = 32800;
                 }else if(cbSillon5.isChecked()){ //SE TENDRA QUE ELIMINAR
-                    precio8.setText("0");
-                    arreglo[contador1] = 0;
+                    precio8.setText("32,800");
+                    arreglo[contador1] = 32800;
                 }else if(cbSillon5.isChecked()){ //SE TENDRA QUE ELIMINAR
-                    precio8.setText("0");
-                    arreglo[contador1] = 0;
+                    precio8.setText("32,800");
+                    arreglo[contador1] = 32800;
                 }
                 total = arreglo[contador1]+arreglo[contador1-1] ;
                 arreglo[contador1] = total;
@@ -1037,49 +1035,95 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                 imagen8.setImageDrawable(asistente);
                 precio8.setVisibility(View.VISIBLE);
                 break;
-            case 8: //Recamara muebles
+            case 13: //Recamara muebles
                 if (cbSillon1.isChecked()){
-                    precio9.setText("32,700");
+                    precio14.setText("32,700");
                     arreglo[contador1] = 32700;
                 }else if (cbSillon2.isChecked()){
-                    precio9.setText("35,800");
+                    precio14.setText("35,800");
                     arreglo[contador1] = 35800;
                 }
                 //FALTA UNA CAMA
+                total = arreglo[contador1]+arreglo[contador1-1] ;
+                arreglo[contador1] = total;
+                imagen14.setVisibility(View.VISIBLE);
+                imagen14.setImageDrawable(asistente);
+                precio14.setVisibility(View.VISIBLE);
+                break;
+            case 14: //Terraza muebles
+                if (cbSillon1.isChecked()){
+                    precio15.setText("33,800");
+                    arreglo[contador1] = 33800;
+                }else if (cbSillon2.isChecked()){ //Se tendra que eliminar
+                    precio15.setText("33,800");
+                    arreglo[contador1] = 33800;
+                }
+                //FALTA UN MUEBLE
+                total = arreglo[contador1]+arreglo[contador1-1] ;
+                arreglo[contador1] = total;
+                imagen15.setVisibility(View.VISIBLE);
+                imagen15.setImageDrawable(asistente);
+                precio15.setVisibility(View.VISIBLE);
+                break;
+            case 8://bancos
+                if (cbSillon1.isChecked()){
+                    precio9.setText("7,200");
+                    arreglo[contador1] = 7200;
+                }else if (cbSillon2.isChecked()){
+                    precio9.setText("7,800");
+                    arreglo[contador1] = 7800;
+                }else if (cbSillon1.isChecked()){ //Se tendra que eliminar
+                    precio9.setText("7,800");
+                    arreglo[contador1] = 7800;
+                }else if (cbSillon2.isChecked()){ //Se tendra que eliminar
+                    precio9.setText("7,800");
+                    arreglo[contador1] = 7800;
+                }
                 total = arreglo[contador1]+arreglo[contador1-1] ;
                 arreglo[contador1] = total;
                 imagen9.setVisibility(View.VISIBLE);
                 imagen9.setImageDrawable(asistente);
                 precio9.setVisibility(View.VISIBLE);
                 break;
-            case 9: //Terraza muebles
-                if (cbSillon1.isChecked()){
-                    precio10.setText("33,800");
-                    arreglo[contador1] = 33800;
-                }else if (cbSillon2.isChecked()){ //Se tendra que eliminar
-                    precio10.setText("0");
-                    arreglo[contador1] = 0;
+            case 12: //Sillas y mesas
+                if (cbSillon1.isChecked()){ //Se tendra que modificar
+                    precio13.setText("7,800");
+                    arreglo[contador1] = 7800;
+                }else if (cbSillon2.isChecked()){ //Se tendra que modificar
+                    precio13.setText("7,800");
+                    arreglo[contador1] = 7800;
+                }else if (cbSillon1.isChecked()){ //Se tendra que modificar
+                    precio13.setText("7,800");
+                    arreglo[contador1] = 7800;
                 }
-                //FALTA UN MUEBLE
+                total = arreglo[contador1]+arreglo[contador1-1] ;
+                arreglo[contador1] = total;
+                imagen13.setVisibility(View.VISIBLE);
+                imagen13.setImageDrawable(asistente);
+                precio13.setVisibility(View.VISIBLE);
+                break;
+            case 9: //Recamara muebles Otra vez??
+                if (cbSillon1.isChecked()){
+                    precio10.setText("32,700");
+                    arreglo[contador1] = 32700;
+                }else if (cbSillon2.isChecked()){
+                    precio10.setText("35,800");
+                    arreglo[contador1] = 35800;
+                }
+                //FALTA UNA CAMA
                 total = arreglo[contador1]+arreglo[contador1-1] ;
                 arreglo[contador1] = total;
                 imagen10.setVisibility(View.VISIBLE);
                 imagen10.setImageDrawable(asistente);
                 precio10.setVisibility(View.VISIBLE);
                 break;
-            case 10://bancos
+            case 10: //Recamara 2 muebles
                 if (cbSillon1.isChecked()){
-                    precio11.setText("7,200");
-                    arreglo[contador1] = 7200;
+                    precio11.setText("18,400");
+                    arreglo[contador1] = 18400;
                 }else if (cbSillon2.isChecked()){
-                    precio11.setText("7,800");
-                    arreglo[contador1] = 7800;
-                }else if (cbSillon1.isChecked()){ //Se tendra que eliminar
-                    precio11.setText("0");
-                    arreglo[contador1] = 0;
-                }else if (cbSillon2.isChecked()){ //Se tendra que eliminar
-                    precio11.setText("0");
-                    arreglo[contador1] = 0;
+                    precio11.setText("16,300");
+                    arreglo[contador1] = 16300;
                 }
                 total = arreglo[contador1]+arreglo[contador1-1] ;
                 arreglo[contador1] = total;
@@ -1087,65 +1131,19 @@ public class Catalogo extends AppCompatActivity implements View.OnClickListener 
                 imagen11.setImageDrawable(asistente);
                 precio11.setVisibility(View.VISIBLE);
                 break;
-            case 11: //Sillas y mesas
-                if (cbSillon1.isChecked()){ //Se tendra que modificar
-                    precio12.setText("0");
-                    arreglo[contador1] = 0;
-                }else if (cbSillon2.isChecked()){ //Se tendra que modificar
-                    precio12.setText("0");
-                    arreglo[contador1] = 0;
-                }else if (cbSillon1.isChecked()){ //Se tendra que modificar
-                    precio12.setText("0");
-                    arreglo[contador1] = 0;
+            case 11: //Recamara 3 muebles
+                if (cbSillon1.isChecked()){
+                    precio12.setText("26,800");
+                    arreglo[contador1] = 26800;
+                }else if (cbSillon2.isChecked()) {
+                    precio12.setText("24,700");
+                    arreglo[contador1] = 24700;
                 }
                 total = arreglo[contador1]+arreglo[contador1-1] ;
                 arreglo[contador1] = total;
                 imagen12.setVisibility(View.VISIBLE);
                 imagen12.setImageDrawable(asistente);
                 precio12.setVisibility(View.VISIBLE);
-                break;
-            case 12: //Recamara muebles Otra vez??
-                if (cbSillon1.isChecked()){
-                    precio13.setText("32,700");
-                    arreglo[contador1] = 32700;
-                }else if (cbSillon2.isChecked()){
-                    precio13.setText("35,800");
-                    arreglo[contador1] = 35800;
-                }
-                //FALTA UNA CAMA
-                total = arreglo[contador1]+arreglo[contador1-1] ;
-                arreglo[contador1] = total;
-                imagen13.setVisibility(View.VISIBLE);
-                imagen13.setImageDrawable(asistente);
-                precio13.setVisibility(View.VISIBLE);
-                break;
-            case 13: //Recamara 2 muebles
-                if (cbSillon1.isChecked()){
-                    precio14.setText("18,400");
-                    arreglo[contador1] = 18400;
-                }else if (cbSillon2.isChecked()){
-                    precio14.setText("16,300");
-                    arreglo[contador1] = 16300;
-                }
-                total = arreglo[contador1]+arreglo[contador1-1] ;
-                arreglo[contador1] = total;
-                imagen14.setVisibility(View.VISIBLE);
-                imagen14.setImageDrawable(asistente);
-                precio14.setVisibility(View.VISIBLE);
-                break;
-            case 14: //Recamara 3 muebles
-                if (cbSillon1.isChecked()){
-                    precio15.setText("26,800");
-                    arreglo[contador1] = 26800;
-                }else if (cbSillon2.isChecked()) {
-                    precio15.setText("24,700");
-                    arreglo[contador1] = 24700;
-                }
-                total = arreglo[contador1]+arreglo[contador1-1] ;
-                arreglo[contador1] = total;
-                imagen15.setVisibility(View.VISIBLE);
-                imagen15.setImageDrawable(asistente);
-                precio15.setVisibility(View.VISIBLE);
                 break;
         }
     }
