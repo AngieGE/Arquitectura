@@ -20,10 +20,10 @@
             android:layout_height="wrap_content"
             android:background="@color/blackFondoAveranda"
             android:fontFamily="serif"
-            android:text="ESTILOS"
+            android:text="Escoge el estilo que más te agrade"
             android:textAlignment="center"
             android:textColor="@android:color/white"
-            android:textSize="24sp"
+            android:textSize="20sp"
             tools:layout_editor_absoluteX="8dp"
             tools:layout_editor_absoluteY="0dp" />
 

@@ -20,10 +20,10 @@
         android:layout_height="wrap_content"
         android:background="@color/blackFondoAveranda"
         android:fontFamily="serif"
-        android:text="DISTRIBUCIONES"
+        android:text="Escoge la distribución que más te agrade"
         android:textAlignment="center"
         android:textColor="@android:color/white"
-        android:textSize="24sp" />
+        android:textSize="18sp" />
 
     <ScrollView
         android:layout_width="match_parent"
