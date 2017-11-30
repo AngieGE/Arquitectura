@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:background="@color/blackFondoAveranda"
         android:fontFamily="serif"
-        android:text="Escoge la distribución que más te agrade"
+        android:text="Escoge la distribución que más te agrada"
         android:textAlignment="center"
         android:textColor="@android:color/white"
         android:textSize="18sp" />

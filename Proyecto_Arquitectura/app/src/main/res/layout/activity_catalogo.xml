@@ -341,7 +341,6 @@
                         <LinearLayout
                             android:layout_width="85dp"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/border"
                             android:orientation="horizontal">
 
                             <ImageView
